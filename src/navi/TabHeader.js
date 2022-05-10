@@ -88,7 +88,7 @@ export const TopTabHeader = ({ state, descriptors, navigation, position }) => {
                   fontWeight: '700',
                   paddingLeft: 5,
                 }}
-              >Premium</Text>
+              >파티</Text>
             </View>
 
             <View

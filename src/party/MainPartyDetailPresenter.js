@@ -25,7 +25,7 @@ const windowHeight = Dimensions.get('window').height;
 function MainPartyDetailPresenter(props) {
     console.log('@MainPartyDetailPresenter');
     const img = [
-        "https://source.unsplash.com/1024x768/?nature",
+        "http://192.168.1.243:4001/media/image/?imageName=mainParty 3.jpg",
         "http://192.168.1.243:4001/media/image/?imageName=mainParty 1.jpg",
         "http://192.168.1.243:4001/media/image/?imageName=mainParty 2.jpg",
     ];

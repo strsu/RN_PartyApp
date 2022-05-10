@@ -79,7 +79,7 @@ const boardCard = (props) => {
                     <View style={MainPartyStyle.lineTop}>
                         <Image
                             style={MainPartyStyle.lineTopImg}
-                            source={{uri: item.images == '' ? 'http://192.168.1.243:4001/media/image/?imageName=mainParty 13.jpg' : item.images}}
+                            source={{uri: item.images == '' ? 'http://192.168.1.243:4001/media/image/?imageName=mainParty 3.jpg' : item.images}}
                             
                             //onLoad={ () => {console.log('loaded', item["title"])}}
                             //onLoadStart={ () => {console.log('loading', item["title"])}}
@@ -96,7 +96,7 @@ const boardCard = (props) => {
                                     }}
                                 >{item["title"]}</Text>
                             </View>
-                            <View style={MainPartyStyle.contentTopRight}>
+                            {/*<View style={MainPartyStyle.contentTopRight}>
                                 <View style={{
                                     flexDirection: 'row',
                                 }}>
@@ -109,7 +109,7 @@ const boardCard = (props) => {
                                     <Icon name="dot" size={15} color="red" />
                                     <Text style={{marginLeft: 5, marginRight: 5,}}>{"2/"+item.ableF}</Text>
                                 </View>
-                            </View>
+                            </View>*/}
                             
                         </View>
 
