@@ -16,12 +16,12 @@ DB: Mysql
 PUSH: FCM
 
 #### 사용 라이브러리 및 이유
-*Axios
+* Axios   
 -> 내장 api인 fetch를 사용한 경우 종종 데이터를 불러오는데 실패하는 경우가 발생하였다.
 fetch에는 redirect 기능이 없다해서 catch에서 다시 fetch를 호출하는 방식으로 사용하다가 좀 더 안정적인 서비스를 제공하기 위해서 Axios를 도입했다.   
-*Zustand
+* Zustand   
 -> 상태관리 할 기능이 많지 않다는 생각 때문에 Redux 대신에 접근이 쉽고 가벼운 Zustand를 사용하였다.   
-*React-XMPP (AOS: SMACK / IOS: XMPPFramework 기반)
+* React-XMPP (AOS: SMACK / IOS: XMPPFramework 기반)   
 -> 안드로이드는 개발 경험이 있어서 XMPP를 연동한다 하지만, IOS는 전무했기 때문에 다른 방안이 없었다.   
 
 ### #About React Native
