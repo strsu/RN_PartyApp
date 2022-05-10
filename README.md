@@ -1,17 +1,28 @@
 # reactApp
 
-## ※프로젝트 개요  
+## ※프로젝트 개요   
 본 프로젝트는 사람들이 만나서 자유롭게 놀 수 있는 환경을 제공하는 것을 목표로 제작하게 되었습니다.  
 때문에 기존에 존재하는 1:1 소개팅 / 소모임 등의 어플을 참고해서 두 분야를 어우를 수 있는 어플을 제작하자는 목적을 지녔습니다.
 또한, 단순히 사람들이 자유롭게 모임을 만드는 것에 그치지 않고, 앱 자체적으로 모임을 주도함으로써 앱을 더 활성화 하도록 할 것입니다.
 
-## 사용 기술
+## 사용 기술 및 아키텍쳐
+![image](https://user-images.githubusercontent.com/25381921/167645364-5a6e6cdf-7f51-4339-98be-1ead5092a89c.png)   
+
 AOS/IOS: React Native > 0.6   
-WebServer: Nginx  
 WAS: Django RestAPI  
 Auth: JWT  
 XMPP: ejabberd  
 DB: Mysql   
+PUSH: FCM
+
+#### 사용 라이브러리 및 이유
+*Axios
+-> 내장 api인 fetch를 사용한 경우 종종 데이터를 불러오는데 실패하는 경우가 발생하였다.
+fetch에는 redirect 기능이 없다해서 catch에서 다시 fetch를 호출하는 방식으로 사용하다가 좀 더 안정적인 서비스를 제공하기 위해서 Axios를 도입했다.   
+*Zustand
+-> 상태관리 할 기능이 많지 않다는 생각 때문에 Redux 대신에 접근이 쉽고 가벼운 Zustand를 사용하였다.   
+*React-XMPP (AOS: SMACK / IOS: XMPPFramework 기반)
+-> 안드로이드는 개발 경험이 있어서 XMPP를 연동한다 하지만, IOS는 전무했기 때문에 다른 방안이 없었다.   
 
 ### #About React Native
 1. 디자인 패턴  
