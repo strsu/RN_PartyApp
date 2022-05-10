@@ -6,7 +6,7 @@ client: React Native
 WAS: Django  
 XMPP: ejabberd  
 XMPP Library: https://github.com/aksonov/react-native-xmpp   
-XMPP Library 시행착오: https://prup.tistory.com/80  
+XMPP Library 시행착오: https://prup.tistory.com/80 (개인블로그입니다)  
 
 ### #동작 화면
 ![chatting](https://user-images.githubusercontent.com/25381921/167542361-3375ef02-fdfb-4403-88b9-97ea23838586.gif)
