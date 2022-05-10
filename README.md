@@ -7,7 +7,7 @@
 
 ------
 
-## 사용 기술 및 아키텍쳐
+## ※사용 기술 및 아키텍쳐
 ![image](https://user-images.githubusercontent.com/25381921/167645364-5a6e6cdf-7f51-4339-98be-1ead5092a89c.png)   
 
 * AOS/IOS: React Native > 0.6   
@@ -20,7 +20,7 @@
  -> 채팅을 위한 서버입니다. WebSocket보다는 보안적으로 안전하다 해서 선택했습니다   
 * DB: Mysql   
  -> 항상 사용하던 DB라서 선택했습니다   
-* PUSH: FCM
+* PUSH: FCM   
  -> Push알림을 주기 위해서 사용합니다   
 
 #### 사용 라이브러리 및 이유
@@ -40,6 +40,8 @@ RN을 처음사용하면서 Function / Class 각각이 지닌 장단점이 있�
 그래서 Component에서는 Class방식을 Presenter에서는 Function방식을 활용해 각 방식에서 부족한 점을 다른 방식에서 메어주고자 했습니다.  
 물론, 사용한 디자인 패턴 정의에 맞게 최대한 Component에서는 연산을 Presenter에서는 UI적인 부분만 관여하도록 하였습니다.
 다만, 화면이 다시 포커스되는 시점에 Class방식에서 다시 포커스되는 것을 인식할 방식을 못 찾아서 Function방식에서 사용가능한 useFocus 함수를 이용하는 등의 변수가 있습니다.
+
+------
 
 ## ※스크린 스택 구조
 ![image](https://user-images.githubusercontent.com/25381921/167589467-cd34aa67-b233-4b85-9eae-8f145473577f.png)
@@ -67,6 +69,8 @@ RN을 처음사용하면서 Function / Class 각각이 지닌 장단점이 있�
 <img src = "https://user-images.githubusercontent.com/25381921/167582046-02b5b436-8616-43e3-b223-567bea31454b.png" width="30%">   
 이렇게 덮어버리면 UX적으로 부드럽다. 동작도 깔끔하다.   
 
+------
+
 ## ※파티
 
 ### #메인 파티
@@ -76,8 +80,12 @@ RN을 처음사용하면서 Function / Class 각각이 지닌 장단점이 있�
 유저 파티는 사용자들이 개인적으로 파티를 개최하고 만남서 노는 파티를 말합니다.  
 사용자 목적에 따라 1:1 혹은 N:N의 게시글을 올릴 수 있으며, 연결된 사람들끼리 채팅을 통해 만남을 이어갈 수 있습니다.
 
+------
+
 ## ※익명 게시판
 익명 게시판은 다양한 주제로 사용자들이 소통할 수 있는 하나의 사이버 공간입니다.
+ 
+ ------
  
 ## ※채팅
 
