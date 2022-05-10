@@ -32,7 +32,15 @@ RN을 처음사용하면서 Function / Class 각각이 지닌 장단점이 있�
 본 프로젝트의 Top Tab은 Custom Top Tab이다.    
 그래서 Navigator를 이용해 Tab의 Option을 아무리 수정해도 CustomTab을 안보이게 처리할 수가 없었다.   
 차선책으로 Zustand라는 상태관리 라이브러리를 사용해 스크린에 따라 CustomTab을 활성/비활성 하도록 했을 때, 파티 글을 눌러 게시물을 확인하고 다시 나오면 CustomTab을 그려주는 동작이 늦게 나타나 UX적인 부분에서 만족스럽지 못하다.  
-때문에 세부 내용을 볼 수 있는 Stack화면을 Content와 동일한 계층에 놓음으로써 CustomTab을 가리는 방안을 선택하였다.  
+때문에 세부 내용을 볼 수 있는 Stack화면을 Content와 동일한 계층에 놓음으로써 CustomTab을 가리는 방안을 선택하였다.   
+
+![image](https://user-images.githubusercontent.com/25381921/167580335-ea4155b4-474c-4491-9691-52d8058ea297.png)   
+
+#### MaterialTopTabs 제공 CustomTab사용 안하고 각 화면에 Tab을 넣으면
+![녹화_2022_05_10_17_09_02_817](https://user-images.githubusercontent.com/25381921/167580756-150b7d1c-944a-417a-84aa-119c62443a26.gif)   
+다음과 같이 상단이 고정이 안된다.
+
+결국 두 방식 모두 UX적으로 만족스럽지 못 하다.  
 
 ## ※파티
 
