@@ -8,9 +8,10 @@
 ## 사용 기술
 AOS/IOS: React Native > 0.6   
 WebServer: Nginx  
-WAS: Django  
+WAS: Django RestAPI  
 Auth: JWT  
-Chat: XMPP -> ejabberd  
+XMPP: ejabberd  
+DB: Mysql   
 
 ### #About React Native
 1. 디자인 패턴  
