@@ -2,9 +2,11 @@
  
 ## ※채팅
 
-client: React Native
-WAS: Django
-XMPP: ejabberd
+client: React Native  
+WAS: Django  
+XMPP: ejabberd  
+XMPP Library: https://github.com/aksonov/react-native-xmpp   
+XMPP Library 시행착오: https://prup.tistory.com/80  
 
 ### #동작 화면
 ![chatting](https://user-images.githubusercontent.com/25381921/167542361-3375ef02-fdfb-4403-88b9-97ea23838586.gif)
@@ -16,7 +18,7 @@ XMPP: ejabberd
 
 사용자의 온라인/오프라인 상태에 따라 동작 방식이 나뉘어 집니다.
 
-Why? 상대방의 온라인 여부를 판단하는 이유  
+#### Why? 상대방의 온라인 여부를 판단하는 이유  
 ->   
 ejabberd는 상대방이 오프라인인 경우 자체 DB에 저장후 상대방이 로그인시 메시지를 보내주는 역할을 하게됩니다.  
 그러나 채팅은 Push를 통해 실시간으로 전달 될 필요가 있기 때문에 상대방이 오프라인인 경우에는 ejabberd의 DB에 저장했다가 상대방이 로그인 했을 때 메시지를 보내는 것 보다는
