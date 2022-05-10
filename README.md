@@ -25,7 +25,7 @@ RN을 처음사용하면서 Function / Class 각각이 지닌 장단점이 있�
 ![image](https://user-images.githubusercontent.com/25381921/167575605-9f32df95-5186-4479-a24e-72d057b13c58.png)
 
 ### #파티탭 이슈
-![녹화_2022_05_10_16_46_10_738](https://user-images.githubusercontent.com/25381921/167576320-7c44ce73-2ab6-478f-a07f-882905dfc675.gif)
+![녹화_2022_05_10_16_46_10_738](https://user-images.githubusercontent.com/25381921/167576320-7c44ce73-2ab6-478f-a07f-882905dfc675.gif)   
 파티탭은 다음과 같이 스와이프를 통해서 화면전환이 가능하다.   
 
 이때, 화면전환을 위해서 RN에서 [Material Top Tabs Navigator](https://reactnavigation.org/docs/material-top-tab-navigator/)를 사용하였는데,  
