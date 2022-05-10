@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "913634875328",
+    "project_id": "ullim-724b4",
+    "storage_bucket": "ullim-724b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913634875328:android:9725324c4260351ab35a25",
+        "android_client_info": {
+          "package_name": "com.reactapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913634875328-8k242t0869rgcetlkmh098upoaqalr7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPwYX_u85OGJNUVSxIG0ghfQMB7oeaBhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913634875328-8k242t0869rgcetlkmh098upoaqalr7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

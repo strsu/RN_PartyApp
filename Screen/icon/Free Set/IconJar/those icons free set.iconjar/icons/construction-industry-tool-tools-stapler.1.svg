@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Stapler</title>
+  <g id="Stapler">
+    <g>
+      <rect x="0.5" y="7.5" width="6" height="14" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="0.5" y="3.5" width="5" height="2" rx="1" ry="1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="1.5" y1="5.5" x2="1.5" y2="7.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="4.5" y1="5.5" x2="4.5" y2="7.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M6.5,10.5H6A1.5,1.5,0,0,0,4.5,12v4A1.5,1.5,0,0,0,6,17.5h.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M6.5,8.5h0a6.15,6.15,0,0,1,3.62,1.18L11.95,11a7.8,7.8,0,0,0,4.59,1.49H20A3.5,3.5,0,0,1,23.5,16v5.5H6.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="11" y="15.5" width="9.5" height="3" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M11.39,10.61,12.5,9.5c3-3,4.5-2.5,6.5-4a9.71,9.71,0,0,0,2.44-2.4.39.39,0,0,0,.06-.2.39.39,0,0,0-.39-.39,4.39,4.39,0,0,0-2.64.88,6.52,6.52,0,0,1-1,.62c-1,.5-4.75,1.25-6.5,3L9,9" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="9" cy="12" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

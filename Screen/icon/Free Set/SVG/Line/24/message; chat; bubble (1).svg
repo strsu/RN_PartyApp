@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Chat Bubble 13</title>
+  <g id="Chat_Bubble_13" data-name="Chat Bubble 13">
+    <g>
+      <path d="M21,1.5H3A1.5,1.5,0,0,0,1.5,3V22.5l5-5H21A1.5,1.5,0,0,0,22.5,16V3A1.5,1.5,0,0,0,21,1.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="12" cy="10" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="7" cy="10" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="17" cy="10" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

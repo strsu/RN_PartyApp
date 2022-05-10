@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Film Roll</title>
+  <g id="Film_Roll" data-name="Film Roll">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="12" cy="12" r="11.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="12" cy="6" r="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_3" data-name="&lt;Path&gt;" cx="6.29" cy="10.15" r="2.5" transform="translate(-5.3 13) rotate(-72)" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_4" data-name="&lt;Path&gt;" cx="8.47" cy="16.85" r="2.5" transform="matrix(0.59, -0.81, 0.81, 0.59, -10.14, 13.8)" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_5" data-name="&lt;Path&gt;" cx="15.53" cy="16.85" r="2.5" transform="translate(-6.94 12.35) rotate(-36)" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_6" data-name="&lt;Path&gt;" cx="17.71" cy="10.15" r="2.5" transform="translate(-2.27 5.97) rotate(-18)" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_7" data-name="&lt;Path&gt;" cx="12" cy="12" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <path id="_Path_8" data-name="&lt;Path&gt;" d="M14.29,7A5.45,5.45,0,0,0,9.71,7" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_9" data-name="&lt;Path&gt;" d="M7.21,14.7a5.5,5.5,0,0,0,3.7,2.69" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_10" data-name="&lt;Path&gt;" d="M8,8.28A5.47,5.47,0,0,0,6.5,12a5.54,5.54,0,0,0,0,.63" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_11" data-name="&lt;Path&gt;" d="M17.46,12.63a5.54,5.54,0,0,0,0-.63A5.47,5.47,0,0,0,16,8.28" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_12" data-name="&lt;Path&gt;" d="M13.09,17.39a5.5,5.5,0,0,0,3.7-2.69" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <path id="_Path_13" data-name="&lt;Path&gt;" d="M16.64,22.58a24.14,24.14,0,0,0,6.86.92" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_14" data-name="&lt;Path&gt;" d="M7,14.82A10.48,10.48,0,0,0,9.9,18.91" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

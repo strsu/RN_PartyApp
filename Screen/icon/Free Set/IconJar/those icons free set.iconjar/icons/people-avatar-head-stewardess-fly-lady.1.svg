@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Stewardess</title>
+  <g id="Stewardess">
+    <g>
+      <ellipse cx="12" cy="2" rx="5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M17,2l1,4.5c0,1.1-2.69,2-6,2s-6-.9-6-2L7,2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M9.5,5.5s2.5.23,2.5,1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M14.5,5.5s-2.5.23-2.5,1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M15.24,22.45c6.37-.2,8.26-1,8.26-1-1.69-3.31-3-5.37-3-9.5a10.56,10.56,0,0,0-2.85-7.09" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M6.35,4.93A9.76,9.76,0,0,0,3.5,12c0,4.13-1.31,6.19-3,9.5,0,0,1.89.75,8.26,1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M13.28,8.45c-2.2,2.51-6.79,5-8.78,5-.76.33-1,1-1,2s1,3,2.13,3c.44.85,2.39,5,6.38,5s5.94-4.15,6.38-5c1.12,0,2.13-2.12,2.13-3s-.24-1.67-1-2c-1.76,0-3.76-2.67-4.59-5.25" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="8.5" cy="14" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="15.5" cy="14" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="15.5" y1="13.5" x2="16.5" y2="13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="8.5" y1="13.5" x2="7.5" y2="13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

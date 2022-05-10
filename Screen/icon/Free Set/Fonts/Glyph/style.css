@@ -1,0 +1,477 @@
+@font-face {
+  font-family: 'thoseicons';
+  src:  url('fonts/thoseicons.eot?bx7px5');
+  src:  url('fonts/thoseicons.eot?bx7px5#iefix') format('embedded-opentype'),
+    url('fonts/thoseicons.ttf?bx7px5') format('truetype'),
+    url('fonts/thoseicons.woff?bx7px5') format('woff'),
+    url('fonts/thoseicons.svg?bx7px5#thoseicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'thoseicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Map-Rose-1:before {
+  content: "\e900";
+}
+.icon-Lego-Figure:before {
+  content: "\e901";
+}
+.icon-Shit:before {
+  content: "\e902";
+}
+.icon-Mask:before {
+  content: "\e903";
+}
+.icon-Money-Vision:before {
+  content: "\e904";
+}
+.icon-Biscuit:before {
+  content: "\e905";
+}
+.icon-Champagne-Bottle:before {
+  content: "\e906";
+}
+.icon-Stereo-Speaker:before {
+  content: "\e907";
+}
+.icon-Coffee-Can:before {
+  content: "\e908";
+}
+.icon-Figs:before {
+  content: "\e909";
+}
+.icon-Chat-Bubble-13:before {
+  content: "\e90a";
+}
+.icon-Edit-Note-2:before {
+  content: "\e90b";
+}
+.icon-Flow-Chart-2:before {
+  content: "\e90c";
+}
+.icon-Reload-Folder:before {
+  content: "\e90d";
+}
+.icon-Matches:before {
+  content: "\e90e";
+}
+.icon-Tea-Sieve:before {
+  content: "\e90f";
+}
+.icon-Chef's-Hat-2:before {
+  content: "\e910";
+}
+.icon-Image-1:before {
+  content: "\e911";
+}
+.icon-Olive:before {
+  content: "\e912";
+}
+.icon-Sunrise:before {
+  content: "\e913";
+}
+.icon-Chat-Bubble-5:before {
+  content: "\e914";
+}
+.icon-Cylinder-Hat:before {
+  content: "\e915";
+}
+.icon-Post-It:before {
+  content: "\e916";
+}
+.icon-Cloud-Server-2:before {
+  content: "\e917";
+}
+.icon-Palette:before {
+  content: "\e918";
+}
+.icon-Bow-Tie:before {
+  content: "\e919";
+}
+.icon-Box-2:before {
+  content: "\e91a";
+}
+.icon-Doctor:before {
+  content: "\e91b";
+}
+.icon-Virus:before {
+  content: "\e91c";
+}
+.icon-Gameboy-1:before {
+  content: "\e91d";
+}
+.icon-Pie-Chart-1:before {
+  content: "\e91e";
+}
+.icon-Boots-2:before {
+  content: "\e91f";
+}
+.icon-Luggage:before {
+  content: "\e920";
+}
+.icon-Door-Lock:before {
+  content: "\e921";
+}
+.icon-Volleyball:before {
+  content: "\e922";
+}
+.icon-Water-Bottle:before {
+  content: "\e923";
+}
+.icon-Pulley:before {
+  content: "\e924";
+}
+.icon-Space-Invadors:before {
+  content: "\e925";
+}
+.icon-Acid:before {
+  content: "\e926";
+}
+.icon-Animal-Badge:before {
+  content: "\e927";
+}
+.icon-Chip:before {
+  content: "\e928";
+}
+.icon-Toad-Mushroom:before {
+  content: "\e929";
+}
+.icon-Bishop:before {
+  content: "\e92a";
+}
+.icon-Guitar-1:before {
+  content: "\e92b";
+}
+.icon-Mary-Go-Round:before {
+  content: "\e92c";
+}
+.icon-Fish:before {
+  content: "\e92d";
+}
+.icon-Paws:before {
+  content: "\e92e";
+}
+.icon-Key:before {
+  content: "\e92f";
+}
+.icon-Lock-Open:before {
+  content: "\e930";
+}
+.icon-Baby-Book:before {
+  content: "\e931";
+}
+.icon-Stapler:before {
+  content: "\e932";
+}
+.icon-Cocktail:before {
+  content: "\e933";
+}
+.icon-Pram-1:before {
+  content: "\e934";
+}
+.icon-Ball:before {
+  content: "\e935";
+}
+.icon-Post-Office:before {
+  content: "\e936";
+}
+.icon-House-1:before {
+  content: "\e937";
+}
+.icon-House-Key:before {
+  content: "\e938";
+}
+.icon-Cutting-Disk:before {
+  content: "\e939";
+}
+.icon-Earthquake:before {
+  content: "\e93a";
+}
+.icon-Protection-Helmet:before {
+  content: "\e93b";
+}
+.icon-Bus-Stop:before {
+  content: "\e93c";
+}
+.icon-Toddler-3:before {
+  content: "\e93d";
+}
+.icon-Camping-Cup:before {
+  content: "\e93e";
+}
+.icon-Drop-Delivery:before {
+  content: "\e93f";
+}
+.icon-Paper-Shredder:before {
+  content: "\e940";
+}
+.icon-Server-Settings:before {
+  content: "\e941";
+}
+.icon-Glue:before {
+  content: "\e942";
+}
+.icon-Recycle-Bin:before {
+  content: "\e943";
+}
+.icon-Disable-Allarm:before {
+  content: "\e944";
+}
+.icon-Kitchen-Timer:before {
+  content: "\e945";
+}
+.icon-Plane-Lift-Off:before {
+  content: "\e946";
+}
+.icon-Bicycle-1:before {
+  content: "\e947";
+}
+.icon-Dog-House:before {
+  content: "\e948";
+}
+.icon-Beatle:before {
+  content: "\e949";
+}
+.icon-Gear-2:before {
+  content: "\e94a";
+}
+.icon-Cloud-Folder-3:before {
+  content: "\e94b";
+}
+.icon-Woman-4:before {
+  content: "\e94c";
+}
+.icon-Image-Location:before {
+  content: "\e94d";
+}
+.icon-Medal-5:before {
+  content: "\e94e";
+}
+.icon-Cup-1:before {
+  content: "\e94f";
+}
+.icon-Strom-Day:before {
+  content: "\e950";
+}
+.icon-Carambola:before {
+  content: "\e951";
+}
+.icon-Developer:before {
+  content: "\e952";
+}
+.icon-iWatch:before {
+  content: "\e953";
+}
+.icon-Chocholate:before {
+  content: "\e954";
+}
+.icon-Music-Note-1:before {
+  content: "\e955";
+}
+.icon-Drum:before {
+  content: "\e956";
+}
+.icon-Headset:before {
+  content: "\e957";
+}
+.icon-Fragment-Chart:before {
+  content: "\e958";
+}
+.icon-Guitar-Pick:before {
+  content: "\e959";
+}
+.icon-Macro:before {
+  content: "\e95a";
+}
+.icon-Disable-Flash-Drive:before {
+  content: "\e95b";
+}
+.icon-Money-Bill:before {
+  content: "\e95c";
+}
+.icon-Lense-2:before {
+  content: "\e95d";
+}
+.icon-Stewardess:before {
+  content: "\e95e";
+}
+.icon-Cloud-Check:before {
+  content: "\e95f";
+}
+.icon-Salt-Pot:before {
+  content: "\e960";
+}
+.icon-Camera-1:before {
+  content: "\e961";
+}
+.icon-Film-Roll:before {
+  content: "\e962";
+}
+.icon-TV-2:before {
+  content: "\e963";
+}
+.icon-Half-Moon-2:before {
+  content: "\e964";
+}
+.icon-Search-Disk:before {
+  content: "\e965";
+}
+.icon-Image-Folder-1:before {
+  content: "\e966";
+}
+.icon-Man-with-Beard:before {
+  content: "\e967";
+}
+.icon-Clouds:before {
+  content: "\e968";
+}
+.icon-Send-Money:before {
+  content: "\e969";
+}
+.icon-USB-Cable:before {
+  content: "\e96a";
+}
+.icon-Battery-4:before {
+  content: "\e96b";
+}
+.icon-User-Smal-Circle:before {
+  content: "\e96c";
+}
+.icon-Call:before {
+  content: "\e96d";
+}
+.icon-Wind-Turbine:before {
+  content: "\e96e";
+}
+.icon-Recycle-Bin-1:before {
+  content: "\e96f";
+}
+.icon-Save-Backup:before {
+  content: "\e970";
+}
+.icon-Bacon:before {
+  content: "\e971";
+}
+.icon-Heandsfree:before {
+  content: "\e972";
+}
+.icon-Smartphone-1:before {
+  content: "\e973";
+}
+.icon-Feather:before {
+  content: "\e974";
+}
+.icon-Mail-1:before {
+  content: "\e975";
+}
+.icon-Pencil-with-Ruler:before {
+  content: "\e976";
+}
+.icon-Reflect-Vertical:before {
+  content: "\e977";
+}
+.icon-Band:before {
+  content: "\e978";
+}
+.icon-Condom-1:before {
+  content: "\e979";
+}
+.icon-User-Navigation:before {
+  content: "\e97a";
+}
+.icon-iWatch-Side:before {
+  content: "\e97b";
+}
+.icon-Recycle-PET:before {
+  content: "\e97c";
+}
+.icon-Abulance:before {
+  content: "\e97d";
+}
+.icon-Spam-Inbox:before {
+  content: "\e97e";
+}
+.icon-Presentation_1:before {
+  content: "\e97f";
+}
+.icon-Recycle-1:before {
+  content: "\e980";
+}
+.icon-Add-to-Basket:before {
+  content: "\e981";
+}
+.icon-Presentation:before {
+  content: "\e982";
+}
+.icon-Barcode-Scann:before {
+  content: "\e983";
+}
+.icon-Protect-Cart:before {
+  content: "\e984";
+}
+.icon-Dron-2:before {
+  content: "\e985";
+}
+.icon-Personal-Mail:before {
+  content: "\e986";
+}
+.icon-Shopping-Bag-3:before {
+  content: "\e987";
+}
+.icon-Medicine-2:before {
+  content: "\e988";
+}
+.icon-Price-Sticker:before {
+  content: "\e989";
+}
+.icon-Eco-User:before {
+  content: "\e98a";
+}
+.icon-Envelope-Stack-2:before {
+  content: "\e98b";
+}
+.icon-Bit-Coin:before {
+  content: "\e98c";
+}
+.icon-Inflation:before {
+  content: "\e98d";
+}
+.icon-Camera-Iris-1:before {
+  content: "\e98e";
+}
+.icon-VGA-Port:before {
+  content: "\e98f";
+}
+.icon-Busines-News:before {
+  content: "\e990";
+}
+.icon-Investment:before {
+  content: "\e991";
+}
+.icon-Gold-Bars:before {
+  content: "\e992";
+}
+.icon-Sphere:before {
+  content: "\e993";
+}
+.icon-Mail-Delivered-2:before {
+  content: "\e994";
+}
+.icon-Case-1:before {
+  content: "\e995";
+}
+

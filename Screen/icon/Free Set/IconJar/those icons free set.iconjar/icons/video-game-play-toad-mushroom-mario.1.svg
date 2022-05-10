@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Toad Mushroom</title>
+  <g id="Toad_Mushroom" data-name="Toad Mushroom">
+    <g>
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M19.3,19.24C21.9,18,23.5,15.72,23.5,12a11.5,11.5,0,1,0-23,0,7.3,7.3,0,0,0,4.16,6.92" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_2" data-name="&lt;Path&gt;" d="M12,15c-3.21,0-6,1.15-7.44,2.85C4.9,22.45,5.94,23.5,12,23.5s7.1-1,7.44-5.65C18,16.15,15.21,15,12,15Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <ellipse id="_Path_3" data-name="&lt;Path&gt;" cx="9.25" cy="19" rx="0.25" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <ellipse id="_Path_4" data-name="&lt;Path&gt;" cx="14.75" cy="19" rx="0.25" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_5" data-name="&lt;Path&gt;" cx="12" cy="7" r="5.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_6" data-name="&lt;Path&gt;" d="M20.5,9a6.49,6.49,0,0,0,2.75,5.3A10.39,10.39,0,0,0,23.5,12a11.44,11.44,0,0,0-2-6.47A6.46,6.46,0,0,0,20.5,9Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_7" data-name="&lt;Path&gt;" d="M2.49,5.53A11.44,11.44,0,0,0,.5,12a8.85,8.85,0,0,0,.28,2.28A6.49,6.49,0,0,0,3.5,9,6.46,6.46,0,0,0,2.49,5.53Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

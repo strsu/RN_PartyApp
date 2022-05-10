@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>USB Cable</title>
+  <g id="USB_Cable" data-name="USB Cable">
+    <g>
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M9.68,9.5A1.21,1.21,0,0,0,8.5,10.73v6.48a11.48,11.48,0,0,0,.76,4.11l1.6,4.17h8.27l1.6-4.17a11.48,11.48,0,0,0,.76-4.11V10.73A1.21,1.21,0,0,0,20.32,9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_2" data-name="&lt;Path&gt;" x1="13.5" y1="25.5" x2="13.5" y2="29.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_3" data-name="&lt;Path&gt;" x1="16.5" y1="25.5" x2="16.5" y2="29.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Path_4" data-name="&lt;Path&gt;" x="9.5" y="0.5" width="11" height="9" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="11.5" y="2.5" width="1" height="3" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" x="17.5" y="2.5" width="1" height="3" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

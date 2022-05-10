@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Band</title>
+  <g id="Band">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="1.5" y="7.5" width="21" height="9" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" x="1.5" y="7.5" width="21" height="9" rx="1.5" ry="1.5" transform="translate(0 24) rotate(-90)" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="10" cy="10" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="14" cy="10" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_3" data-name="&lt;Path&gt;" cx="10" cy="14" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_4" data-name="&lt;Path&gt;" cx="14" cy="14" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_5" data-name="&lt;Path&gt;" cx="12" cy="12" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

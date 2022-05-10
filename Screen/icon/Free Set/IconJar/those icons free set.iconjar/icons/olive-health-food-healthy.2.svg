@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Olive</title>
+  <g id="Olive">
+    <g>
+      <path d="M23.94,24a17.93,17.93,0,0,1-12.72,5.56,10.92,10.92,0,0,1-7.64-3.08A10.92,10.92,0,0,1,.51,18.82,17.93,17.93,0,0,1,6.07,6.1,18.14,18.14,0,0,1,18.16.55a11.07,11.07,0,0,1,8.27,3.08,10.92,10.92,0,0,1,3.08,7.64A17.93,17.93,0,0,1,23.94,24Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M2.87,15.54a17.24,17.24,0,0,1,4.61-8" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M23.87,12.91a5.41,5.41,0,0,0-1.72-5,5.41,5.41,0,0,0-5-1.72" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <ellipse cx="21.51" cy="8.54" rx="3.74" ry="5.15" transform="translate(0.26 17.71) rotate(-45)" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

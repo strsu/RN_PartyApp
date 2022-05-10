@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Edit Note 2</title>
+  <g id="Edit_Note_2" data-name="Edit Note 2">
+    <g>
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="6.5" cy="5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_2" data-name="&lt;Path&gt;" x1="6.5" y1="5" x2="6.5" y2="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_3" data-name="&lt;Path&gt;" cx="11.5" cy="5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_4" data-name="&lt;Path&gt;" x1="11.5" y1="5" x2="11.5" y2="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_5" data-name="&lt;Path&gt;" cx="16.5" cy="5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_6" data-name="&lt;Path&gt;" x1="16.5" y1="5" x2="16.5" y2="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_7" data-name="&lt;Path&gt;" x1="21.88" y1="4.38" x2="25.63" y2="8.13" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline id="_Path_8" data-name="&lt;Path&gt;" points="10 16.25 11.88 16.25 12.5 17.5 13.75 18.13 14.38 19.38" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_9" data-name="&lt;Path&gt;" x1="8" y1="21.5" x2="8.5" y2="22" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_10" data-name="&lt;Path&gt;" x1="23.69" y1="6.31" x2="12.5" y2="17.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M20.5,5.63V4A1.5,1.5,0,0,0,19,2.5H4A1.5,1.5,0,0,0,2.5,4V26A1.5,1.5,0,0,0,4,27.5H19A1.5,1.5,0,0,0,20.5,26V13.33" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_11" data-name="&lt;Path&gt;" d="M13.75,20,27,7A1.88,1.88,0,0,0,27,4.3L25.7,3A1.88,1.88,0,0,0,23,3L10,16.25,7.5,22.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_12" data-name="&lt;Path&gt;" d="M13.75,20,27,7A1.88,1.88,0,0,0,27,4.3L25.7,3A1.88,1.88,0,0,0,23,3L10,16.25,7.5,22.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

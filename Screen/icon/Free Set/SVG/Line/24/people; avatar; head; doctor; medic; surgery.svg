@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Doctor</title>
+  <g id="Doctor">
+    <g>
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="8.5" cy="13" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="15.5" cy="13" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g>
+        <path d="M4.5,11.5c0,.33,0,.65,0,1-.72.33-1,1-1,2s.95,3,2,3c.41.85,2.75,5,6.5,5s6.09-4.15,6.5-5c1.05,0,2-2.12,2-3s-.28-1.67-1-2c0-.35,0-.67,0-1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <circle cx="12" cy="9" r="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M15.33,10A31.66,31.66,0,0,1,19.5,11.5l-.4-6a3,3,0,0,0-1.5-2.41A11.45,11.45,0,0,0,12,1.5,11.45,11.45,0,0,0,6.4,3.05,3,3,0,0,0,4.9,5.46l-.4,6A31.66,31.66,0,0,1,8.67,10" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <circle cx="12" cy="9" r="3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M18.5,17.5s-3.5-2-6.5-2-6.5,2-6.5,2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

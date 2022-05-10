@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Money Bill</title>
+  <g id="Money_Bill" data-name="Money Bill">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <rect x="0.5" y="4.5" width="29" height="21" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M27.5,19.5v-9a4,4,0,0,1-4-4H6.5a4,4,0,0,1-4,4v9a4,4,0,0,1,4,4h17A4,4,0,0,1,27.5,19.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="15" cy="15" r="5.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

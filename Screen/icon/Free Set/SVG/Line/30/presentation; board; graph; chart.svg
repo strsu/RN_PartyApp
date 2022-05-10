@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Presentation</title>
+  <g id="Presentation">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path id="_Rectangle_" data-name="&lt;Rectangle&gt;" d="M2.5,2.5h25a0,0,0,0,1,0,0V19A1.5,1.5,0,0,1,26,20.5H4A1.5,1.5,0,0,1,2.5,19V2.5A0,0,0,0,1,2.5,2.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="15" cy="27" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_2" data-name="&lt;Path&gt;" x1="15" y1="27" x2="15" y2="20.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="6.5" y="11.5" width="3" height="6" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="13.5" y="8.5" width="3" height="9" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polygon points="23.5 5.5 20.57 5.51 20.5 17.5 23.5 17.5 23.5 5.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

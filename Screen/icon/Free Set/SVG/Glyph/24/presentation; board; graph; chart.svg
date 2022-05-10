@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Presentation_1</title>
+  <g id="Presentation">
+    <g>
+      <rect x="5" y="8" width="3" height="5" rx="0.5" ry="0.5" style="fill: #303c42"/>
+      <g>
+        <rect x="10.5" y="6.5" width="3" height="6.5" rx="0.5" ry="0.5" style="fill: #303c42"/>
+        <rect x="16" y="5" width="3" height="8" rx="0.5" ry="0.5" style="fill: #303c42"/>
+        <path d="M22,1H2A1,1,0,0,0,1,2V15a2,2,0,0,0,2,2h8.5v4.15A1,1,0,0,0,11,22a1,1,0,0,0,2,0,1,1,0,0,0-.5-.85V17H21a2,2,0,0,0,2-2V2A1,1,0,0,0,22,1ZM3,15V3H21V15Z" style="fill: #303c42"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Mary Go Round</title>
+  <g id="Mary_Go_Round" data-name="Mary Go Round">
+    <g>
+      <path d="M.5,29.5h0a5.43,5.43,0,0,1,4.85-3H24.65a5.43,5.43,0,0,1,4.85,3H.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="12.5 13.5 12.5 26.5 17.5 24.14" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="12.5" y1="22.95" x2="17.5" y2="20.59" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="12.5" y1="19.41" x2="17.5" y2="17.05" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="12.5 15.86 17.5 13.5 17.5 26.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M.5,9.5,1,11.61A2.5,2.5,0,0,0,3.45,13.5h23.1A2.5,2.5,0,0,0,29,11.61L29.5,9.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="15" cy="1" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M20.5,20.5l.81,3.24a1,1,0,0,0,1,.76h4.44a1,1,0,0,0,1-.76l.81-3.24Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="24.5" y1="24.5" x2="24.5" y2="26.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="24.5" y1="13.5" x2="24.5" y2="20.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M15,1.5C10.59,6.83.5,9.5.5,9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M15,1.5c4.41,5.33,14.5,8,14.5,8" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M15,1.5a16.85,16.85,0,0,1-4,8" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M15,1.5a16.85,16.85,0,0,0,4,8" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M1.5,20.5l.81,3.24a1,1,0,0,0,1,.76H7.72a1,1,0,0,0,1-.76L9.5,20.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="5.5" y1="24.5" x2="5.5" y2="26.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="5.5" y1="13.5" x2="5.5" y2="20.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

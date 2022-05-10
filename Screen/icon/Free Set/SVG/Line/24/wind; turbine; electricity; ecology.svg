@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Wind Turbine</title>
+  <g id="Wind_Turbine" data-name="Wind Turbine">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M14,13.5c1.49.67,6.18,2.94,6.18,2.94a1,1,0,0,0,1-1.67s-4-2.74-5.37-3.7L13.5,8c0-.06-.54-6.68-.54-6.68a1,1,0,0,0-1.93,0S10.5,7.94,10.5,8L8.22,11.08c-1.32,1-5.37,3.7-5.37,3.7a1,1,0,0,0,1,1.67S8.51,14.17,10,13.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="12" cy="11" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline id="_Path_3" data-name="&lt;Path&gt;" points="11 13.5 9.5 23.5 14.5 23.5 13 13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

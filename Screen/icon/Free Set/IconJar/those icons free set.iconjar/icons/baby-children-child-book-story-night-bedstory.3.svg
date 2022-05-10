@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Baby Book</title>
+  <g id="Baby_Book" data-name="Baby Book">
+    <g>
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M6.5,4.5,19.32.56A1.66,1.66,0,0,1,19.75.5,1.8,1.8,0,0,1,21.5,2.35V4.2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="4.5" y="4.5" width="21" height="25" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M18.18,17.43a4.61,4.61,0,0,1-4.61-4.61,4.56,4.56,0,0,1,.22-1.32,4.6,4.6,0,1,0,5.71,5.71A4.56,4.56,0,0,1,18.18,17.43Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Man with Beard</title>
+  <g id="Man_with_Beard" data-name="Man with Beard">
+    <g>
+      <path d="M19.5,12.5a6.78,6.78,0,0,0-6-6A8.35,8.35,0,0,1,9,8c-3,0-4.5,3-4.5,4.5a1.57,1.57,0,0,0-.53.41A10.78,10.78,0,0,1,3.5,10c0-2,.5-8,8-8l.5-.5c7.5,0,8.5,6.5,8.5,8.5A10.78,10.78,0,0,1,20,12.91,1.57,1.57,0,0,0,19.5,12.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M4.5,12.5c-.72.33-1,1-1,2s.95,3,2,3c.41.85,1.5,5,6.5,5s6.09-4.15,6.5-5c1.05,0,2-2.12,2-3s-.28-1.67-1-2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="8.5" cy="13" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="15.5" cy="13" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="13" y1="18.5" x2="11" y2="18.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M18.5,17.5c1-1,1-5,1-5a13.27,13.27,0,0,1-4.1,5.42,2,2,0,0,0-1.9-1.42h-3a2,2,0,0,0-1.9,1.42A13.27,13.27,0,0,1,4.5,12.5s0,4,1,5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Headset</title>
+  <g id="Headset">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <line id="_Path_" data-name="&lt;Path&gt;" x1="24.5" y1="27.5" x2="24.5" y2="29.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Path_2" data-name="&lt;Path&gt;" x="24" y="24.5" width="1" height="3" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M23.5,8.5a5.71,5.71,0,0,1-4,2c-1.66,0-3-2.24-3-5s1.34-5,3-5c4.8,0,7,6.14,7,10.71V23A1.5,1.5,0,0,1,25,24.5H24A1.5,1.5,0,0,1,22.5,23V12a5,5,0,0,0-.36-2.36" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_3" data-name="&lt;Path&gt;" x1="5.5" y1="27.5" x2="5.5" y2="29.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Path_4" data-name="&lt;Path&gt;" x="5" y="24.5" width="1" height="3" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M6.5,8.5a5.71,5.71,0,0,0,4,2c1.66,0,3-2.24,3-5s-1.34-5-3-5c-4.8,0-7,6.14-7,10.71V23A1.5,1.5,0,0,0,5,24.5H6A1.5,1.5,0,0,0,7.5,23V12a5,5,0,0,1,.36-2.36" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

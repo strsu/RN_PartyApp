@@ -1,0 +1,11 @@
+<svg id="Investment" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Investment</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <path d="M6.56,14.73c-2.49.82-4.06,2.62-4.06,3.62v2.29c0,3.79,5.6,6.87,12.5,6.87s12.5-3.07,12.5-6.87V18.34c0-1-1.57-2.79-4.06-3.62" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    <path d="M23.22,18.7A12.31,12.31,0,0,0,23.5,16c0-6.35-4.56-13.5-8.5-13.5S6.5,9.65,6.5,16a12.37,12.37,0,0,0,.27,2.64" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    <path id="_Path_" data-name="&lt;Path&gt;" d="M5.75,18.37a35,35,0,0,0,9.38,1.13,35,35,0,0,0,9.38-1.13" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    <path id="_Path_2" data-name="&lt;Path&gt;" d="M16.5,10.5H15a1.39,1.39,0,0,0-1.5,1.25h0A1.39,1.39,0,0,0,15,13h0a1.39,1.39,0,0,1,1.5,1.25h0A1.39,1.39,0,0,1,15,15.5H13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    <line id="_Path_3" data-name="&lt;Path&gt;" x1="15" y1="10.5" x2="15" y2="9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    <line id="_Path_4" data-name="&lt;Path&gt;" x1="15" y1="15.5" x2="15" y2="16.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+  </g>
+</svg>

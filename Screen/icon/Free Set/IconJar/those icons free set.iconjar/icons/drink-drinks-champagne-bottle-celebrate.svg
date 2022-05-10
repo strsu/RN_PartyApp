@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Champagne Bottle</title>
+  <g id="Champagne_Bottle" data-name="Champagne Bottle">
+    <g>
+      <path d="M10.47,4.22c-.24,5.22-3,5.5-3,10.28V22A1.5,1.5,0,0,0,9,23.5h6A1.5,1.5,0,0,0,16.5,22V14.5c0-4.78-2.72-5.05-3-10.28" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="12" cy="11" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="7.5" y="16.5" width="9" height="4" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M12.87,4.5H11.13a1,1,0,0,1-1-1.12l.25-2a1,1,0,0,1,1-.88h1.23a1,1,0,0,1,1,.88l.25,2A1,1,0,0,1,12.87,4.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M8.42,10.44c.91,1.75,2.34,4.06,3.58,4.06s2.67-2.31,3.58-4.06" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

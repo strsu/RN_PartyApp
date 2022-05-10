@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Coffee Can</title>
+  <g id="Coffee_Can" data-name="Coffee Can">
+    <g>
+      <path d="M9.5,4.5A9,9,0,0,0,3.19,19.91a2,2,0,0,0,1.42.59h9.77a2,2,0,0,0,1.42-.59A9,9,0,0,0,9.5,4.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="13.5" y1="3.5" x2="13.5" y2="5.44" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="1.01" y1="16.5" x2="17.99" y2="16.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M18.28,15.44A6,6,0,0,0,17.5,3.5H.5l2.09.78a1.62,1.62,0,0,1,.78,2.41l-.46.69" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

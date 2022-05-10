@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Recycle PET</title>
+  <g id="Recycle_PET" data-name="Recycle PET">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <line id="_Path_" data-name="&lt;Path&gt;" x1="18" y1="12" x2="22" y2="12" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_2" data-name="&lt;Path&gt;" x1="20" y1="12" x2="20" y2="18" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline id="_Path_3" data-name="&lt;Path&gt;" points="16.5 18 13.5 18 13.5 12 16.5 12" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_4" data-name="&lt;Path&gt;" x1="13.5" y1="15" x2="16" y2="15" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M8.5,18V12H10a1.5,1.5,0,0,1,1.5,1.5h0A1.5,1.5,0,0,1,10,15H8.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <polyline id="_Path_5" data-name="&lt;Path&gt;" points="27.22 22.78 25.5 17.5 29.28 17.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_6" data-name="&lt;Path&gt;" d="M27.22,22.78a14.48,14.48,0,0,0-7.81-21.6" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polyline id="_Path_7" data-name="&lt;Path&gt;" points="2.15 21.69 7.58 22.84 5.69 26.11" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_8" data-name="&lt;Path&gt;" d="M2.15,21.69a14.48,14.48,0,0,0,22.61,4" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polyline id="_Path_9" data-name="&lt;Path&gt;" points="15.63 0.52 11.91 4.65 10.02 1.37" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_10" data-name="&lt;Path&gt;" d="M15.63.51A14.48,14.48,0,0,0,.83,18.08" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

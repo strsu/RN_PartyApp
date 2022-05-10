@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>User Smal Circle</title>
+  <g id="User_Smal_Circle" data-name="User Smal Circle">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="15" cy="15" r="14.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="15" cy="10.5" r="4" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_3" data-name="&lt;Path&gt;" d="M15,16.5a14.31,14.31,0,0,0-6.73,1.92A3.55,3.55,0,0,0,6.5,21.55v.64A1.27,1.27,0,0,0,7.71,23.5H22.29a1.27,1.27,0,0,0,1.21-1.31v-.64a3.55,3.55,0,0,0-1.77-3.12A14.31,14.31,0,0,0,15,16.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

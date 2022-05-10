@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>TV 2</title>
+  <g id="TV_2" data-name="TV 2">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <polyline id="_Path_" data-name="&lt;Path&gt;" points="7.48 2.5 15.21 8.45 22.95 2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M26,8.5H4A1.5,1.5,0,0,0,2.5,10V25A1.5,1.5,0,0,0,4,26.5h.5v1h21v-1H26A1.5,1.5,0,0,0,27.5,25V10A1.5,1.5,0,0,0,26,8.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M25.21,23.36a2,2,0,0,1-1.83,1.78c-1.92.15-5.25.36-8.38.36s-6.48-.22-8.42-.37a2,2,0,0,1-1.83-1.76A49.2,49.2,0,0,1,4.5,18a49.13,49.13,0,0,1,.26-5.38,2,2,0,0,1,1.83-1.76c1.9-.15,5.22-.36,8.42-.36s6.49.21,8.38.36a2,2,0,0,1,1.83,1.78A50.85,50.85,0,0,1,25.5,18,50.59,50.59,0,0,1,25.21,23.36Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

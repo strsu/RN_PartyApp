@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Save Backup</title>
+  <g id="Save_Backup" data-name="Save Backup">
+    <g>
+      <rect id="_Path_" data-name="&lt;Path&gt;" x="14.5" y="2.5" width="3" height="5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline id="_Path_2" data-name="&lt;Path&gt;" points="20.5 18.3 20.5 11.5 3.5 11.5 3.5 22.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M23.5,17.5V4L20,.5H2A1.5,1.5,0,0,0,.5,2V21A1.5,1.5,0,0,0,2,22.5H17.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M19.5.5V8A1.5,1.5,0,0,1,18,9.5H6A1.5,1.5,0,0,1,4.5,8V.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline id="_Path_3" data-name="&lt;Path&gt;" points="23.5 20 23.5 24 25.5 25.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_4" data-name="&lt;Path&gt;" cx="23.5" cy="23.5" r="6" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Recycle Bin 1</title>
+  <g id="Recycle_Bin_1" data-name="Recycle Bin 1">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="9" cy="26" r="0.5" style="fill: #303c42"/>
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <path id="_Path_2" data-name="&lt;Path&gt;" d="M11.5,15a4.5,4.5,0,0,1,8.23-2.52" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_3" data-name="&lt;Path&gt;" d="M20.5,15a4.5,4.5,0,0,1-8.23,2.52" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_4" data-name="&lt;Path&gt;" x1="11.5" y1="15" x2="13.5" y2="13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_5" data-name="&lt;Path&gt;" x1="20.5" y1="15" x2="18.5" y2="16.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <line x1="6.5" y1="4.5" x2="8.66" y2="22.53" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M10.13,29.3a1.46,1.46,0,0,0,.71.2H21.17a1.5,1.5,0,0,0,1.49-1.32L25.5,4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_6" data-name="&lt;Path&gt;" cx="9" cy="26" r="3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M7,.5H25A1.5,1.5,0,0,1,26.5,2V4.5a0,0,0,0,1,0,0H5.5a0,0,0,0,1,0,0V2A1.5,1.5,0,0,1,7,.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

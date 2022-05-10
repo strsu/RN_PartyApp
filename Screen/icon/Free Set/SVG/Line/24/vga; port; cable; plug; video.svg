@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>VGA Port</title>
+  <g id="VGA_Port" data-name="VGA Port">
+    <g>
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="0.5" y="4.5" width="23" height="15" rx="1.5" ry="1.5" transform="translate(24 24) rotate(180)" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M5,10.08H5a2.2,2.2,0,0,0,0,.41l.72,3.84A2,2,0,0,0,7.68,16h8.63a2,2,0,0,0,1.92-1.67L19,10.49a2.2,2.2,0,0,0,0-.41h0A2,2,0,0,0,17,8H7A2,2,0,0,0,5,10.08Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="3" cy="12" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_3" data-name="&lt;Path&gt;" cx="21" cy="12" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_4" data-name="&lt;Path&gt;" cx="7.5" cy="10" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_5" data-name="&lt;Path&gt;" cx="9.5" cy="10" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_6" data-name="&lt;Path&gt;" cx="11.5" cy="10" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_7" data-name="&lt;Path&gt;" cx="13.5" cy="10" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_8" data-name="&lt;Path&gt;" cx="15.5" cy="10" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_9" data-name="&lt;Path&gt;" cx="7.5" cy="14" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_10" data-name="&lt;Path&gt;" cx="9.5" cy="14" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_11" data-name="&lt;Path&gt;" cx="11.5" cy="14" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_12" data-name="&lt;Path&gt;" cx="13.5" cy="14" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_13" data-name="&lt;Path&gt;" cx="15.5" cy="14" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_14" data-name="&lt;Path&gt;" cx="8.5" cy="12" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_15" data-name="&lt;Path&gt;" cx="10.5" cy="12" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_16" data-name="&lt;Path&gt;" cx="12.5" cy="12" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_17" data-name="&lt;Path&gt;" cx="14.5" cy="12" r="0.5" style="fill: #303c42"/>
+      <circle id="_Path_18" data-name="&lt;Path&gt;" cx="16.5" cy="12" r="0.5" style="fill: #303c42"/>
+    </g>
+  </g>
+</svg>

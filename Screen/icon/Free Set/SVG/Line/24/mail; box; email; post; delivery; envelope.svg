@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Mail Delivered 2 </title>
+  <g id="Mail_Delivered_2" data-name="Mail Delivered 2">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M.5,12.43l11.18,1.5a1.48,1.48,0,0,0,1.38-.84h0L16.81,2.53" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <path id="_Path_2" data-name="&lt;Path&gt;" d="M11.27,21.5l11.49-6.69a1.5,1.5,0,0,0,.54-2L17.85,3.25a1.48,1.48,0,0,0-2-.55L1.24,11.19a1.5,1.5,0,0,0-.54,2L5.43,21.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <line id="_Path_3" data-name="&lt;Path&gt;" x1="2.5" y1="21.5" x2="21.5" y2="21.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

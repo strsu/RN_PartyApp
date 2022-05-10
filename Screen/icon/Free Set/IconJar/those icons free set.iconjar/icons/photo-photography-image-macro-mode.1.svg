@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Macro</title>
+  <g id="Macro">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M1.5,15.5a7,7,0,0,0,7,7v-4l-7-7Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_2" data-name="&lt;Path&gt;" d="M13.5,19.5v-7a4,4,0,0,0,4-4v-7L14.5,4,12,1.5,9.5,4l-3-2.5v7a4,4,0,0,0,4,4v10h5a7,7,0,0,0,7-7v-4Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

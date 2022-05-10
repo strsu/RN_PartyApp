@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>User Navigation</title>
+  <g id="User_Navigation" data-name="User Navigation">
+    <g>
+      <path d="M24,23.32l-3.5-9a.52.52,0,0,0-.93,0l-3.5,9a.5.5,0,0,0,.6.66L20,23l3.36,1,.14,0a.5.5,0,0,0,.47-.68Z" style="fill: #303c42"/>
+      <circle cx="11" cy="6" r="6" style="fill: #303c42"/>
+      <path d="M17.87,14.48A17.93,17.93,0,0,0,11,13a19.23,19.23,0,0,0-8.54,2.25,4.5,4.5,0,0,0-2.46,4V20a2,2,0,0,0,2,2H15.13a.5.5,0,0,0,.47-.32l2.55-6.56A.5.5,0,0,0,17.87,14.48Z" style="fill: #303c42"/>
+    </g>
+  </g>
+</svg>

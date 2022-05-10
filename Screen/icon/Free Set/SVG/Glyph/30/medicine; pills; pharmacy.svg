@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Medicine 2</title>
+  <g id="Medicine_2" data-name="Medicine 2">
+    <g>
+      <path d="M10.5,18h9a.5.5,0,0,0,0-1h-9a.5.5,0,0,0,0,1Z" style="fill: #303c42"/>
+      <path d="M10.5,21h9a.5.5,0,0,0,0-1h-9a.5.5,0,0,0,0,1Z" style="fill: #303c42"/>
+      <path d="M25,7V2a2,2,0,0,0-2-2H7A2,2,0,0,0,5,2V7A2,2,0,0,0,6.59,9l-.5.75A6.48,6.48,0,0,0,5,13.32V28a2,2,0,0,0,2,2H23a2,2,0,0,0,2-2V13.32a6.48,6.48,0,0,0-1.09-3.61L23.41,9A2,2,0,0,0,25,7ZM23,7H20.5V2H23ZM16,7V2h2.5V7ZM14,2V7H11.5V2ZM7,2H9.5V7H7ZM23,24H7V14H23Z" style="fill: #303c42"/>
+    </g>
+  </g>
+</svg>

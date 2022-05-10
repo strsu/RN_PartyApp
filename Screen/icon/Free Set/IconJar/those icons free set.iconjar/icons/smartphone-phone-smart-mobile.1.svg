@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Smartphone 1</title>
+  <g id="Smartphone_1" data-name="Smartphone 1">
+    <g>
+      <g id="_Group_" data-name="&lt;Group&gt;">
+        <path d="M15.5,4h-1a.5.5,0,0,1,0-1h1a.5.5,0,0,1,0,1Z" style="fill: #303c42"/>
+      </g>
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <circle cx="21.5" cy="3.5" r="0.5" style="fill: #303c42"/>
+      </g>
+      <path d="M23,0H7A2,2,0,0,0,5,2V28a2,2,0,0,0,2,2H23a2,2,0,0,0,2-2V2A2,2,0,0,0,23,0ZM16.5,28h-3a.5.5,0,0,1,0-1h3a.5.5,0,0,1,0,1ZM23,25H7V2H23Z" style="fill: #303c42"/>
+    </g>
+  </g>
+</svg>

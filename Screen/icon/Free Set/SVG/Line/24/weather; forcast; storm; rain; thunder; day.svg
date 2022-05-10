@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Strom Day</title>
+  <g id="Strom_Day" data-name="Strom Day">
+    <g>
+      <g>
+        <g>
+          <path d="M4,11.5a3.5,3.5,0,0,0,0,7H9" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <path d="M14.49,10.26A4.5,4.5,0,1,1,17,18.5H13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <path d="M3,11.66A6.49,6.49,0,0,1,15.59,9.73" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <path d="M11.78,5.93a5,5,0,1,1,8.42,4.91" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <line x1="23.5" y1="7.5" x2="21.5" y2="7.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <line x1="12.96" y1="3.96" x2="11.55" y2="2.55" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <line x1="16.5" y1="2.5" x2="16.5" y2="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <line x1="20.04" y1="3.96" x2="21.45" y2="2.55" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+        <path d="M.94,21.7h0L2.5,20.5v2a1,1,0,0,1-2,0A1,1,0,0,1,.94,21.7Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M4.94,19.7h0L6.5,18.5v2a1,1,0,0,1-2,0A1,1,0,0,1,4.94,19.7Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M13.94,21.7h0l1.56-1.2v2a1,1,0,0,1-2,0A1,1,0,0,1,13.94,21.7Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <polygon points="12 12.5 15 13.5 13 20 11 19 8 23.5 9.5 16 11.5 17 12 12.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

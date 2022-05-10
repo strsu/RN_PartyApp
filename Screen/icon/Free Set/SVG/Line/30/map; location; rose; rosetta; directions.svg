@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Map Rose 1</title>
+  <g id="Map_Rose_1" data-name="Map Rose 1">
+    <g>
+      <polygon points="17 15 20.5 9.5 15 13 9.5 9.5 13 15 9.5 20.5 15 17 20.5 20.5 17 15" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M15.88,25.46a10.49,10.49,0,0,0,9.58-9.58" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M4.54,15.88a10.49,10.49,0,0,0,9.58,9.58" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M14.12,4.54a10.49,10.49,0,0,0-9.58,9.58" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M25.46,14.12a10.49,10.49,0,0,0-9.58-9.58" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g>
+        <polyline points="18.57 17.38 29.5 15 18.57 12.63" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polyline points="17.38 11.43 15 0.5 12.63 11.43" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polyline points="12.63 18.57 15 29.5 17.38 18.57" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polyline points="11.43 12.63 0.5 15 11.43 17.38" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

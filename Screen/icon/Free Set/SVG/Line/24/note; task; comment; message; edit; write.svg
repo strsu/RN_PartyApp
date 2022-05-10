@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Edit Note 2</title>
+  <g id="Edit_Note_2" data-name="Edit Note 2">
+    <g>
+      <g id="_Group_" data-name="&lt;Group&gt;">
+        <path id="_Path_" data-name="&lt;Path&gt;" d="M11.5,15.5,22.06,5.06a1.5,1.5,0,0,0,0-2.12l-1-1a1.5,1.5,0,0,0-2.12,0L8.5,12.5l-2,5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_2" data-name="&lt;Path&gt;" x1="18" y1="3" x2="21" y2="6" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polyline id="_Path_3" data-name="&lt;Path&gt;" points="8.5 12.5 10 12.5 10.5 13.5 11.5 14 12 15" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_4" data-name="&lt;Path&gt;" x1="7" y1="16.5" x2="7.5" y2="17" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_5" data-name="&lt;Path&gt;" x1="19.45" y1="4.55" x2="10.5" y2="13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <g>
+        <circle id="_Path_6" data-name="&lt;Path&gt;" cx="5" cy="4" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_7" data-name="&lt;Path&gt;" x1="5" y1="4" x2="5" y2="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <circle id="_Path_8" data-name="&lt;Path&gt;" cx="9" cy="4" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_9" data-name="&lt;Path&gt;" x1="9" y1="4" x2="9" y2="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <circle id="_Path_10" data-name="&lt;Path&gt;" cx="13" cy="4" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_11" data-name="&lt;Path&gt;" x1="13" y1="4" x2="13" y2="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M16.5,4.41V3a1.42,1.42,0,0,0-1.32-1.5H2.82A1.42,1.42,0,0,0,1.5,3V21a1.42,1.42,0,0,0,1.32,1.5H15.18A1.42,1.42,0,0,0,16.5,21V10.56" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

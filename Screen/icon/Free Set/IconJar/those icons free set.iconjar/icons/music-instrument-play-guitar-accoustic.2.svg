@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Guitar 1</title>
+  <g id="Guitar_1" data-name="Guitar 1">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="10.5" cy="13.5" r="2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_2" data-name="&lt;Path&gt;" d="M21,1.5l-3.5,2v1L13.72,8.28A4.22,4.22,0,0,0,11.5,7.5h0c-3.79,0-2.06,4-5,4h0c-3,0-5,1.46-5,4.5S5,22.5,8,22.5s4.5-2,4.5-5,4-1.21,4-5a4.22,4.22,0,0,0-.77-2.22L19.5,6.5h1l2-3.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_3" data-name="&lt;Path&gt;" x1="5.5" y1="16.5" x2="7.5" y2="18.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

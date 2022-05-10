@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Send Invoice</title>
+  <g id="Send_Invoice" data-name="Send Invoice">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <line id="_Path_" data-name="&lt;Path&gt;" x1="15.5" y1="9.5" x2="21.5" y2="9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_2" data-name="&lt;Path&gt;" x1="15.5" y1="13.5" x2="21.5" y2="13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_3" data-name="&lt;Path&gt;" x1="12.49" y1="17.51" x2="17.49" y2="17.49" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_4" data-name="&lt;Path&gt;" d="M11.5,8.5H10A1.39,1.39,0,0,0,8.5,9.75h0A1.39,1.39,0,0,0,10,11h0a1.39,1.39,0,0,1,1.5,1.25h0A1.39,1.39,0,0,1,10,13.5H8.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_5" data-name="&lt;Path&gt;" x1="10" y1="8.5" x2="10" y2="7.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_6" data-name="&lt;Path&gt;" x1="10" y1="13.5" x2="10" y2="14.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M2.5,11.5V26A1.5,1.5,0,0,0,4,27.5H26A1.5,1.5,0,0,0,27.5,26V11.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g>
+        <path d="M18.23,4.5,16.27,3a1.81,1.81,0,0,0-2.53,0l-2,1.48" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M5.5,9.23l-3,2.27L13.73,21A1.91,1.91,0,0,0,15,21.5,2,2,0,0,0,16.29,21L27.5,11.5l-3-2.27" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <path d="M5.5,14V6A1.5,1.5,0,0,1,7,4.5H23A1.5,1.5,0,0,1,24.5,6v8" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

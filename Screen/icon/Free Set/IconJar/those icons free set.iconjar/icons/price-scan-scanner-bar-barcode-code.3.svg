@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Barcode Scann</title>
+  <g id="Barcode_Scann" data-name="Barcode Scann">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <line id="_Path_" data-name="&lt;Path&gt;" x1="3.5" y1="11.5" x2="3.5" y2="17.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_2" data-name="&lt;Path&gt;" x1="13.5" y1="11.5" x2="13.5" y2="17.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_3" data-name="&lt;Path&gt;" x1="20.5" y1="11.5" x2="20.5" y2="17.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_4" data-name="&lt;Path&gt;" x1="6.5" y1="11.5" x2="6.5" y2="14.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_5" data-name="&lt;Path&gt;" x1="8.5" y1="11.5" x2="8.5" y2="14.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_6" data-name="&lt;Path&gt;" x1="10.5" y1="11.5" x2="10.5" y2="14.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_7" data-name="&lt;Path&gt;" x1="15.5" y1="11.5" x2="15.5" y2="14.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_8" data-name="&lt;Path&gt;" x1="18.5" y1="11.5" x2="18.5" y2="14.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_9" data-name="&lt;Path&gt;" x1="18.5" y1="16.5" x2="18.5" y2="17.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_10" data-name="&lt;Path&gt;" x1="15.5" y1="16.5" x2="15.5" y2="17.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_11" data-name="&lt;Path&gt;" x1="10.5" y1="16.5" x2="10.5" y2="17.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_12" data-name="&lt;Path&gt;" x1="8.5" y1="16.5" x2="8.5" y2="17.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_13" data-name="&lt;Path&gt;" x1="6.5" y1="16.5" x2="6.5" y2="17.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <path id="_Path_14" data-name="&lt;Path&gt;" d="M23.5,6.5V5A1.5,1.5,0,0,0,22,3.5H20.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_15" data-name="&lt;Path&gt;" d="M3.5,3.5H2A1.5,1.5,0,0,0,.5,5V6.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_16" data-name="&lt;Path&gt;" d="M20.5,20.5H22A1.5,1.5,0,0,0,23.5,19V17.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_17" data-name="&lt;Path&gt;" d="M.5,17.5V19A1.5,1.5,0,0,0,2,20.5H3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <line id="_Path_18" data-name="&lt;Path&gt;" x1="0.5" y1="11.5" x2="23.5" y2="11.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_19" data-name="&lt;Path&gt;" x1="3.5" y1="6.5" x2="3.5" y2="9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_20" data-name="&lt;Path&gt;" x1="6.5" y1="6.5" x2="6.5" y2="9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_21" data-name="&lt;Path&gt;" x1="8.5" y1="6.5" x2="8.5" y2="9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_22" data-name="&lt;Path&gt;" x1="10.5" y1="6.5" x2="10.5" y2="9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_23" data-name="&lt;Path&gt;" x1="13.5" y1="6.5" x2="13.5" y2="9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_24" data-name="&lt;Path&gt;" x1="15.5" y1="6.5" x2="15.5" y2="9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_25" data-name="&lt;Path&gt;" x1="18.5" y1="6.5" x2="18.5" y2="9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_26" data-name="&lt;Path&gt;" x1="20.5" y1="6.5" x2="20.5" y2="9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

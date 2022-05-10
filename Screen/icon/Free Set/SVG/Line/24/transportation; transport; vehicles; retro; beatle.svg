@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Beatle</title>
+  <g id="Beatle">
+    <g>
+      <path d="M12,1.5c-3.5,0-6.5,1-7,1.5L3.5,7.5a29.48,29.48,0,0,1,8.5-1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M12,6.5v8a1,1,0,0,1-1,1h-.59a3,3,0,0,1-2.68-1.66C6.7,11.77,4.87,8.5,3.5,8.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M6.46,11.51A3.56,3.56,0,0,0,3,9.5C1,9.5.5,12,.5,14c0,4,9.5,3.5,11.5,3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="0.5" y1="15.5" x2="23.5" y2="15.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="3.5" cy="13" r="1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="1" cy="7" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="1.5 7 3.5 7.5 3.5 9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M1.5,15.88V19.5a1,1,0,0,0,2,0V16.83" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M12,1.5c3.5,0,6.5,1,7,1.5l1.5,4.5a29.48,29.48,0,0,0-8.5-1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M12,14.5a1,1,0,0,0,1,1h.59a3,3,0,0,0,2.68-1.66c1-2.07,2.86-5.34,4.23-5.34" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M17.54,11.51A3.56,3.56,0,0,1,21,9.5c2,0,2.5,2.5,2.5,4.5,0,4-9.5,3.5-11.5,3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="20.5" cy="13" r="1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="23" cy="7" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="22.5 7 20.5 7.5 20.5 9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M20.5,16.83V19.5a1,1,0,0,0,2,0V15.88" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

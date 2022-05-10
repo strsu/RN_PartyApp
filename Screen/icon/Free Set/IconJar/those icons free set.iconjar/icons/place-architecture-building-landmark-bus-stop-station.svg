@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Bus Stop</title>
+  <g id="Bus_Stop" data-name="Bus Stop">
+    <g>
+      <path d="M7,3.5H22A1.5,1.5,0,0,1,23.5,5V6.5a0,0,0,0,1,0,0H5.5a0,0,0,0,1,0,0V5A1.5,1.5,0,0,1,7,3.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M10.5,20.5V17A1.5,1.5,0,0,1,12,15.5h5A1.5,1.5,0,0,1,18.5,17v3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="0.5" y="9.5" width="3" height="5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="2" y1="14.5" x2="2" y2="20.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="18.5" y1="9.5" x2="19.5" y2="10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="15.5" y1="9.5" x2="19.5" y2="13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="22.5" y1="6.5" x2="22.5" y2="20.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="10.5" y1="18.5" x2="18.5" y2="18.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="6.5" y1="20.5" x2="6.5" y2="6.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

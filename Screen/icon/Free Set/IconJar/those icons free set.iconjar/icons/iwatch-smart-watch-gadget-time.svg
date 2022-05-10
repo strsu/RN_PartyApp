@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>iWatch Side</title>
+  <g id="iWatch_Side" data-name="iWatch Side">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="2.5" y="4.5" width="5" height="15" rx="2.5" ry="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="5" cy="8" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <path id="_Path_2" data-name="&lt;Path&gt;" d="M3.43,18.93A9.88,9.88,0,0,0,11.5,23.5c5.25,0,10-5.15,10-11.5S16.75.5,11.5.5A9.88,9.88,0,0,0,3.43,5.07" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_3" data-name="&lt;Path&gt;" d="M6.13,4.78A7.74,7.74,0,0,1,11.5,2.5c4.14,0,8,4.26,8,9.5s-3.86,9.5-8,9.5a7.74,7.74,0,0,1-5.37-2.28" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <path id="_Path_4" data-name="&lt;Path&gt;" d="M5,11.5a.5.5,0,0,0-.5.5v3.5a.5.5,0,0,0,1,0V12A.5.5,0,0,0,5,11.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

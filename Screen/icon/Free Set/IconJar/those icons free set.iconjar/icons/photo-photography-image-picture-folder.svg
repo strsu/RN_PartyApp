@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Image Folder 1</title>
+  <g id="Image_Folder_1" data-name="Image Folder 1">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <g id="_Group_3" data-name="&lt;Group&gt;">
+          <path id="_Path_" data-name="&lt;Path&gt;" d="M20.5,8.5V7A1.5,1.5,0,0,0,19,5.5H9.5l-2-2H2A1.5,1.5,0,0,0,.5,5V19a1.49,1.49,0,0,0,.11.55" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <path id="_Path_2" data-name="&lt;Path&gt;" d="M.61,19.56A1.5,1.5,0,0,0,2,20.5H19a1.5,1.5,0,0,0,1.45-1.14" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+        <path id="_Path_3" data-name="&lt;Path&gt;" d="M9.5,17.5,14,13l6.46,6.36,3-8.9h0A1.48,1.48,0,0,0,23.5,10,1.5,1.5,0,0,0,22,8.5H5A1.5,1.5,0,0,0,3.54,9.67h0L.61,19.56" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <circle id="_Path_4" data-name="&lt;Path&gt;" cx="9" cy="12" r="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_5" data-name="&lt;Path&gt;" d="M2.5,20.5c.13-.06,5-5,5-5L10,18" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

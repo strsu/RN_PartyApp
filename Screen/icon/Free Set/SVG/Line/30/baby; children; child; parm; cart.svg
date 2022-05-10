@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Pram 1</title>
+  <g id="Pram_1" data-name="Pram 1">
+    <g>
+      <circle cx="6.5" cy="27.5" r="2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="19.5" cy="27.5" r="2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M26.5,13.5V11A1.5,1.5,0,0,1,28,9.5h0A1.5,1.5,0,0,1,29.5,11v.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="4.5" y1="4.5" x2="13.5" y2="13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M26.5,13.5a13,13,0,1,1-13-13v13Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="0.5" y1="13.5" x2="13.5" y2="13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

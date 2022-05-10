@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Toad Mushroom</title>
+  <g id="Toad_Mushroom" data-name="Toad Mushroom">
+    <g>
+      <ellipse id="_Path_" data-name="&lt;Path&gt;" cx="11" cy="24.5" rx="0.5" ry="2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <ellipse id="_Path_2" data-name="&lt;Path&gt;" cx="19" cy="24.5" rx="0.5" ry="2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_3" data-name="&lt;Path&gt;" cx="15" cy="9" r="6.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_4" data-name="&lt;Path&gt;" d="M15,18.5c-4.09,0-7.65,1.49-9.5,3.68.44,6,1.77,7.32,9.5,7.32s9.06-1.35,9.5-7.32C22.65,20,19.09,18.5,15,18.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g>
+        <path d="M.85,17.84A6.49,6.49,0,0,0,4.5,12,6.48,6.48,0,0,0,2.64,7.45" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M27.56,7.78a6.49,6.49,0,0,0,1.67,9.84" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <path d="M24.3,24.07c3.22-1.59,5.2-4.43,5.2-9.07a14.5,14.5,0,1,0-29,0,9.18,9.18,0,0,0,5.15,8.67" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

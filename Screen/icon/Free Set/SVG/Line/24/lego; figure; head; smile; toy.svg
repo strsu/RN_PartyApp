@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Lego Figure</title>
+  <g id="Lego_Figure" data-name="Lego Figure">
+    <g>
+      <rect x="2.5" y="4.5" width="19" height="16" rx="4" ry="4" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="6.5" y="20.5" width="11" height="3" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M8.5.5h7a1,1,0,0,1,1,1v3a0,0,0,0,1,0,0h-9a0,0,0,0,1,0,0v-3A1,1,0,0,1,8.5.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M8.67,15a4.45,4.45,0,0,0,6.66,0" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="9" cy="11" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="15" cy="11" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

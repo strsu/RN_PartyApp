@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Shopping Bag 3</title>
+  <g id="Shopping_Bag_3" data-name="Shopping Bag 3">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M9.5,10.5V4A1.5,1.5,0,0,1,11,2.5h8A1.5,1.5,0,0,1,20.5,4v6.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_2" data-name="&lt;Path&gt;" x1="2.5" y1="23.5" x2="27.5" y2="23.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Rectangle_" data-name="&lt;Rectangle&gt;" d="M2.5,8.5h25a0,0,0,0,1,0,0V26A1.5,1.5,0,0,1,26,27.5H4A1.5,1.5,0,0,1,2.5,26V8.5A0,0,0,0,1,2.5,8.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

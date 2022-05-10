@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Protection Helmet</title>
+  <g id="Protection_Helmet" data-name="Protection Helmet">
+    <g>
+      <path d="M2.5,14.59c-1.26.4-2,.89-2,1.41,0,1.38,5.15,4.5,11.5,4.5S23.5,17.38,23.5,16c0-.52-.74-1-2-1.41" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M8.55,5.16A9.49,9.49,0,0,0,2.5,14v1.5s3,2,9.5,2,9.5-2,9.5-2V14a9.49,9.49,0,0,0-6.05-8.84" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M10.5,13.5V5A1.5,1.5,0,0,1,12,3.5h0A1.5,1.5,0,0,1,13.5,5v8.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g>
+        <polyline points="10.59 4.5 8.5 4.5 9 10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polyline points="15 10.5 15.5 4.5 13.41 4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

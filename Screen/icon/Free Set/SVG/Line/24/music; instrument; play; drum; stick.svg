@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Drum</title>
+  <g id="Drum">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M19,19.82a10.49,10.49,0,1,0-13.62.33" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_2" data-name="&lt;Path&gt;" d="M7,21.22A10.46,10.46,0,0,0,17.45,21" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_3" data-name="&lt;Path&gt;" d="M11,1.5a1,1,0,1,1,2,0" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_4" data-name="&lt;Path&gt;" d="M13,22.5a1,1,0,0,1-2,0" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_5" data-name="&lt;Path&gt;" d="M3.87,5.28A1,1,0,0,1,5.28,3.87" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_6" data-name="&lt;Path&gt;" d="M19.22,20.39a1,1,0,0,0,.91-.25,1,1,0,0,0,0-1.41" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_7" data-name="&lt;Path&gt;" d="M1.5,13a1,1,0,1,1,0-2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_8" data-name="&lt;Path&gt;" d="M22.5,11a1,1,0,0,1,0,2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_9" data-name="&lt;Path&gt;" d="M5.28,20.13a1,1,0,0,1-1.41-1.41" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_10" data-name="&lt;Path&gt;" d="M18.72,3.87a1,1,0,0,1,1.41,1.41" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_11" data-name="&lt;Path&gt;" d="M19.92,22.12c-.18-.42-3.46-8.69-4.85-11.32a1,1,0,0,0,.35-1.18c-.21-.51-.91-1.33-1.42-1.12s-.64,1.37-.42,1.88a1,1,0,0,0,1,.6c.6,2.94,3.33,11.47,3.5,11.9a1,1,0,0,0,1.85-.77Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_12" data-name="&lt;Path&gt;" d="M4.58,22.12C4.75,21.69,8,13.43,9.43,10.8a1,1,0,0,1-.35-1.18c.21-.51.91-1.33,1.42-1.12s.64,1.37.42,1.88a1,1,0,0,1-1,.6c-.6,2.94-3.33,11.47-3.5,11.9a1,1,0,0,1-1.85-.77Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

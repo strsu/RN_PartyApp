@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Gold Bars</title>
+  <g id="Gold_Bars" data-name="Gold Bars">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <polyline points="10.5 16.5 13.6 16.5 14.91 20.42" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="22.5 16.5 25.6 16.5 26.91 20.42" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="16.5 6.5 19.6 6.5 20.91 10.42" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M23.4,14.5a1.41,1.41,0,0,0,.1-.5h0a12.55,12.55,0,0,0-.73-4.22l-1.4-3.92a2.12,2.12,0,0,0-2-1.36H10.64a2.12,2.12,0,0,0-2,1.36L7.12,10.09a10.63,10.63,0,0,0-.62,3.57V14a1.41,1.41,0,0,0,.1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M15.91,25.5h12A1.55,1.55,0,0,0,29.5,24h0a12.55,12.55,0,0,0-.73-4.22l-1.4-3.92a2.12,2.12,0,0,0-2-1.36H16.64a2.17,2.17,0,0,0-1.64.75" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M2.63,15.86a2.12,2.12,0,0,1,2-1.36h8.71a2.12,2.12,0,0,1,2,1.36l1.4,3.92A12.55,12.55,0,0,1,17.5,24h0a1.55,1.55,0,0,1-1.59,1.5H2.09A1.55,1.55,0,0,1,.5,24v-.33a10.63,10.63,0,0,1,.62-3.57Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

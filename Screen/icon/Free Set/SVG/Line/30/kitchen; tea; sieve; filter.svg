@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Tea Sieve</title>
+  <g id="Tea_Sieve" data-name="Tea Sieve">
+    <g>
+      <circle cx="12" cy="13" r="0.5" style="fill: #303c42"/>
+      <circle cx="12" cy="11.5" r="0.5" style="fill: #303c42"/>
+      <circle cx="12" cy="14.5" r="0.5" style="fill: #303c42"/>
+      <circle cx="13.5" cy="13" r="0.5" style="fill: #303c42"/>
+      <circle cx="10.5" cy="13" r="0.5" style="fill: #303c42"/>
+      <circle cx="12" cy="23" r="0.5" style="fill: #303c42"/>
+      <circle cx="12" cy="21.5" r="0.5" style="fill: #303c42"/>
+      <circle cx="12" cy="24.5" r="0.5" style="fill: #303c42"/>
+      <circle cx="13.5" cy="23" r="0.5" style="fill: #303c42"/>
+      <circle cx="10.5" cy="23" r="0.5" style="fill: #303c42"/>
+      <circle cx="26.5" cy="22" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g>
+        <path d="M20.37,16.54a8.49,8.49,0,0,0-16.73,0" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M3.63,19.45a8.49,8.49,0,0,0,16.73,0" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <rect x="2.5" y="16.5" width="19.05" height="3" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <path d="M12.11,9.5a7.25,7.25,0,0,1,7.14-6h0a7.25,7.25,0,0,1,7.25,7.25V23.59a1.5,1.5,0,1,1-2,1.41" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

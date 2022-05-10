@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Biscuit</title>
+  <g id="Biscuit">
+    <g>
+      <circle cx="7.5" cy="7.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="22.5" cy="7.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="17.5" cy="7.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="12.5" cy="7.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M27.5,10a2.74,2.74,0,0,0-1.87-2.59,2.49,2.49,0,1,0-3-3,2.74,2.74,0,0,0-5.09-.25,2.74,2.74,0,0,0-5,0,2.74,2.74,0,0,0-5.09.25,2.49,2.49,0,1,0-3,3,2.74,2.74,0,0,0-.25,5.09,2.74,2.74,0,0,0,0,5,2.74,2.74,0,0,0,.25,5.09,2.49,2.49,0,1,0,3,3,2.74,2.74,0,0,0,5.09.25,2.74,2.74,0,0,0,5,0,2.74,2.74,0,0,0,5.09-.25,2.49,2.49,0,1,0,3-3,2.74,2.74,0,0,0,.25-5.09,2.74,2.74,0,0,0,0-5A2.75,2.75,0,0,0,27.5,10Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="7.5" cy="12.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="22.5" cy="12.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="17.5" cy="12.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="12.5" cy="12.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="7.5" cy="17.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="22.5" cy="17.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="17.5" cy="17.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="12.5" cy="17.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="7.5" cy="22.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="22.5" cy="22.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="17.5" cy="22.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="12.5" cy="22.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

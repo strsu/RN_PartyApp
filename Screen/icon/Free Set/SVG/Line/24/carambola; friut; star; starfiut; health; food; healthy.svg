@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Carambola</title>
+  <g id="Carambola">
+    <g>
+      <path d="M16,14.5c2,2.86,2.25,5.07,2.5,8-2.58-1.15-4.52-2.14-6.5-5h0c-2,2.86-3.92,3.85-6.5,5,.25-2.93.52-5.14,2.5-8H8c-3.2-1.09-4.66-2.76-6.5-5,2.73-.66,4.8-1.11,8,0h0C9.5,6,10.56,4,12,1.5,13.44,4,14.5,6,14.5,9.5h0c3.2-1.09,5.27-.64,8,0-1.84,2.22-3.3,3.89-6.5,5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M12.2,10a2.72,2.72,0,0,1-.2,1,2.6,2.6,0,0,1,0-2A2.72,2.72,0,0,1,12.2,10Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M9.21,11.88a2.72,2.72,0,0,1,.89.5,2.6,2.6,0,0,1-1.9-.62A2.72,2.72,0,0,1,9.21,11.88Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M10.07,15.31a2.72,2.72,0,0,1,.75-.69,2.6,2.6,0,0,1-1.18,1.62A2.72,2.72,0,0,1,10.07,15.31Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M13.6,15.54a2.72,2.72,0,0,1-.43-.93,2.6,2.6,0,0,1,1.18,1.62A2.72,2.72,0,0,1,13.6,15.54Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M14.91,12.26a2.72,2.72,0,0,1-1,.12,2.6,2.6,0,0,1,1.9-.62A2.72,2.72,0,0,1,14.91,12.26Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

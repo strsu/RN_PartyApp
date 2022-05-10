@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Door Lock</title>
+  <g id="Door_Lock" data-name="Door Lock">
+    <g>
+      <path d="M13.5,20.5a2,2,0,1,0-2.92,1.76l-.41,3.24h2.67l-.41-3.24A2,2,0,0,0,13.5,20.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M18.5,7.5V2A1.5,1.5,0,0,0,17,.5H6A1.5,1.5,0,0,0,4.5,2V28A1.5,1.5,0,0,0,6,29.5H17A1.5,1.5,0,0,0,18.5,28V12.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M25.5,7.5H13.44a3.5,3.5,0,1,0,0,5H25.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

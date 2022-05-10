@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Pencil with Ruler</title>
+  <g id="Pencil_with_Ruler" data-name="Pencil with Ruler">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <line id="_Path_" data-name="&lt;Path&gt;" x1="4.5" y1="9.5" x2="6" y2="8" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_2" data-name="&lt;Path&gt;" x1="7" y1="12" x2="8.5" y2="10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_3" data-name="&lt;Path&gt;" x1="18" y1="23" x2="19.5" y2="21.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_4" data-name="&lt;Path&gt;" x1="20.5" y1="25.5" x2="22" y2="24" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g>
+        <polyline points="14.48 9.48 7.5 2.5 2.5 7.5 9.51 14.51" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polyline points="15.53 20.53 22.5 27.5 27.5 22.5 20.54 15.54" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <line id="_Path_5" data-name="&lt;Path&gt;" x1="18" y1="6" x2="24" y2="12" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline id="_Path_6" data-name="&lt;Path&gt;" points="5 19 7.5 19 8 22 10.5 23 10.5 25.53" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_7" data-name="&lt;Path&gt;" x1="3.74" y1="23.24" x2="6.92" y2="26.42" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_8" data-name="&lt;Path&gt;" x1="21" y1="9" x2="8" y2="22" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_9" data-name="&lt;Path&gt;" d="M10.5,25.53,27,9.12a1.79,1.79,0,0,0,0-2.53L23.41,3a1.79,1.79,0,0,0-2.53,0L5,19,2.5,27.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

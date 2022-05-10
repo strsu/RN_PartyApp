@@ -1,0 +1,12 @@
+<svg id="Money_Vision" data-name="Money Vision" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Money Vision</title>
+  <g id="_Group_" data-name="&lt;Group&gt;">
+    <path id="_Path_" data-name="&lt;Path&gt;" d="M12,3.5A12.05,12.05,0,0,0,.5,12a12,12,0,0,0,23,0A12.05,12.05,0,0,0,12,3.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;">
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="12" cy="12" r="5.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_3" data-name="&lt;Path&gt;" d="M10.5,14.5h1.75a1.25,1.25,0,0,0,1.25-1.25h0A1.25,1.25,0,0,0,12.25,12h-.5a1.25,1.25,0,0,1-1.25-1.25h0A1.25,1.25,0,0,1,11.75,9.5H13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_4" data-name="&lt;Path&gt;" x1="12" y1="8.5" x2="12" y2="9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_5" data-name="&lt;Path&gt;" x1="12" y1="14.5" x2="12" y2="15.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

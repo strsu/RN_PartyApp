@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Volleyball</title>
+  <g id="Volleyball">
+    <g>
+      <circle cx="15" cy="15" r="14.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M15,15c.63-6.3,8.94-11.42,8.94-11.42" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M17.56,9.29c4.69,4.4,7.69,12.49,7.37,16.27" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M21,5.74c4.38,3.48,7.07,9.9,7.21,15.19" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M15,15C9.23,17.61.64,13,.64,13" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M8.78,15.64c1.46-6.26,7-12.91,10.4-14.52" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M4,14.41C4.79,8.88,9,3.34,13.52.57" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M15,15c5.14,3.7,5.42,13.45,5.42,13.45" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M18.67,20.07C12.51,21.94,4,20.48.89,18.32" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M20,24.85C14.8,26.9,7.89,26,3.25,23.49" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Image Location</title>
+  <g id="Image_Location" data-name="Image Location">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="12" cy="11" r="4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="20" cy="7" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_3" data-name="&lt;Path&gt;" d="M21,4.5H18.62a1.5,1.5,0,0,1-1.06-.44L15.44,1.94a1.5,1.5,0,0,0-1.06-.44H9.62a1.5,1.5,0,0,0-1.06.44L6.44,4.06a1.5,1.5,0,0,1-1.06.44H3A1.5,1.5,0,0,0,1.5,6V17A1.5,1.5,0,0,0,3,18.5H8l4,4,4-4h5A1.5,1.5,0,0,0,22.5,17V6A1.5,1.5,0,0,0,21,4.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

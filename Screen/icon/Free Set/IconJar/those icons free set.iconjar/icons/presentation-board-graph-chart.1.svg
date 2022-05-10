@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Presentation_1</title>
+  <g id="Presentation">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path id="_Rectangle_" data-name="&lt;Rectangle&gt;" d="M1.5,1.5h21a0,0,0,0,1,0,0V15A1.5,1.5,0,0,1,21,16.5H3A1.5,1.5,0,0,1,1.5,15V1.5A0,0,0,0,1,1.5,1.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="12" cy="22" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_2" data-name="&lt;Path&gt;" x1="12" y1="21.5" x2="12" y2="16.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" x="4.5" y="9.5" width="3" height="4" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_3" data-name="&lt;Rectangle&gt;" x="10.5" y="6.5" width="3" height="7" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_4" data-name="&lt;Rectangle&gt;" x="16.5" y="4.5" width="3" height="9" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

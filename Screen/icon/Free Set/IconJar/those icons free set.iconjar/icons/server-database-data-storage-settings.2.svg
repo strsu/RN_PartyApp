@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Server Settings</title>
+  <g id="Server_Settings" data-name="Server Settings">
+    <g>
+      <line x1="10.5" y1="17.5" x2="10.5" y2="19.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="12.5" y1="17.5" x2="12.5" y2="19.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="14.5" y1="17.5" x2="14.5" y2="19.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="25" cy="18.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="22" cy="18.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="10.5" y1="23.5" x2="10.5" y2="25.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="12.5" y1="23.5" x2="12.5" y2="25.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="14.5" y1="23.5" x2="14.5" y2="25.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="25" cy="24.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="22" cy="24.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M19.29,15.5A5.5,5.5,0,1,0,8.88,16" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g>
+        <path d="M25.5,15.5V11.7L22.65,11a9.11,9.11,0,0,0-.4-1l1.51-2.51L20.51,4.24,18,5.75a9.11,9.11,0,0,0-1-.4L16.3,2.5H11.7L11,5.35a9.11,9.11,0,0,0-1,.4L7.49,4.24,4.24,7.49,5.75,10a9.11,9.11,0,0,0-.4,1L2.5,11.7v4.65l2.85.71a9.11,9.11,0,0,0,.4,1L4.25,20.56,7.5,23.81l1-.6" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polygon points="25.51 11.75 25.5 15.5 25.51 15.5 25.51 11.75" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <rect x="8.5" y="21.5" width="19" height="6" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="8.5" y="15.5" width="19" height="6" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

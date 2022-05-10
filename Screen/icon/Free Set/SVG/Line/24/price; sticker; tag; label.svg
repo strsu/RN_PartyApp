@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Price Sticker</title>
+  <g id="Price_Sticker" data-name="Price Sticker">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M4,20c1.88,1.88,4.54,1,6,2.5L22.5,10C21,8.54,21.88,5.88,20,4s-4.54-1-6-2.5L1.5,14C3,15.46,2.12,18.12,4,20Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_2" data-name="&lt;Path&gt;" d="M5.5,10c4.2,4.2,2.8,5.8,7,10" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_3" data-name="&lt;Path&gt;" d="M11.5,4c4,4,3,6,7,10" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

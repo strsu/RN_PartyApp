@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Bow Tie</title>
+  <g id="Bow_Tie" data-name="Bow Tie">
+    <g>
+      <path d="M5.5,18.5S11,17.86,11,15s-5.5-3.5-5.5-3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M17.5,19.5A7.85,7.85,0,0,0,19,15a7.85,7.85,0,0,0-1.5-4.5h-5A7.85,7.85,0,0,0,11,15a7.85,7.85,0,0,0,1.5,4.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M23.5,18.5S19,17.86,19,15s4.5-3.5,4.5-3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M12.5,19.5c-.62.63-8.3,5-10.15,5S.5,16.9.5,15s0-9.5,1.85-9.5,9.53,4.37,10.15,5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M17.5,19.5c.62.63,8.3,5,10.15,5S29.5,16.9,29.5,15s0-9.5-1.85-9.5-9.53,4.37-10.15,5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

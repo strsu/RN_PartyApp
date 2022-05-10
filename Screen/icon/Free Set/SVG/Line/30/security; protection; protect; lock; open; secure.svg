@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Lock Open</title>
+  <g id="Lock_Open" data-name="Lock Open">
+    <g>
+      <path d="M17,18.5a2,2,0,1,0-2.87,1.8l-.47,4.2h2.67l-.47-4.2A2,2,0,0,0,17,18.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M4.5,11.5h21a0,0,0,0,1,0,0V28A1.5,1.5,0,0,1,24,29.5H6A1.5,1.5,0,0,1,4.5,28V11.5A0,0,0,0,1,4.5,11.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M8.5,9.5V9a6.5,6.5,0,0,1,13,0v2.5h2V9a8.5,8.5,0,0,0-17,0v.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Inflation</title>
+  <g id="Inflation">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <path id="_Path_" data-name="&lt;Path&gt;" d="M.5,9V21A1.5,1.5,0,0,0,2,22.5H22A1.5,1.5,0,0,0,23.5,21V9A1.5,1.5,0,0,0,22,7.5H9.31" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_2" data-name="&lt;Path&gt;" d="M23.5,11.5a4,4,0,0,1-4-4" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_3" data-name="&lt;Path&gt;" d="M.5,18.5a4,4,0,0,1,4,4" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_4" data-name="&lt;Path&gt;" d="M19.5,22.5a4,4,0,0,1,4-4" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <g id="_Group_3" data-name="&lt;Group&gt;">
+          <path id="_Path_5" data-name="&lt;Path&gt;" d="M13.5,12.5H11.75a1.25,1.25,0,0,0-1.25,1.25h0A1.25,1.25,0,0,0,11.75,15h.5a1.25,1.25,0,0,1,1.25,1.25h0a1.25,1.25,0,0,1-1.25,1.25H10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <line id="_Path_6" data-name="&lt;Path&gt;" x1="12" y1="12.5" x2="12" y2="11.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <line id="_Path_7" data-name="&lt;Path&gt;" x1="12" y1="17.5" x2="12" y2="18.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+        <circle id="_Path_8" data-name="&lt;Path&gt;" cx="6" cy="15" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <circle id="_Path_9" data-name="&lt;Path&gt;" cx="18" cy="15" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <g id="_Group_4" data-name="&lt;Group&gt;">
+        <path id="_Path_10" data-name="&lt;Path&gt;" d="M9.5,9a4.5,4.5,0,0,1-9,0c0-.08,0-.17,0-.25C.58,6.16,2,5.5,2,5.5s-.06,2,1.5,2a8.52,8.52,0,0,1,.44-2.74A7,7,0,0,1,6.5,1.5c0,3,2.7,3.5,3,7C9.48,8.68,9.5,8.83,9.5,9Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

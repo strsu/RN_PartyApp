@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Server Settings</title>
+  <g id="Server_Settings" data-name="Server Settings">
+    <g>
+      <rect x="5.5" y="12.5" width="17" height="5" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="7.5" y1="14.5" x2="7.5" y2="15.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="9.5" y1="14.5" x2="9.5" y2="15.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="11.5" y1="14.5" x2="11.5" y2="15.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="20" cy="15" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="17" cy="15" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="5.5" y="17.5" width="17" height="5" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="7.5" y1="19.5" x2="7.5" y2="20.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="9.5" y1="19.5" x2="9.5" y2="20.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="11.5" y1="19.5" x2="11.5" y2="20.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="20" cy="20" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="17" cy="20" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M6.78,12.52a4.5,4.5,0,1,1,8.44,0" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M20.5,12.5V9.1l-2.35-.59a7.54,7.54,0,0,0-.33-.81l1.24-2.07L16.37,2.94,14.3,4.18a7.53,7.53,0,0,0-.81-.33L12.9,1.5H9.1L8.51,3.85a7.53,7.53,0,0,0-.81.33L5.63,2.94,2.94,5.63,4.18,7.7a7.54,7.54,0,0,0-.33.81L1.5,9.1v3.8l2.35.59a7.54,7.54,0,0,0,.33.81L2.94,16.37l2.57,2.57" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="5.5" y="12.5" width="17" height="5" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="5.5" y="17.5" width="17" height="5" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

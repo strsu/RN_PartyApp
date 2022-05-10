@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Dron 2</title>
+  <g id="Dron_2" data-name="Dron 2">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="12" cy="12" r="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_2" data-name="&lt;Path&gt;" d="M5,8.5A3.5,3.5,0,1,1,8.5,5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_3" data-name="&lt;Path&gt;" d="M15.5,5A3.5,3.5,0,1,1,19,8.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_4" data-name="&lt;Path&gt;" d="M19,15.5A3.5,3.5,0,1,1,15.5,19" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_5" data-name="&lt;Path&gt;" d="M8.5,19A3.5,3.5,0,1,1,5,15.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_6" data-name="&lt;Path&gt;" d="M18.5,19.5a9.13,9.13,0,0,0-6.5-3,9.13,9.13,0,0,0-6.5,3l-1-1a9.13,9.13,0,0,0,3-6.5,9.13,9.13,0,0,0-3-6.5l1-1a9.13,9.13,0,0,0,6.5,3,9.13,9.13,0,0,0,6.5-3l1,1a9.13,9.13,0,0,0-3,6.5,9.13,9.13,0,0,0,3,6.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

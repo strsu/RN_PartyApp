@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Spam Inbox</title>
+  <g id="Spam_Inbox" data-name="Spam Inbox">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <g id="_Group_3" data-name="&lt;Group&gt;">
+          <path id="_Path_" data-name="&lt;Path&gt;" d="M27.5,16.5h-4a2,2,0,0,0-2,2h0a2,2,0,0,1-2,2h-9a2,2,0,0,1-2-2h0a2,2,0,0,0-2-2h-4" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <g id="_Group_4" data-name="&lt;Group&gt;">
+            <path id="_Path_2" data-name="&lt;Path&gt;" d="M2.5,16.5V26A1.5,1.5,0,0,0,4,27.5H26A1.5,1.5,0,0,0,27.5,26V16.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+            <line id="_Path_3" data-name="&lt;Path&gt;" x1="25.5" y1="13.17" x2="27.5" y2="16.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+            <line id="_Path_4" data-name="&lt;Path&gt;" x1="2.5" y1="16.5" x2="4.5" y2="13.17" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          </g>
+        </g>
+        <path d="M4.5,16.5V4A1.5,1.5,0,0,1,6,2.5H24A1.5,1.5,0,0,1,25.5,4V16.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <line id="_Path_5" data-name="&lt;Path&gt;" x1="15" y1="7.5" x2="15" y2="13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M9,9.41v4.17a1,1,0,0,0,.29.71l2.91,2.91a1,1,0,0,0,.71.29H17a1,1,0,0,0,.75-.34l3-3.38a1,1,0,0,0,.25-.66V9.41a1,1,0,0,0-.29-.71L17.79,5.79a1,1,0,0,0-.71-.29H12.91a1,1,0,0,0-.71.29L9.29,8.71A1,1,0,0,0,9,9.41Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_6" data-name="&lt;Path&gt;" cx="15" cy="15.5" r="0.5" style="fill: #303c42"/>
+    </g>
+  </g>
+</svg>

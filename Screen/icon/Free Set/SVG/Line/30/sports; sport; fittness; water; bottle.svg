@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Water Bottle</title>
+  <g id="Water_Bottle" data-name="Water Bottle">
+    <g>
+      <path d="M17,20.7a1.91,1.91,0,0,1-2,1.8,1.91,1.91,0,0,1-2-1.8c0-1.8,2-4.2,2-4.2S17,18.9,17,20.7Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g>
+        <rect x="11.5" y="3.5" width="7" height="2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polygon points="15.5 3.5 14.5 3.5 14.5 1.5 15.5 0.5 15.5 3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M19.5,13.5a2,2,0,0,1,1-1.72V6.5l-1-1-4.5,0-4.5,0-1,1v5.28a2,2,0,0,1,0,3.45V27.79A1.71,1.71,0,0,0,10,29h0a1.71,1.71,0,0,0,1.21.5h7.59A1.71,1.71,0,0,0,20,29h0a1.71,1.71,0,0,0,.5-1.21V15.22A2,2,0,0,1,19.5,13.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

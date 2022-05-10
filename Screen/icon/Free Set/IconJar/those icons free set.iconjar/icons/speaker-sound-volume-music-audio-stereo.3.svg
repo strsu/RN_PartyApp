@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Stereo Speaker</title>
+  <g id="Stereo_Speaker" data-name="Stereo Speaker">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="0.5" y="4.5" width="13" height="21" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="7" cy="19" r="4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="7" cy="9" r="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_3" data-name="&lt;Path&gt;" cx="7" cy="19" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" x="16.5" y="4.5" width="13" height="21" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_4" data-name="&lt;Path&gt;" cx="23" cy="19" r="4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_5" data-name="&lt;Path&gt;" cx="23" cy="9" r="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_6" data-name="&lt;Path&gt;" cx="23" cy="19" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Mail 1</title>
+  <g id="Mail_1" data-name="Mail 1">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="0.5" y="4.5" width="29" height="21" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" x="20.5" y="8.5" width="5" height="6" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_" data-name="&lt;Path&gt;" x1="4.5" y1="21.5" x2="14.5" y2="21.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_2" data-name="&lt;Path&gt;" x1="4.5" y1="18.5" x2="9.5" y2="18.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

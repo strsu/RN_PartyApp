@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Camping Cup</title>
+  <g id="Camping_Cup" data-name="Camping Cup">
+    <g>
+      <path d="M3.5,6.5h20a0,0,0,0,1,0,0V24A1.5,1.5,0,0,1,22,25.5H5A1.5,1.5,0,0,1,3.5,24V6.5a0,0,0,0,1,0,0Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="2.5" y="4.5" width="22" height="2" rx="1" ry="1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="5.5" y1="10.5" x2="5.5" y2="21.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M23.5,8.5H26A1.5,1.5,0,0,1,27.5,10v7.5a4,4,0,0,1-4,4h0" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

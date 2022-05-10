@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Music Note 1</title>
+  <g id="Music_Note_1" data-name="Music Note 1">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M8.5,16A1.5,1.5,0,0,1,7,17.5H5c-1.93,0-3.5,1.12-3.5,2.5S3.07,22.5,5,22.5,8.5,21.38,8.5,20V3.5l14-2V18c0,1.38-1.57,2.5-3.5,2.5s-3.5-1.12-3.5-2.5,1.57-2.5,3.5-2.5h2A1.5,1.5,0,0,0,22.5,14" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_2" data-name="&lt;Path&gt;" x1="8.5" y1="7.5" x2="22.5" y2="5.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Processor 1</title>
+  <g id="Processor_1" data-name="Processor 1">
+    <g>
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="4.5" y="4.5" width="21" height="21" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" x="7.5" y="7.5" width="15" height="15" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g>
+        <line id="_Path_" data-name="&lt;Path&gt;" x1="7.5" y1="4.5" x2="7.5" y2="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_2" data-name="&lt;Path&gt;" x1="22.5" y1="4.5" x2="22.5" y2="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="10.5" y1="2.5" x2="10.5" y2="4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="13.5" y1="2.5" x2="13.5" y2="4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="16.5" y1="2.5" x2="16.5" y2="4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="19.5" y1="2.5" x2="19.5" y2="4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <g>
+        <line id="_Path_3" data-name="&lt;Path&gt;" x1="7.5" y1="27.5" x2="7.5" y2="25.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_4" data-name="&lt;Path&gt;" x1="22.5" y1="27.5" x2="22.5" y2="25.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="10.5" y1="25.5" x2="10.5" y2="27.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="13.5" y1="25.5" x2="13.5" y2="27.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="16.5" y1="25.5" x2="16.5" y2="27.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="19.5" y1="25.5" x2="19.5" y2="27.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <g>
+        <line id="_Path_5" data-name="&lt;Path&gt;" x1="25.5" y1="7.5" x2="27.5" y2="7.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_6" data-name="&lt;Path&gt;" x1="25.5" y1="22.5" x2="27.5" y2="22.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="27.5" y1="10.5" x2="25.5" y2="10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="27.5" y1="13.5" x2="25.5" y2="13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="27.5" y1="16.5" x2="25.5" y2="16.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="27.5" y1="19.5" x2="25.5" y2="19.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <g>
+        <line id="_Path_7" data-name="&lt;Path&gt;" x1="2.5" y1="7.5" x2="4.5" y2="7.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_8" data-name="&lt;Path&gt;" x1="2.5" y1="22.5" x2="4.5" y2="22.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="4.5" y1="10.5" x2="2.5" y2="10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="4.5" y1="13.5" x2="2.5" y2="13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="4.5" y1="16.5" x2="2.5" y2="16.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="4.5" y1="19.5" x2="2.5" y2="19.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

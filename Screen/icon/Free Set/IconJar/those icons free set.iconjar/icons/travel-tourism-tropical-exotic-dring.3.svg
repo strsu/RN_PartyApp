@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Cocktail</title>
+  <g id="Cocktail">
+    <g>
+      <polygon points="24.16 8.57 25.21 2.5 20.16 6.19 17.5 3.86 25.21 2.5 27.5 9.81 24.16 8.57" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="20.16" y1="6.19" x2="24.16" y2="8.57" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="22.16" y1="7.38" x2="19.89" y2="10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="16.5 10.5 17.5 16.5 19.5 13.5 21 18 22.5 10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="13.5" cy="24.5" r="0.5" style="fill: #303c42"/>
+      <circle cx="11.5" cy="24.5" r="0.5" style="fill: #303c42"/>
+      <circle cx="12.5" cy="26" r="0.5" style="fill: #303c42"/>
+      <polyline points="14.46 10.49 15.51 7.87 14.09 6.56 16.21 6.31 14.32 4.79 15.91 4.29" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="12.02 10.5 11 4 8.5 2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M9.45,10.5a3.49,3.49,0,1,0-4.71,2.76" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M5.79,10.5A9.33,9.33,0,0,0,4.5,15.36c0,6,4.92,12.14,11,12.14s11-6.11,11-12.14a9.33,9.33,0,0,0-1.29-4.86Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

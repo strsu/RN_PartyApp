@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Pie Chart 1</title>
+  <g id="Pie_Chart_1" data-name="Pie Chart 1">
+    <g>
+      <circle cx="12" cy="12" r="11.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="12" y1="0.5" x2="12" y2="12" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="12" y1="12" x2="20.13" y2="20.13" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="12" y1="12" x2="23.5" y2="12" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

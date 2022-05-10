@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Virus</title>
+  <g id="Virus">
+    <g>
+      <path d="M18.09,4.5a7.47,7.47,0,0,0-7.59,7.29c0,2-.55,3.71-1.24,3.71a5,5,0,0,0,.18,10c8.88,0,16.06-4.32,16.06-13.59A7.41,7.41,0,0,0,18.09,4.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M18.09,4.5a7.47,7.47,0,0,0-7.59,7.29c0,2-.55,3.71-1.24,3.71a5,5,0,0,0,.18,10c8.88,0,16.06-4.32,16.06-13.59A7.41,7.41,0,0,0,18.09,4.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="18" cy="12" r="3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="15" cy="20" r="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="9" cy="21" r="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g>
+        <path d="M9.13,25.48c0,1-.92,1-1.13,2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M6.25,24.32c-.64.78-1.19.26-1.93.91" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M4.63,21.67c-1,.25-1.14-.75-2.13-.67" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M4.9,18.55C4,18.18,4.28,17.5,3.43,17" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M6.9,16.17c-.54-.85.13-1.21-.25-2.12" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M10.3,13.82c-.94-.35-.85-1-1.84-1.12" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M10.73,10c-1-.24-.77-1-1.68-1.32" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M12.28,7.12c-.76-.65-.25-1.2-.92-1.93" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M15,5.15c-.42-.93.3-1.19,0-2.14" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M18.24,4.51c0-1,.63-1,.76-2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M21.46,5.32c.45-.91,1.1-.52,1.65-1.36" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M24,7.46c.8-.62,1.24,0,2.08-.51" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M25.36,10.48c1-.21,1.15.61,2.14.52" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M25.36,13.94c1,.12.88.87,1.87,1.05" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M24.48,17.36c.95.38.62,1.07,1.51,1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M22.69,20.34c.78.63.29,1.21,1,1.9" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M20.1,22.7c.57.83-.08,1.22.42,2.08" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M16.93,24.28c.35.94-.36,1.2-.07,2.15" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M13.44,25.18c.17,1-.58,1.11-.46,2.09" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

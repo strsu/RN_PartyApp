@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Chip</title>
+  <g id="Chip">
+    <g>
+      <circle cx="12" cy="12" r="11.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M12,.5A11.48,11.48,0,0,0,8.5,1V3A1.5,1.5,0,0,0,10,4.5h4A1.5,1.5,0,0,0,15.5,3V1A11.48,11.48,0,0,0,12,.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M12,23.5A11.48,11.48,0,0,0,15.5,23V21A1.5,1.5,0,0,0,14,19.5H10A1.5,1.5,0,0,0,8.5,21v2A11.48,11.48,0,0,0,12,23.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M2,6.25A11.48,11.48,0,0,0,.76,9.55l1.69,1a1.5,1.5,0,0,0,2-.55l2-3.46a1.5,1.5,0,0,0-.55-2l-1.69-1A11.48,11.48,0,0,0,2,6.25Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M22,17.75a11.48,11.48,0,0,0,1.28-3.3l-1.69-1a1.5,1.5,0,0,0-2,.55l-2,3.46a1.5,1.5,0,0,0,.55,2l1.69,1A11.48,11.48,0,0,0,22,17.75Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M2,17.75a11.48,11.48,0,0,0,2.22,2.76l1.69-1a1.5,1.5,0,0,0,.55-2L4.5,14a1.5,1.5,0,0,0-2-.55l-1.69,1A11.48,11.48,0,0,0,2,17.75Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M22,6.25a11.48,11.48,0,0,0-2.22-2.76L18,4.47a1.5,1.5,0,0,0-.55,2l2,3.46a1.5,1.5,0,0,0,2,.55l1.69-1A11.48,11.48,0,0,0,22,6.25Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="12" cy="12" r="5.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M13.5,9.5H11.75a1.25,1.25,0,0,0-1.25,1.25h0A1.25,1.25,0,0,0,11.75,12h.5a1.25,1.25,0,0,1,1.25,1.25h0a1.25,1.25,0,0,1-1.25,1.25H10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="12" y1="9.5" x2="12" y2="8.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="12" y1="14.5" x2="12" y2="15.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Lense 2</title>
+  <g id="Lense_2" data-name="Lense 2">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M2.5,5.77V16.23C2.5,18,8.1,19.5,15,19.5S27.5,18,27.5,16.23V5.77" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M4.94,3.93C3.41,4.51,2.5,5.22,2.5,6,2.5,7.93,8.1,9.5,15,9.5S27.5,7.93,27.5,6c0-.78-.91-1.49-2.44-2.07" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <ellipse id="_Path_2" data-name="&lt;Path&gt;" cx="15" cy="4.5" rx="10.5" ry="2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M26.5,17.5c-.84.81-1,2.35-1,4.5,0,1.38-4.7,2.5-10.5,2.5S4.5,23.38,4.5,22c0-1.75,0-3.27-1-4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M24.5,23.07V25.5c0,1.1-4.25,2-9.5,2s-9.5-.9-9.5-2V23.07" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

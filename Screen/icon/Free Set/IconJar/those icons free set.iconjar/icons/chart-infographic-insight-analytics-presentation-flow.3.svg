@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Flow Chart 2</title>
+  <g id="Flow_Chart_2" data-name="Flow Chart 2">
+    <g>
+      <path d="M4,15.5v-2A1.5,1.5,0,0,1,5.5,12h13A1.5,1.5,0,0,1,20,13.5v2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="12" y1="8.5" x2="12" y2="12" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="12" cy="5" r="3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="4" cy="19" r="3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="20" cy="19" r="3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Protect Cart</title>
+  <g id="Protect_Cart" data-name="Protect Cart">
+    <g>
+      <g>
+        <path d="M2.5,4.5H4.37A1.5,1.5,0,0,1,5.81,5.59L9.5,18.5,7.45,21.06A1.5,1.5,0,0,0,8.62,23.5H25.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <circle cx="23.5" cy="27.5" r="2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <circle cx="9.5" cy="27.5" r="2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M9.5,18.5H22.05a1.5,1.5,0,0,0,1.36-.86L27.07,9.9A4.45,4.45,0,0,0,27.5,8,1.5,1.5,0,0,0,26,6.5H21.49" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="11.51" y1="6.5" x2="6.07" y2="6.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M16.5,13c4.38-2,5-3.29,5-7.3V2.07L16.5.5l-5,1.57V5.7C11.5,9.71,12.13,11,16.5,13Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M16.5,10.8c2.41-1.16,2.89-1.9,3-3.8h-3v3.8" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polygon points="13.5 3.54 16.5 2.6 16.5 7 13.5 7 13.5 3.54" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

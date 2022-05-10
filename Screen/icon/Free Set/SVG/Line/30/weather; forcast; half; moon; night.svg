@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Half Moon 2</title>
+  <g id="Half_Moon_2" data-name="Half Moon 2">
+    <g>
+      <path d="M18.5,15a16.53,16.53,0,0,1,6-12.95A14.49,14.49,0,1,0,18,29.5a14.41,14.41,0,0,0,6.5-1.55A16.53,16.53,0,0,1,18.5,15Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <ellipse cx="9" cy="13" rx="1.5" ry="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M11.36,20.5c.35,1.1,0,2-.72,2s-1.64-.9-2-2,0-2,.72-2S11,19.39,11.36,20.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

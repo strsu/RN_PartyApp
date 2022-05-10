@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>User Navigation</title>
+  <g id="User_Navigation" data-name="User Navigation">
+    <g>
+      <polygon id="_Path_" data-name="&lt;Path&gt;" points="20 14.5 16.5 23.5 20 22.5 23.5 23.5 20 14.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_" data-name="&lt;Group&gt;">
+        <circle id="_Path_2" data-name="&lt;Path&gt;" cx="11" cy="6" r="5.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M19.49,15.81l-.18-.11A18.74,18.74,0,0,0,11,13.5a18.74,18.74,0,0,0-8.31,2.2A4,4,0,0,0,.5,19.27V20A1.5,1.5,0,0,0,2,21.5H17.28" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

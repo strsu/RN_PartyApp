@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Image Folder 1</title>
+  <g id="Image_Folder_1" data-name="Image Folder 1">
+    <g>
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="11" cy="15" r="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_2" data-name="&lt;Path&gt;" d="M2.5,25.5C2.66,25.42,9,19,9,19l3.5,3.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M.5,24V6A1.5,1.5,0,0,1,2,4.5H9.5l2,2H24A1.5,1.5,0,0,1,25.5,8v2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M28,10.5H6.58a1.5,1.5,0,0,0-1.42,1l-4.58,12A1.5,1.5,0,0,0,2,25.5H24.39a1.5,1.5,0,0,0,1.44-1.07l3.6-12A1.5,1.5,0,0,0,28,10.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_" data-name="&lt;Group&gt;">
+        <g id="_Group_2" data-name="&lt;Group&gt;">
+          <polyline points="12 22 17.5 16.5 25.72 24.72" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

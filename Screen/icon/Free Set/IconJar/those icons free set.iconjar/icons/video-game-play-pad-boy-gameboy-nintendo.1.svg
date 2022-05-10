@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Gameboy 1</title>
+  <g id="Gameboy_1" data-name="Gameboy 1">
+    <g>
+      <path id="_Rectangle_" data-name="&lt;Rectangle&gt;" d="M2,3.5H19A4.5,4.5,0,0,1,23.5,8V19A1.5,1.5,0,0,1,22,20.5H2A1.5,1.5,0,0,1,.5,19V5A1.5,1.5,0,0,1,2,3.5Z" transform="translate(24 0) rotate(90)" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Rectangle_2" data-name="&lt;Rectangle&gt;" d="M5.5,2.5h13a0,0,0,0,1,0,0v8a1,1,0,0,1-1,1H5.5a0,0,0,0,1,0,0v-9A0,0,0,0,1,5.5,2.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_3" data-name="&lt;Rectangle&gt;" x="7.5" y="13.5" width="1" height="5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_4" data-name="&lt;Rectangle&gt;" x="7.5" y="13.5" width="1" height="5" transform="translate(24 8) rotate(90)" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="18" cy="15" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="15" cy="17" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_3" data-name="&lt;Path&gt;" x1="10.5" y1="20.5" x2="11.5" y2="20" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_4" data-name="&lt;Path&gt;" x1="12.5" y1="20.5" x2="13.5" y2="20" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

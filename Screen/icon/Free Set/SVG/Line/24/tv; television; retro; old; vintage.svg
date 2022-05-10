@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>TV 2</title>
+  <g id="TV_2" data-name="TV 2">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <polyline id="_Path_" data-name="&lt;Path&gt;" points="5.5 1.5 12 6.5 18.5 1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_2" data-name="&lt;Path&gt;" d="M21,6.5H3A1.5,1.5,0,0,0,1.5,8V20A1.5,1.5,0,0,0,3,21.5H3v1H21v-1h0A1.5,1.5,0,0,0,22.5,20V8A1.5,1.5,0,0,0,21,6.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_3" data-name="&lt;Path&gt;" d="M20.67,14.5a22.25,22.25,0,0,1-.42,4.81,1.13,1.13,0,0,1-1,.81,59,59,0,0,1-7.15.38,59,59,0,0,1-7.15-.38,1.13,1.13,0,0,1-1-.81A22.25,22.25,0,0,1,3.5,14.5a22.25,22.25,0,0,1,.42-4.81,1.13,1.13,0,0,1,1-.81,59,59,0,0,1,7.15-.38,59,59,0,0,1,7.15.38,1.13,1.13,0,0,1,1,.81A22.25,22.25,0,0,1,20.67,14.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

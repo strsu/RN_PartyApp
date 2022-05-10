@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Personal Mail</title>
+  <g id="Personal_Mail" data-name="Personal Mail">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <g id="_Group_3" data-name="&lt;Group&gt;">
+          <circle id="_Path_" data-name="&lt;Path&gt;" cx="18.5" cy="15.5" r="5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+        <g id="_Group_4" data-name="&lt;Group&gt;">
+          <circle id="_Path_2" data-name="&lt;Path&gt;" cx="18.5" cy="14.5" r="2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <path id="_Path_3" data-name="&lt;Path&gt;" d="M21.9,19.15a1.54,1.54,0,0,0-.23-.19,6.45,6.45,0,0,0-3.17-1,6.45,6.45,0,0,0-3.17,1,1.54,1.54,0,0,0-.23.19" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+      </g>
+      <path id="_Path_4" data-name="&lt;Path&gt;" d="M1,3.89l7.8,6.4a1.26,1.26,0,0,0,1.39,0h0L18,3.89" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_5" data-name="&lt;Path&gt;" d="M18.5,10.5V5A1.5,1.5,0,0,0,17,3.5H2A1.5,1.5,0,0,0,.5,5V15A1.5,1.5,0,0,0,2,16.5H13.6" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

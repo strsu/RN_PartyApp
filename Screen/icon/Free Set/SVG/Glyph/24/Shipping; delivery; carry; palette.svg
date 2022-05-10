@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Palette</title>
+  <g id="Palette">
+    <path d="M22.5,1H1.5a.5.5,0,0,0-.5.5v21a.5.5,0,0,0,.5.5h21a.5.5,0,0,0,.5-.5V1.5A.5.5,0,0,0,22.5,1ZM5,19V17h5v2Zm5-6H5V11h5Zm4-2h5v2H14Zm0-6h5V7H14ZM10,7H5V5h5Zm4,10h5v2H14Z" style="fill: #303c42"/>
+  </g>
+</svg>

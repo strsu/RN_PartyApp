@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Doctoraaa</title>
+  <g id="Doctor">
+    <g>
+      <circle cx="15" cy="11" r="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M19,13.5a42.49,42.49,0,0,1,5.5,2L24,7.65a3.9,3.9,0,0,0-1.9-3.13A14.23,14.23,0,0,0,15,2.5a14.23,14.23,0,0,0-7.09,2A3.9,3.9,0,0,0,6,7.65L5.5,15.5a42.49,42.49,0,0,1,5.5-2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="15" cy="11" r="4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M23,21.5a22.73,22.73,0,0,0-8-2,22.73,22.73,0,0,0-8,2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="10.5" cy="16" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="19.5" cy="16" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M5.5,15.5c-.94.4-1,1.26-1,2.5,0,1,1.07,3.38,2.4,3.49,1.89,3.58,4.1,6,8.1,6s6.2-2.43,8.1-6c1.33-.11,2.4-2.46,2.4-3.49,0-1.24-.06-2.1-1-2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

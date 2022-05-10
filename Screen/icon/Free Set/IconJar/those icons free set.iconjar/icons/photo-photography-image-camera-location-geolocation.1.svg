@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Image Location</title>
+  <g id="Image_Location" data-name="Image Location">
+    <g>
+      <circle cx="12" cy="11" r="4" style="fill: #303c42"/>
+      <path d="M21,4H18.62a1,1,0,0,1-.71-.29L15.79,1.59A2,2,0,0,0,14.38,1H9.62a2,2,0,0,0-1.41.59L6.09,3.71A1,1,0,0,1,5.38,4H3A2,2,0,0,0,1,6V17a2,2,0,0,0,2,2H7.79l3.85,3.85a.5.5,0,0,0,.71,0L16.21,19H21a2,2,0,0,0,2-2V6A2,2,0,0,0,21,4ZM12,16a5,5,0,1,1,5-5A5,5,0,0,1,12,16Zm8-8a1,1,0,1,1,1-1A1,1,0,0,1,20,8Z" style="fill: #303c42"/>
+    </g>
+  </g>
+</svg>

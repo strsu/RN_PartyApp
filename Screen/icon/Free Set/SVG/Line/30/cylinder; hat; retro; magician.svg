@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Cylinder Hat</title>
+  <g id="Cylinder_Hat" data-name="Cylinder Hat">
+    <g>
+      <path d="M4.5,5c.35.45,1,5.08,1,6.87V19a1.16,1.16,0,0,0,.63,1c1,.53,3.73,1.5,8.87,1.5s7.84-1,8.87-1.5a1.16,1.16,0,0,0,.63-1v-7.1c0-1.78.65-6.42,1-6.87" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M5.54,16.82S7.43,18.5,15,18.5s9.46-1.68,9.46-1.68" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M5.54,14.79c-3.31.55-5,1.87-5,5C.5,23.19,6.8,26.5,15,26.5s14.5-3.31,14.5-6.66c0-3.18-1.73-4.5-5-5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <ellipse cx="15" cy="5" rx="10.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Envelope Stack 2</title>
+  <g id="Envelope_Stack_2" data-name="Envelope Stack 2">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="20.5" y="14.5" width="5" height="6" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_" data-name="&lt;Path&gt;" x1="8.5" y1="24.5" x2="17.5" y2="24.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_2" data-name="&lt;Path&gt;" x1="8.5" y1="21.5" x2="13.5" y2="21.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_3" data-name="&lt;Path&gt;" d="M25.8,10.48,21.92,3.26a1.45,1.45,0,0,0-2-.59L1.26,12.76a1.45,1.45,0,0,0-.59,2l3.83,7.13" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <line id="_Path_4" data-name="&lt;Path&gt;" x1="17.7" y1="10.48" x2="20.98" y2="2.55" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_5" data-name="&lt;Path&gt;" x1="0.57" y1="13.58" x2="4.51" y2="14.33" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <g id="_Group_3" data-name="&lt;Group&gt;">
+        <rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" x="4.5" y="10.5" width="25" height="17" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

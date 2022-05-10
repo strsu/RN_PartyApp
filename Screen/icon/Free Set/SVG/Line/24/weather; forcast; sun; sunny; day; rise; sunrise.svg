@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Sunrise</title>
+  <g id="Sunrise">
+    <g>
+      <g>
+        <path d="M14,18.5c5.5,0,4-1,9.51-1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M.5,17.5c5.5,0,4,1,9.51,1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="12" y1="21.5" x2="12" y2="14.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polyline points="10 16.5 12 14.5 14 16.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <g>
+        <path d="M19.59,17.8a8.5,8.5,0,1,0-15.19,0" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="12" y1="2.5" x2="12" y2="5.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="3.87" y1="5.87" x2="5.99" y2="7.99" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="0.5" y1="14" x2="3.5" y2="14" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="23.5" y1="14" x2="20.5" y2="14" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line x1="20.13" y1="5.87" x2="18.01" y2="7.99" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

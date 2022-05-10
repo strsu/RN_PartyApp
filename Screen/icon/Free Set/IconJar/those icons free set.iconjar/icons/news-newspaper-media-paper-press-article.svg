@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Busines News</title>
+  <g id="Busines_News" data-name="Busines News">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <path id="_Path_" data-name="&lt;Path&gt;" d="M3.5,6.5H.5V19A1.5,1.5,0,0,0,2,20.5H22A1.5,1.5,0,0,0,23.5,19V3.5H3.5V19A1.5,1.5,0,0,1,2,20.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <g id="_Group_3" data-name="&lt;Group&gt;">
+        <path id="_Path_2" data-name="&lt;Path&gt;" d="M5.5,10.5v-4h1a1,1,0,0,1,1,1v3" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polyline id="_Path_3" data-name="&lt;Path&gt;" points="11.5 6.5 9.5 6.5 9.5 10.5 11.5 10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_4" data-name="&lt;Path&gt;" x1="9.5" y1="8.5" x2="11" y2="8.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polyline id="_Path_5" data-name="&lt;Path&gt;" points="13.5 6.5 13.5 9 14.5 10.5 15.5 9 15.5 6.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polyline id="_Path_6" data-name="&lt;Path&gt;" points="15.5 6.5 15.5 9 16.5 10.5 17.5 9 17.5 6.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <g id="_Group_4" data-name="&lt;Group&gt;">
+          <path id="_Path_7" data-name="&lt;Path&gt;" d="M21.5,6.5h-1a1,1,0,0,0-1,1h0a1,1,0,0,0,1,1h0a1,1,0,0,1,1,1h0a1,1,0,0,1-1,1h-1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+      </g>
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="5.5" y="12.5" width="7" height="5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_8" data-name="&lt;Path&gt;" x1="14.5" y1="13.5" x2="21.5" y2="13.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_9" data-name="&lt;Path&gt;" x1="14.5" y1="15.5" x2="21.5" y2="15.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_10" data-name="&lt;Path&gt;" x1="14.5" y1="17.5" x2="21.5" y2="17.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

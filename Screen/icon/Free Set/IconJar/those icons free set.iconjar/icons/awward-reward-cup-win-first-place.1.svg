@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Cup 1</title>
+  <g id="Cup_1" data-name="Cup 1">
+    <g>
+      <path d="M22.5,4.5H26A1.5,1.5,0,0,1,27.5,6h0a5,5,0,0,1-.9,2.86,19.44,19.44,0,0,1-5.47,5.46" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M7.5,4.5H4A1.5,1.5,0,0,0,2.5,6h0a5,5,0,0,0,.9,2.86,19.44,19.44,0,0,0,5.47,5.46" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M13.5,20.26V23.5a2,2,0,0,1-2,2,2,2,0,0,0-2,2h11a2,2,0,0,0-2-2,2,2,0,0,1-2-2V20.26" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M21,2.5A1.5,1.5,0,0,1,22.5,4V5c0,3.57-1,15.5-7.5,15.5S7.5,8.57,7.5,5V4A1.5,1.5,0,0,1,9,2.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

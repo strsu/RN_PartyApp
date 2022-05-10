@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Disable Allarm</title>
+  <g id="Disable_Allarm" data-name="Disable Allarm">
+    <g>
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M19.35,13.59A8.52,8.52,0,1,0,13.76,20" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_" data-name="&lt;Group&gt;">
+        <polyline id="_Path_2" data-name="&lt;Path&gt;" points="4.73 17.73 3.5 21.5 6.08 18.92" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <path id="_Path_3" data-name="&lt;Path&gt;" d="M4.5.5A4,4,0,0,0,1.67,7.33L7.33,1.67A4,4,0,0,0,4.5.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <g id="_Group_3" data-name="&lt;Group&gt;">
+        <path id="_Path_4" data-name="&lt;Path&gt;" d="M17.5.5a4,4,0,0,1,2.83,6.83L14.67,1.67A4,4,0,0,1,17.5.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <circle id="_Path_5" data-name="&lt;Path&gt;" cx="11" cy="12" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline id="_Path_6" data-name="&lt;Path&gt;" points="11 6.5 11 12 14 15" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_4" data-name="&lt;Group&gt;">
+        <g id="_Group_5" data-name="&lt;Group&gt;">
+          <circle id="_Path_7" data-name="&lt;Path&gt;" cx="18.5" cy="18.5" r="5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+        <line id="_Path_8" data-name="&lt;Path&gt;" x1="14.96" y1="14.96" x2="22.04" y2="22.04" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

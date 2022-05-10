@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Search Disk</title>
+  <g id="Search_Disk" data-name="Search Disk">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <circle id="_Path_" data-name="&lt;Path&gt;" cx="18.5" cy="18.5" r="3" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <line id="_Path_2" data-name="&lt;Path&gt;" x1="20.62" y1="20.62" x2="23.5" y2="23.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <path id="_Path_3" data-name="&lt;Path&gt;" d="M21.5,18.48a11.5,11.5,0,1,0-3,3" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_4" data-name="&lt;Path&gt;" cx="12" cy="12" r="4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_5" data-name="&lt;Path&gt;" cx="12" cy="12" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_6" data-name="&lt;Path&gt;" d="M6,6a8.47,8.47,0,0,1,6-2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

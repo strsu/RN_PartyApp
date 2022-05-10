@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Cloud Check</title>
+  <g id="Cloud_Check" data-name="Cloud Check">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <g id="_Group_3" data-name="&lt;Group&gt;">
+          <circle id="_Path_" data-name="&lt;Path&gt;" cx="12.5" cy="16.5" r="5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+        <polyline id="_Path_2" data-name="&lt;Path&gt;" points="10 17 11.5 18.5 15 15" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <g id="_Group_4" data-name="&lt;Group&gt;">
+        <path id="_Path_3" data-name="&lt;Path&gt;" d="M20.48,9.61A7.49,7.49,0,0,0,5.94,7.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_4" data-name="&lt;Path&gt;" d="M17.4,17.5h2.1a4,4,0,0,0,0-8" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_5" data-name="&lt;Path&gt;" d="M8.5,8.5a5.05,5.05,0,0,0-3-1,5,5,0,0,0,0,10H7.6" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

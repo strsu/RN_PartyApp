@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Sphere</title>
+  <g id="Sphere">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="12" cy="12" r="11.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <g id="_Group_3" data-name="&lt;Group&gt;">
+          <path id="_Path_2" data-name="&lt;Path&gt;" d="M12,.5a2.77,2.77,0,0,1,1,.18" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <path id="_Path_3" data-name="&lt;Path&gt;" d="M15,2.42C16.52,4.48,17.5,8,17.5,12c0,4.77-1.39,8.86-3.37,10.6" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round;stroke-dasharray: 1.8232285976409912,2.7348430156707764"/>
+          <path id="_Path_4" data-name="&lt;Path&gt;" d="M13,23.32a2.77,2.77,0,0,1-1,.18" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+      </g>
+      <path id="_Path_5" data-name="&lt;Path&gt;" d="M12,23.5c-3,0-5.5-5.15-5.5-11.5S9,.5,12,.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_4" data-name="&lt;Group&gt;">
+        <g id="_Group_5" data-name="&lt;Group&gt;">
+          <path id="_Path_6" data-name="&lt;Path&gt;" d="M.5,12a2.77,2.77,0,0,1,.18-1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <path id="_Path_7" data-name="&lt;Path&gt;" d="M2.42,9C4.48,7.48,8,6.5,12,6.5c4.77,0,8.86,1.39,10.6,3.37" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round;stroke-dasharray: 1.8232285976409912,2.7348430156707764"/>
+          <path id="_Path_8" data-name="&lt;Path&gt;" d="M23.32,11a2.77,2.77,0,0,1,.18,1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+      </g>
+      <path id="_Path_9" data-name="&lt;Path&gt;" d="M23.5,12c0,3-5.15,5.5-11.5,5.5S.5,15,.5,12" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

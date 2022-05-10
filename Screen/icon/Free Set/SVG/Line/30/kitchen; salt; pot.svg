@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Salt Pot</title>
+  <g id="Salt_Pot" data-name="Salt Pot">
+    <g>
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M17,15.5H15a1.89,1.89,0,0,0-2,1.75h0A1.89,1.89,0,0,0,15,19h0a1.89,1.89,0,0,1,2,1.75h0a1.89,1.89,0,0,1-2,1.75H13" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="7.5" y="8.5" width="15" height="2" rx="1" ry="1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="15" cy="3" r="0.5" style="fill: #303c42"/>
+      <circle cx="14" cy="4.5" r="0.5" style="fill: #303c42"/>
+      <circle cx="16" cy="4.5" r="0.5" style="fill: #303c42"/>
+      <path d="M21,10.5,22.5,26h0A1.5,1.5,0,0,1,21,27.5H9A1.5,1.5,0,0,1,7.5,26h0L9,10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M9.5,8.5V8A5.5,5.5,0,0,1,15,2.5h0A5.5,5.5,0,0,1,20.5,8v.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Dron 2</title>
+  <g id="Dron_2" data-name="Dron 2">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="15" cy="15" r="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M6.87,23.87a11.5,11.5,0,0,1,16.26,0l.74-.74a11.5,11.5,0,0,1,0-16.26l-.74-.74a11.5,11.5,0,0,1-16.26,0l-.74.74a11.5,11.5,0,0,1,0,16.26Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M7,11.5A4.5,4.5,0,1,1,11.5,7" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M18.5,7A4.5,4.5,0,1,1,23,11.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M11.5,23A4.5,4.5,0,1,1,7,18.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M23,18.5A4.5,4.5,0,1,1,18.5,23" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

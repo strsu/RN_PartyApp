@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Bicycle 1</title>
+  <g id="Bicycle_1" data-name="Bicycle 1">
+    <g>
+      <circle cx="4.5" cy="14.5" r="4" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="19.5" cy="14.5" r="4" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="19.5 14.5 16 7.5 9.39 7.5 4.5 14.5 11.5 15.5 16 7.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="11.5" y1="15.5" x2="8.87" y2="5.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="11.5" cy="15.5" r="1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M16,7.5l-1-2h3.5a1,1,0,0,1,1,1h0a1,1,0,0,1-1,1H18" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="7" y1="5.5" x2="10.5" y2="5.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Kitchen Timer</title>
+  <g id="Kitchen_Timer" data-name="Kitchen Timer">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M15.08.54C9.28.54,4.58,11.93,4.58,18.2a13.59,13.59,0,0,0,6.14,11.35h8.73A13.59,13.59,0,0,0,25.58,18.2C25.58,11.93,20.88.54,15.08.54Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round;stroke-width: 0.971825301647186px"/>
+      <line id="_Path_2" data-name="&lt;Path&gt;" x1="4.58" y1="18.54" x2="25.58" y2="18.54" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round;stroke-width: 0.971825301647186px"/>
+      <circle id="_Path_3" data-name="&lt;Path&gt;" cx="15.08" cy="21.04" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round;stroke-width: 0.971825301647186px"/>
+      <line id="_Path_4" data-name="&lt;Path&gt;" x1="15.08" y1="14.54" x2="15.08" y2="15.54" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round;stroke-width: 0.971825301647186px"/>
+      <line id="_Path_5" data-name="&lt;Path&gt;" x1="9.58" y1="14.54" x2="9.58" y2="15.54" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round;stroke-width: 0.971825301647186px"/>
+      <line id="_Path_6" data-name="&lt;Path&gt;" x1="20.58" y1="14.54" x2="20.58" y2="15.54" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round;stroke-width: 0.971825301647186px"/>
+    </g>
+  </g>
+</svg>

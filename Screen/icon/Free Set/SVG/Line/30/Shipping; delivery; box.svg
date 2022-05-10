@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Box 2</title>
+  <g id="Box_2" data-name="Box 2">
+    <g>
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M26.5,13.5H3.5V26A1.5,1.5,0,0,0,5,27.5H25A1.5,1.5,0,0,0,26.5,26Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polygon id="_Path_2" data-name="&lt;Path&gt;" points="27.5 9.5 22.74 2.5 7.26 2.5 2.5 9.5 27.5 9.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="2.5" y="9.5" width="25" height="4" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="8.5" y="16.5" width="13" height="3" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

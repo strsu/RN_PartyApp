@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Luggage</title>
+  <g id="Luggage">
+    <g>
+      <circle cx="6" cy="28" r="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="24" cy="28" r="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="0.5" y="24.5" width="29" height="2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="6.5" y="12.5" width="17" height="12" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M11.5,12.5v-1a1,1,0,0,1,1-1h5a1,1,0,0,1,1,1v1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M2.5,24.5V9.5a5,5,0,0,1,5-5h15a5,5,0,0,1,5,5v15" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M12,1.5h6A1.5,1.5,0,0,1,19.5,3V4.5a0,0,0,0,1,0,0h-9a0,0,0,0,1,0,0V3A1.5,1.5,0,0,1,12,1.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="15" cy="1" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

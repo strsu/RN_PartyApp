@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Headset</title>
+  <g id="Headset">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <path id="_Path_" data-name="&lt;Path&gt;" d="M5,6.74A4.4,4.4,0,0,0,8,8.5c1.38,0,2.5-1.79,2.5-4S9.38.5,8,.5c-4,0-5.5,5.16-5.5,9v9a1,1,0,0,0,1,1h1a1,1,0,0,0,1-1v-9a2.92,2.92,0,0,1,.42-1.79" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_2" data-name="&lt;Path&gt;" d="M19,6.74A4.4,4.4,0,0,1,16,8.5c-1.38,0-2.5-1.79-2.5-4s1.12-4,2.5-4c4,0,5.5,5.16,5.5,9v9a1,1,0,0,1-1,1h-1a1,1,0,0,1-1-1v-9a2.92,2.92,0,0,0-.42-1.79" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <line id="_Path_3" data-name="&lt;Path&gt;" x1="4" y1="21.5" x2="4" y2="23.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="3.5" y="19.5" width="1" height="2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_4" data-name="&lt;Path&gt;" x1="20" y1="21.5" x2="20" y2="23.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_2" data-name="&lt;Rectangle&gt;" x="19.5" y="19.5" width="1" height="2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>House 1</title>
+  <g id="House_1" data-name="House 1">
+    <g>
+      <polyline points="20.5 12.15 20.5 22.5 15.5 22.5 15.5 13.5 8.5 13.5 8.5 22.5 3.5 22.5 3.5 12.15" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polygon points="12 1.5 0.5 11.5 2 13.5 12 4.5 22 13.5 23.5 11.5 12 1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="20.5 8.89 20.5 3.5 17.5 3.5 17.5 6.28" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Reflect Vertical</title>
+  <g id="Reflect_Vertical" data-name="Reflect Vertical">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <path id="_Path_" data-name="&lt;Path&gt;" d="M20.44,5.19A11.5,11.5,0,0,0,3.5,5.25" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <polyline id="_Path_2" data-name="&lt;Path&gt;" points="20.5 2.5 20.5 5.5 17.5 5.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <polygon id="_Path_3" data-name="&lt;Path&gt;" points="1.5 6.5 1.5 22.5 9.5 14.5 1.5 6.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polygon id="_Path_4" data-name="&lt;Path&gt;" points="22.5 6.5 22.5 22.5 14.5 14.5 22.5 6.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_3" data-name="&lt;Group&gt;">
+        <g id="_Group_4" data-name="&lt;Group&gt;">
+          <line id="_Path_5" data-name="&lt;Path&gt;" x1="12" y1="22.5" x2="12" y2="21.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <line id="_Path_6" data-name="&lt;Path&gt;" x1="12" y1="18.83" x2="12" y2="6.83" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round;stroke-dasharray: 1.7777777910232544,2.6666667461395264"/>
+          <line id="_Path_7" data-name="&lt;Path&gt;" x1="12" y1="5.5" x2="12" y2="4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

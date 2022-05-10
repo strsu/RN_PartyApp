@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Cutting Disk</title>
+  <g id="Cutting_Disk" data-name="Cutting Disk">
+    <g>
+      <polygon points="23.5 12 22.2 14.52 23.21 14.56 21.38 16.72 22.36 16.99 20.09 18.69 20.99 19.17 18.4 20.32 19.17 20.99 16.39 21.54 16.99 22.36 14.16 22.28 14.56 23.21 11.82 22.5 12 23.5 9.48 22.2 9.44 23.21 7.28 21.38 7.01 22.36 5.31 20.09 4.83 20.99 3.68 18.4 3.01 19.17 2.46 16.39 1.64 16.99 1.72 14.16 0.79 14.56 1.5 11.82 0.5 12 1.8 9.48 0.79 9.44 2.62 7.28 1.64 7.01 3.91 5.31 3.01 4.83 5.6 3.68 4.83 3.01 7.61 2.46 7.01 1.64 9.84 1.72 9.44 0.79 12.18 1.5 12 0.5 14.52 1.8 14.56 0.79 16.72 2.62 16.99 1.64 18.69 3.91 19.17 3.01 20.32 5.6 20.99 4.83 21.54 7.61 22.36 7.01 22.28 9.84 23.21 9.44 22.5 12.18 23.5 12" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="12" cy="12" r="4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="12" cy="12" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="12" cy="9.5" r="0.5" style="fill: #303c42"/>
+      <circle cx="12" cy="14.5" r="0.5" style="fill: #303c42"/>
+      <circle cx="10.23" cy="10.23" r="0.5" transform="translate(-4.24 10.23) rotate(-45)" style="fill: #303c42"/>
+      <circle cx="13.77" cy="13.77" r="0.5" transform="translate(-5.7 13.77) rotate(-45)" style="fill: #303c42"/>
+      <circle cx="9.5" cy="12" r="0.5" style="fill: #303c42"/>
+      <circle cx="14.5" cy="12" r="0.5" style="fill: #303c42"/>
+      <circle cx="10.23" cy="13.77" r="0.5" transform="translate(-6.74 11.27) rotate(-45)" style="fill: #303c42"/>
+      <circle cx="13.77" cy="10.23" r="0.5" transform="translate(-3.2 12.73) rotate(-45)" style="fill: #303c42"/>
+    </g>
+  </g>
+</svg>

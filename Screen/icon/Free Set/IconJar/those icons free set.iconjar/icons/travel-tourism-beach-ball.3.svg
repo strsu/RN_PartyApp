@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Ball</title>
+  <g id="Ball">
+    <g>
+      <circle cx="12" cy="12" r="11.5" style="fill: none;stroke: #303c42;stroke-linejoin: round"/>
+      <path d="M10.57,7A48.12,48.12,0,0,0,2,6.32" style="fill: none;stroke: #303c42;stroke-linejoin: round"/>
+      <path d="M4.55,20.75C5.29,18,7.46,13.69,11.22,9" style="fill: none;stroke: #303c42;stroke-linejoin: round"/>
+      <path d="M13.91,6.08a35.83,35.83,0,0,0,3.2-4.37" style="fill: none;stroke: #303c42;stroke-linejoin: round"/>
+      <path d="M9.62.75a48.14,48.14,0,0,1,2.19,4.88" style="fill: none;stroke: #303c42;stroke-linejoin: round"/>
+      <path d="M14.47,7.84a44.79,44.79,0,0,0,8.45.56" style="fill: none;stroke: #303c42;stroke-linejoin: round"/>
+      <path d="M13,9.42c1.24,3.7,3.83,7.93,5.94,11.71" style="fill: none;stroke: #303c42;stroke-linejoin: round"/>
+      <path d="M11.22,9c-3.77,4.66-5.93,9-6.67,11.73" style="fill: none;stroke: #303c42;stroke-linejoin: round"/>
+      <circle cx="12.5" cy="7.5" r="2" style="fill: none;stroke: #303c42;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

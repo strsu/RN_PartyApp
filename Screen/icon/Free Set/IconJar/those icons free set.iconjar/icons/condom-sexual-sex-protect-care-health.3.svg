@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Condom 1</title>
+  <g id="Condom_1" data-name="Condom 1">
+    <g>
+      <path d="M15,5.5A9.5,9.5,0,1,1,5.5,15" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M15,21.5A6.5,6.5,0,1,1,21.5,15" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M26,2.5h-.59a1.49,1.49,0,0,1-2.82,0h-.18a1.49,1.49,0,0,1-2.82,0h-.18a1.49,1.49,0,0,1-2.82,0h-.18a1.49,1.49,0,0,1-2.82,0h-.18a1.49,1.49,0,0,1-2.82,0h-.18a1.49,1.49,0,0,1-2.82,0H7.41a1.49,1.49,0,0,1-2.82,0H4A1.5,1.5,0,0,0,2.5,4V26A1.5,1.5,0,0,0,4,27.5h.59a1.49,1.49,0,0,1,2.82,0h.18a1.49,1.49,0,0,1,2.82,0h.18a1.49,1.49,0,0,1,2.82,0h.18a1.49,1.49,0,0,1,2.82,0h.18a1.49,1.49,0,0,1,2.82,0h.18a1.49,1.49,0,0,1,2.82,0h.18a1.49,1.49,0,0,1,2.82,0H26A1.5,1.5,0,0,0,27.5,26V4A1.5,1.5,0,0,0,26,2.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

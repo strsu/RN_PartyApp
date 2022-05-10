@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Guitar Pick</title>
+  <g id="Guitar_Pick" data-name="Guitar Pick">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M15,29.5c4.29,0,11.5-16.13,11.5-20.8C26.5,6.12,24.58.5,15,.5S3.5,6.12,3.5,8.7C3.5,13.37,10.71,29.5,15,29.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <ellipse id="_Path_2" data-name="&lt;Path&gt;" cx="11.25" cy="17" rx="1.25" ry="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <ellipse id="_Path_3" data-name="&lt;Path&gt;" cx="17.25" cy="16" rx="1.25" ry="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline id="_Path_4" data-name="&lt;Path&gt;" points="18.5 16 18.5 8.5 12.49 10 12.5 17" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

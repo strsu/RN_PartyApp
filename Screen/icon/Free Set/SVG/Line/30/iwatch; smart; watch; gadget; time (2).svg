@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>iWatch</title>
+  <g id="iWatch">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <polyline id="_Path_" data-name="&lt;Path&gt;" points="8.5 6.5 9 0.5 20 0.5 20.5 6.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline id="_Path_2" data-name="&lt;Path&gt;" points="8.5 23.5 9 29.5 20 29.5 20.5 23.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="6.5" y="6.5" width="16" height="17" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline id="_Path_3" data-name="&lt;Path&gt;" points="22.5 16.5 23 16.5 23 19.5 22.5 19.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect id="_Path_4" data-name="&lt;Path&gt;" x="22.5" y="10.5" width="1" height="3" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

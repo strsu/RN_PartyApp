@@ -1,0 +1,77 @@
+INSERT INTO ullimDB.`filter`
+(f_sort, f_type, f_name, f_seq)
+VALUES
+('mainParty', 1, '모두 보기', 0),
+('mainParty', 1, '정기파티', 1),
+('mainParty', 1, '후원파티', 2),
+('mainParty', 1, '콜라보파티', 3);
+
+INSERT INTO ullimDB.`filter`
+(f_sort, f_type, f_name, f_seq)
+VALUES
+('subParty', 2, '종합', 0),
+('subParty', 2, '2:2', 1),
+('subParty', 2, '3:3', 2),
+('subParty', 2, '오늘 볼 사람', 3),
+('subParty', 2, '주말에 만나자', 4),
+('subParty', 2, '시원한 맥주 한잔?', 5),
+('subParty', 2, '심심해요', 6),
+('subParty', 2, '달래줘요', 7),
+('subParty', 2, '우~ 금요일에 만나요', 8);
+
+INSERT INTO ullimDB.`filter`
+(f_sort, f_type, f_name, f_seq)
+VALUES
+('anony', 3, '종합', 0),
+('anony', 3, '베스트', 1),
+('anony', 3, '연애', 2),
+('anony', 3, '고민', 3),
+('anony', 3, '추천', 4),
+('anony', 3, '상담', 5),
+('anony', 3, '직장', 6),
+('anony', 3, '선물', 7),
+('anony', 3, '자유', 8);
+
+INSERT INTO ullimDB.`filter`
+(f_sort, f_type, f_name, f_seq)
+VALUES
+('profile', '학력', '고등학교 졸업', 0),
+('profile', '학력', '대학교 재학', 1),
+('profile', '학력', '대학교 중퇴', 2),
+('profile', '학력', '대학교 졸업', 3),
+('profile', '학력', '대학원 졸업', 4);
+
+INSERT INTO ullimDB.`filter`
+(f_sort, f_type, f_name, f_seq)
+VALUES
+('profile', '체형', '마른', 0),
+('profile', '체형', '슬림탄탄', 1),
+('profile', '체형', '보통', 2),
+('profile', '체형', '통통한', 3),
+('profile', '체형', '근육질', 4),
+('profile', '체형', '우람한', 5);
+
+
+INSERT INTO ullimDB.`filter`
+(f_sort, f_type, f_name, f_seq)
+VALUES
+('profile', '종교', '종료없음', 0),
+('profile', '종교', '기독교', 1),
+('profile', '종교', '천주교', 2),
+('profile', '종교', '불교', 3),
+('profile', '종교', '원불교', 4),
+('profile', '종교', '기타', 5);
+
+INSERT INTO ullimDB.`filter`
+(f_sort, f_type, f_name, f_seq)
+VALUES
+('profile', '음주', '마시지 않아요', 0),
+('profile', '음주', '가끔 마셔요', 1),
+('profile', '음주', '어느정도 즐겨요', 2),
+('profile', '음주', '술자리를 좋아해요', 3);
+
+INSERT INTO ullimDB.`filter`
+(f_sort, f_type, f_name, f_seq)
+VALUES
+('profile', '흡연', '흡연', 0),
+('profile', '흡연', '비흡연', 1);

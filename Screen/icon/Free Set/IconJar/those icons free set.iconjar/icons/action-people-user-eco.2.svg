@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Eco User</title>
+  <g id="Eco_User" data-name="Eco User">
+    <g>
+      <g id="_Group_" data-name="&lt;Group&gt;">
+        <path id="_Path_" data-name="&lt;Path&gt;" d="M22.87,15.5c-3.25,0-7.37,2.35-7.37,5.26a2.88,2.88,0,0,0,2.74,2.74c2.91,0,5.26-4.12,5.26-7.37A.63.63,0,0,0,22.87,15.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path id="_Path_2" data-name="&lt;Path&gt;" d="M21.5,17.5c-2.81,1.21-4.93,2.54-6,6" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <circle id="_Path_3" data-name="&lt;Path&gt;" cx="11" cy="6" r="5.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M19.89,16.07a4.05,4.05,0,0,0-.58-.37A18.74,18.74,0,0,0,11,13.5a18.74,18.74,0,0,0-8.31,2.2A4,4,0,0,0,.5,19.27V20A1.5,1.5,0,0,0,2,21.5H15.62" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+    </g>
+  </g>
+</svg>

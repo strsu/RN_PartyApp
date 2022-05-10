@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Bit Coin</title>
+  <g id="Bit_Coin" data-name="Bit Coin">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="15" cy="15" r="14.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="15" cy="15" r="10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_3" data-name="&lt;Path&gt;" x1="13.5" y1="9.5" x2="13.5" y2="10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_4" data-name="&lt;Path&gt;" x1="16.5" y1="9.5" x2="16.5" y2="10.88" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_5" data-name="&lt;Path&gt;" x1="13.5" y1="19.5" x2="13.5" y2="20.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_6" data-name="&lt;Path&gt;" x1="16.5" y1="19.49" x2="16.5" y2="20.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M15.25,10.5H12.5V15h2.75a2.25,2.25,0,0,0,2.25-2.25h0A2.25,2.25,0,0,0,15.25,10.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M16.25,15H12.5v4.5h3.75a2.25,2.25,0,0,0,2.25-2.25h0A2.25,2.25,0,0,0,16.25,15Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_7" data-name="&lt;Path&gt;" x1="12.5" y1="10.5" x2="11.5" y2="10.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_8" data-name="&lt;Path&gt;" x1="12.5" y1="19.5" x2="11.5" y2="19.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

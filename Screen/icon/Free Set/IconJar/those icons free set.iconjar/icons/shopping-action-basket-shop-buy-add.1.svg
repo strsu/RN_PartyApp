@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Add to Basket</title>
+  <g id="Add_to_Basket" data-name="Add to Basket">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <g id="_Group_3" data-name="&lt;Group&gt;">
+          <line id="_Path_" data-name="&lt;Path&gt;" x1="0.5" y1="8.5" x2="23.5" y2="8.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <path id="_Path_2" data-name="&lt;Path&gt;" d="M1.5,8.5l3,8.66A2,2,0,0,0,6.42,18.5H7" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <path id="_Path_3" data-name="&lt;Path&gt;" d="M17,18.5h.58a2,2,0,0,0,1.89-1.34l3-8.66" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <line id="_Path_4" data-name="&lt;Path&gt;" x1="10.5" y1="0.5" x2="5" y2="8.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <line id="_Path_5" data-name="&lt;Path&gt;" x1="13.5" y1="0.5" x2="19" y2="8.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+      </g>
+      <g id="_Group_4" data-name="&lt;Group&gt;">
+        <circle id="_Path_6" data-name="&lt;Path&gt;" cx="12" cy="18.5" r="5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <line id="_Path_7" data-name="&lt;Path&gt;" x1="10" y1="18.5" x2="14" y2="18.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_8" data-name="&lt;Path&gt;" x1="12" y1="16.5" x2="12" y2="20.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Sphere</title>
+  <g id="Sphere">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="15" cy="15" r="14.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <g>
+          <path d="M.5,14.5a3.5,3.5,0,0,1,.14-1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <path d="M2.32,11.1C4.8,9,9.55,7.5,15,7.5c6.33,0,11.71,2,13.69,4.68" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round;stroke-dasharray: 1.987057089805603,2.9805855751037598"/>
+          <path d="M29.36,13.51a3.5,3.5,0,0,1,.14,1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+      </g>
+      <path id="_Path_2" data-name="&lt;Path&gt;" d="M29.5,15.5c0,3.87-6.49,7-14.5,7S.5,19.37.5,15.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_3" data-name="&lt;Group&gt;">
+        <g>
+          <path d="M15.5.5a3.5,3.5,0,0,1,1,.14" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <path d="M18.9,2.32C21,4.8,22.5,9.55,22.5,15c0,6.33-2,11.71-4.68,13.69" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round;stroke-dasharray: 1.987057089805603,2.9805855751037598"/>
+          <path d="M16.49,29.36a3.5,3.5,0,0,1-1,.14" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+      </g>
+      <path id="_Path_3" data-name="&lt;Path&gt;" d="M14.5,29.5c-3.87,0-7-6.49-7-14.5S10.63.5,14.5.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

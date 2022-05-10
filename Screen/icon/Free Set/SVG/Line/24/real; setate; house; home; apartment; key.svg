@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>House Key</title>
+  <g id="House_Key" data-name="House Key">
+    <g>
+      <g>
+        <circle cx="7" cy="4" r="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        <path d="M13.5,7A6.5,6.5,0,1,0,3.41,12.41L3,13.5H4.5v1l1,1-1,1,1,1-1,1,1,1-1,1v1l2.5,2,2.5-2v-8H11l-.41-1.09A6.49,6.49,0,0,0,13.5,7Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <polyline points="11 12.11 11 17.5 14.5 17.5 14.5 11.5 18.5 11.5 18.5 17.5 22 17.5 22 10.5 23.5 10.5 16.5 4.5 13.49 7.08" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

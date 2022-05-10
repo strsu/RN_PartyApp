@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Personal Mail</title>
+  <g id="Personal_Mail" data-name="Personal Mail">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <g id="_Group_3" data-name="&lt;Group&gt;">
+          <path id="_Path_" data-name="&lt;Path&gt;" d="M23.5,13.5V6A1.5,1.5,0,0,0,22,4.5H2A1.5,1.5,0,0,0,.5,6V19A1.5,1.5,0,0,0,2,20.5H17.59" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+        <path id="_Path_2" data-name="&lt;Path&gt;" d="M.94,4.94l8.79,7.87a2.7,2.7,0,0,0,1.81.69h0a2.7,2.7,0,0,0,1.71-.61l9.81-7.95" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <g id="_Group_4" data-name="&lt;Group&gt;">
+        <g id="_Group_5" data-name="&lt;Group&gt;">
+          <circle id="_Path_3" data-name="&lt;Path&gt;" cx="23.5" cy="19.5" r="6" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+        <g id="_Group_6" data-name="&lt;Group&gt;">
+          <path id="_Path_4" data-name="&lt;Path&gt;" d="M27.58,23.88a1.85,1.85,0,0,0-.28-.22,7.74,7.74,0,0,0-3.8-1.15,7.74,7.74,0,0,0-3.8,1.15,1.85,1.85,0,0,0-.28.22" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+          <circle id="_Path_5" data-name="&lt;Path&gt;" cx="23.5" cy="18.5" r="2.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

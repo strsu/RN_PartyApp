@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Bishop</title>
+  <g id="Bishop">
+    <g>
+      <path d="M18.57,20.92h0a3.56,3.56,0,0,0-2.85-1.42H8.28a3.56,3.56,0,0,0-2.85,1.42h0a3.56,3.56,0,0,0-.61,1.27L4.5,23.5h15l-.33-1.3A3.56,3.56,0,0,0,18.57,20.92Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="9.95 14.17 8.5 19.5 15.5 19.5 14.05 14.17" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M16.5,13A8.41,8.41,0,0,1,12,14.5,8.41,8.41,0,0,1,7.5,13,8.41,8.41,0,0,1,12,11.5,8.41,8.41,0,0,1,16.5,13Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M13.45,2.35a1.5,1.5,0,1,0-2.91,0A10.78,10.78,0,0,0,8.5,8a3.5,3.5,0,0,0,7,0A10.78,10.78,0,0,0,13.45,2.35Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="9.78" y1="3.52" x2="11.5" y2="6.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

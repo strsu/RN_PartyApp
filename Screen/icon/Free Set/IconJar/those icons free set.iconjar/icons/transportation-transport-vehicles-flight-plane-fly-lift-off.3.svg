@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Plane Lift Off</title>
+  <g id="Plane_Lift_Off" data-name="Plane Lift Off">
+    <g>
+      <line x1="10.37" y1="25.5" x2="29.5" y2="25.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="16.63 13.54 20.97 18 23.46 16.94 22.24 9.47" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M18.87,4.36a31.79,31.79,0,0,0-3,2.14H4.33l-2.06,2L10.46,11c-1.47,1.26-3,2.4-4.27,3.54L1.57,13.43.5,14.49l2.32,3.25h0l-.13.11A1.11,1.11,0,0,0,3.85,19.7,78.49,78.49,0,0,0,17,13.25a56.19,56.19,0,0,0,9-7.14c.9-.89,1.8-2.67,1.35-3.11S23.35,1.68,18.87,4.36Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

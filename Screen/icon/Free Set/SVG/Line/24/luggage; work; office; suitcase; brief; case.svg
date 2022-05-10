@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Case 1</title>
+  <g id="Case_1" data-name="Case 1">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <rect id="_Rectangle_" data-name="&lt;Rectangle&gt;" x="0.5" y="5.5" width="23" height="16" rx="1.5" ry="1.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Rectangle_2" data-name="&lt;Rectangle&gt;" d="M9,2.5h6A1.5,1.5,0,0,1,16.5,4V5.5a0,0,0,0,1,0,0h-9a0,0,0,0,1,0,0V4A1.5,1.5,0,0,1,9,2.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M.5,8.44l10.69,6.87a1.84,1.84,0,0,0,1.62,0h0L23.5,8.44" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle id="_Path_2" data-name="&lt;Path&gt;" cx="12" cy="12" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

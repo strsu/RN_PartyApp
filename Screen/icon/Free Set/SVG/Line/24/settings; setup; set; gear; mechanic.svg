@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Gear 2</title>
+  <g id="Gear_2" data-name="Gear 2">
+    <g>
+      <path d="M20.61,12a8.52,8.52,0,0,0-.13-1.46l2.74-2.3-2.3-4L17.56,5.48A8.48,8.48,0,0,0,15,4L14.41.5H9.81L9.19,4A8.48,8.48,0,0,0,6.66,5.48L3.3,4.26,1,8.24l2.74,2.3a8,8,0,0,0,0,2.92L1,15.76l2.3,4,3.36-1.23A8.49,8.49,0,0,0,9.19,20l.62,3.52h4.6L15,20a8.49,8.49,0,0,0,2.54-1.46l3.36,1.23,2.3-4-2.74-2.3A8.52,8.52,0,0,0,20.61,12Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <circle cx="12" cy="12" r="4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

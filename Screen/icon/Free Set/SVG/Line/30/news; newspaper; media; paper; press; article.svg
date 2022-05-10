@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>Busines News</title>
+  <g id="Busines_News" data-name="Busines News">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <g id="_Group_2" data-name="&lt;Group&gt;">
+        <path d="M4.5,8.51H.5V24A1.5,1.5,0,0,0,2,25.5H28A1.5,1.5,0,0,0,29.5,24V4.5l-25,0v19a2,2,0,0,1-2,2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <line id="_Path_" data-name="&lt;Path&gt;" x1="11.5" y1="10.51" x2="13.5" y2="10.51" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline id="_Path_2" data-name="&lt;Path&gt;" points="16.5 7.51 16.5 11.51 18 13.51 19.5 11.51 19.5 7.51" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline id="_Path_3" data-name="&lt;Path&gt;" points="19.5 7.51 19.5 11.51 21 13.51 22.5 11.51 22.5 7.51" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <g id="_Group_3" data-name="&lt;Group&gt;">
+        <path id="_Path_4" data-name="&lt;Path&gt;" d="M27.5,7.52H26A1.5,1.5,0,0,0,24.5,9h0a1.5,1.5,0,0,0,1.5,1.5h0A1.5,1.5,0,0,1,27.5,12h0a1.5,1.5,0,0,1-1.5,1.5H24.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      </g>
+      <rect id="_Path_5" data-name="&lt;Path&gt;" x="6.5" y="16.51" width="8" height="5.99" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_6" data-name="&lt;Path&gt;" x1="18.5" y1="16.51" x2="27.5" y2="16.51" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_7" data-name="&lt;Path&gt;" x1="18.5" y1="19.51" x2="27.5" y2="19.51" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line id="_Path_8" data-name="&lt;Path&gt;" x1="18.5" y1="22.5" x2="27.5" y2="22.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <polyline points="14.5 13.51 11.5 13.51 11.5 7.51 14.5 7.51" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M6.5,13.51v-6H8A1.5,1.5,0,0,1,9.5,9v4.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

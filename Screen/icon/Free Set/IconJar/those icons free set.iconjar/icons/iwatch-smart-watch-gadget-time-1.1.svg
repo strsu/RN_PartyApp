@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <title>iWatch Side</title>
+  <g id="iWatch_Side" data-name="iWatch Side">
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <circle id="_Path_" data-name="&lt;Path&gt;" cx="6.5" cy="9.5" r="0.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M7.76,24.21A9,9,0,0,0,14.5,27.5c5.52,0,10-5.6,10-12.5S20,2.5,14.5,2.5A9,9,0,0,0,7.76,5.79" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M5.24,24.22A11.32,11.32,0,0,0,14.5,29.5c6.62,0,12-6.5,12-14.5S21.12.5,14.5.5A11.32,11.32,0,0,0,5.24,5.78" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="3.5" y="5.5" width="6" height="19" rx="3" ry="3" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <rect x="5.5" y="14.5" width="2" height="6" rx="1" ry="1" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <title>Boots 2</title>
+  <g id="Boots_2" data-name="Boots 2">
+    <g>
+      <path d="M4.5,20.5c0-1.69,1-4.31,1-6.5s-2-10.12-2-11.5V.5h10v2c0,3.5-2,13,.5,15.5a9.5,9.5,0,0,0,5.23,2.38,1.49,1.49,0,0,1,1.27,1.48v.64a1,1,0,0,1-1,1h-6C10.77,23.5,4.5,20.5,4.5,20.5Z" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <line x1="19.5" y1="23.5" x2="20.5" y2="23.5" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+      <path d="M4.5,20.5v2a1,1,0,0,0,1,1h3V22.2" style="fill: none;stroke: #303c42;stroke-linecap: round;stroke-linejoin: round"/>
+    </g>
+  </g>
+</svg>
