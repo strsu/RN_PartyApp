@@ -42,6 +42,10 @@ RN을 처음사용하면서 Function / Class 각각이 지닌 장단점이 있�
 
 결국 두 방식 모두 UX적으로 만족스럽지 못 하다.  
 
+그래서 PartyTab와 PartyStack을 같은 계층에 놓음으로써 Stack이 Tab을 덮어버리는 방식을 취하면 CustomTab을 지우고 그릴 필요가 없어지기 때문에 다음과 같은 다이어그램으로 앱을 제작하 였다.   
+![image](https://user-images.githubusercontent.com/25381921/167582046-02b5b436-8616-43e3-b223-567bea31454b.png)   
+이렇게 덮어버리면 UX적으로 부드럽다. 동작도 깔끔하다.   
+
 ## ※파티
 
 ### #메인 파티
