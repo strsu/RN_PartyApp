@@ -8,12 +8,18 @@
 ## 사용 기술 및 아키텍쳐
 ![image](https://user-images.githubusercontent.com/25381921/167645364-5a6e6cdf-7f51-4339-98be-1ead5092a89c.png)   
 
-AOS/IOS: React Native > 0.6   
-WAS: Django RestAPI  
-Auth: JWT  
-XMPP: ejabberd  
-DB: Mysql   
-PUSH: FCM
+* AOS/IOS: React Native > 0.6   
+ -> 안드로이드/IOS 동시 개발을 위해서 사용합니다   
+* WAS: Django RestAPI  
+ -> Flask보다 안정적, 사용하던 메인 언어가 Python이었습니다...   
+* Auth: JWT   
+ -> 앱에서는 쿠키/세션 방식보다는 JWT를 많이 사용한다 해서 선택했습니다   
+* XMPP: ejabberd  
+ -> 채팅을 위한 서버입니다. WebSocket보다는 보안적으로 안전하다 해서 선택했습니다   
+* DB: Mysql   
+ -> 항상 사용하던 DB라서 선택했습니다   
+* PUSH: FCM
+ -> Push알림을 주기 위해서 사용합니다   
 
 #### 사용 라이브러리 및 이유
 * Axios   
