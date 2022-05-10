@@ -21,6 +21,19 @@ RN을 처음사용하면서 Function / Class 각각이 지닌 장단점이 있�
 원 디자인 패턴의 정의에 맞게 최대한 Component에서는 연산을 Presenter에서는 UI적인 부분만 관여하도록 하였습니다.
 다만, 화면이 다시 포커스되는 시점에 Class방식에서 다시 포커스되는 것을 인식할 방식을 못 찾아서 Function방식에서 사용가능한 useFocus 함수를 이용하는 등의 변수가 있습니다.
 
+## ※스크린 스택 구조
+![image](https://user-images.githubusercontent.com/25381921/167575605-9f32df95-5186-4479-a24e-72d057b13c58.png)
+
+### #파티탭 이슈
+![녹화_2022_05_10_16_46_10_738](https://user-images.githubusercontent.com/25381921/167576320-7c44ce73-2ab6-478f-a07f-882905dfc675.gif)
+파티탭은 다음과 같이 스와이프를 통해서 화면전환이 가능하다.   
+
+이때, 화면전환을 위해서 RN에서 [Material Top Tabs Navigator](https://reactnavigation.org/docs/material-top-tab-navigator/)를 사용하였는데,  
+본 프로젝트의 Top Tab은 Custom Top Tab이다.    
+그래서 Navigator를 이용해 Tab의 Option을 아무리 수정해도 CustomTab을 안보이게 처리할 수가 없었다.   
+차선책으로 Zustand라는 상태관리 라이브러리를 사용해 스크린에 따라 CustomTab을 활성/비활성 하도록 했을 때, 파티 글을 눌러 게시물을 확인하고 다시 나오면 CustomTab을 그려주는 동작이 늦게 나타나 UX적인 부분에서 만족스럽지 못하다.  
+때문에 세부 내용을 볼 수 있는 Stack화면을 Content와 동일한 계층에 놓음으로써 CustomTab을 가리는 방안을 선택하였다.  
+
 ## ※파티
 
 ### #메인 파티
