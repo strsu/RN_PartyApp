@@ -27,7 +27,7 @@ class MainPartyDetailComponent extends React.Component {
             partyInfo: this.props.route.params,
             partyContent: [this.props.route.params.content],
             partyReview: [],
-            partyQnA: [],
+            partyQnA: [0],
 
             scrollY: new Animated.Value(
                 // iOS has negative initial scroll value because content inset...
@@ -37,6 +37,7 @@ class MainPartyDetailComponent extends React.Component {
 
             setShowType: this.setShowType.bind(this),
             openGallery: this.openGallery.bind(this),
+            reviewPost: this.reviewPost.bind(this),
         };
 
     }
@@ -85,29 +86,39 @@ class MainPartyDetailComponent extends React.Component {
         if(type=='상세정보') {
             this.setState({
                 showType: type,
-                data: this.state.partyContent,
             });
         } else if(type=='리뷰') {
-            console.log('sdf');
             this.getReview();
             this.setState({
                 showType: type,
-                data: this.state.partyReview,
                 textHeight: 40,
             });
         } else {
-            console.log('s21212df');
             this.getQnA();
             this.setState({
                 showType: type,
-                data: this.state.partyQnA,
                 textHeight: 40,
             });
         }
     }
 
+    reviewPost() {
+
+    }
+
     getReview() {
 
+        customAxios.get('/MainParty/review/', {
+            'params': {
+                uid: this.props.route.params.uid,
+            }
+        }).then((res) => {
+            this.setState({
+                partyReview: [res.data],
+            });
+        }).catch((err) => {
+
+        })
     }
 
     getQnA() {

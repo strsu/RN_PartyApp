@@ -26,11 +26,15 @@ class MainPartyComponent extends React.Component {
             setRefreshing: this.setRefreshing.bind(this),
             getRefreshing: this.getRefreshing.bind(this),
 
+            filterReset: this.filterReset.bind(this),
+
             filterModalVisiable: false,
             scheduleModalVisiable: false,
             setModalVisiable: this.setModalVisiable.bind(this),
 
-            animation: new Animated.Value(0),
+            ageAnimation: new Animated.Value(0),
+            ageActive: false,
+            setAgeActive: this.setAgeActive.bind(this),
 
             multiSliderValue: [0,100],
             multiSliderOffsetX: 0,
@@ -50,6 +54,8 @@ class MainPartyComponent extends React.Component {
             markedDates: {},
             setPeriod: this.setPeriod.bind(this),
 
+            selectedLocation: [],
+            locationSelecting: this.locationSelecting.bind(this),
             location: ['서울','부산','대구','대전','광주','세종','충북','충남','전북','전남','경북','경남','제주도'],
 
             scrollEnabled: true,
@@ -63,24 +69,19 @@ class MainPartyComponent extends React.Component {
 
     componentDidMount() {
 
-        customAxios.get("/MainParty/category/")
-        .then((res) => {
-            this.setState({
-                filterData: res.data,
-            });
-        }).catch((err) => {
-            console.log("MainPartComponent <filter> ", err);
-        })
-
         customAxios.get('/MainParty/board/', {
             'params': {
-                category: '모두 보기',
                 type: 0,
                 page: 0,
+                startDay: this.state.startDay,
+                endDay: this.state.endDay,
+                location: JSON.stringify(this.state.selectedLocation),
+                age: JSON.stringify(this.state.multiSliderValue),
             }
         }).then( (res) => {
+            console.log(res.data);
             this.setState({
-                partyData: res.data 
+                partyData: res.data,
             })
         }).catch( (error) =>{
             console.log('ERROR, @MainPartComponent <board>', error);
@@ -116,17 +117,33 @@ class MainPartyComponent extends React.Component {
         }
     }
 
+    filterReset() {
+        this.setState({
+            startDay: '',
+            endDay: '',
+            markedDates: {},
+            selectedLocation: [],
+            multiSliderValue: [0,100],
+            filterModalVisiable: false,
+        });
+    }
+
     enableScroll = () => this.setState({ scrollEnabled: true });
     disableScroll = () => this.setState({ scrollEnabled: false });
     setMultiSliderValue = (value) => this.setState({multiSliderValue: value});
     setMultiSliderOffsetX = (value) => console.log(value); //this.setState({multiSliderOffsetX: value});
     setMultiSliderOffsetY = (value) => this.setState({multiSliderOffsetY: value});
 
+    setAgeActive = () => this.setState({ageActive: this.state.ageActive ? false : true});
+
     setPeriod(value) {
         if(this.state.startDay == '' || (this.state.endDay != '' && this.state.startStamp > value.timestamp)) {
+            let json = {};
+            json[value.dateString] = {selected: true, color: '#50cebb', textColor: 'white'}
             this.setState({
                 startDay: value.dateString,
                 startStamp: value.timestamp,
+                markedDates: json
             });
             if(this.state.endDay != '') {
                 let result = [];
@@ -201,8 +218,35 @@ class MainPartyComponent extends React.Component {
         }
     }
 
+    locationSelecting(city) {
+        if(this.state.selectedLocation.includes(city)) {
+            this.setState({
+                selectedLocation: this.state.selectedLocation.filter(function(data) {
+                    return data != city;
+                }),
+            });
+        } else {
+            this.setState({
+                selectedLocation: this.state.selectedLocation.concat(city),
+            });
+        }
+    }
+
     setCurFilter(params) {
-        customAxios.get(`/mainParty/board/0/0/${this.state.filterData[params]}`)
+        if( this.state.startDay == '' &&
+            this.state.endDay == '' &&
+            this.state.selectedLocation == [] &&
+            this.state.multiSliderValue ==  [0,100]
+        ) return;
+        console.log(this.state.selectedLocation);
+        customAxios.get(`/MainParty/board/`, {
+            'params': {
+                startDay: this.state.startDay,
+                endDay: this.state.endDay,
+                location: this.state.selectedLocation,
+                age: this.state.multiSliderValue,
+            }
+        })
         .then((res) => {
             this.setState({
                 partyData: res.data,

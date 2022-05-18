@@ -13,6 +13,7 @@ import {
     Modal,
     ScrollView,
     Animated,
+    Easing,
     Pressable
 }
 from 'react-native'
@@ -176,31 +177,42 @@ const Header = (props) => {
 const Filter = ({ state }) => {
 
     const ageAnimation = {
-        transform: [
-            {scale: state.animation},
-            {
-                translateY: state.animation.interpolate({
-                    inputRange: [0, 1],
-                    outputRange: [0, -160]
-                })
-            }
-        ]
+        flex: 1,
+        opacity: state.ageAnimation,
+        display: state.ageActive ? 'flex' : 'none'
     };
 
     return (
         <Modal
-            animationType='fade'
+            animationType='slide'
             transparent={true}
             visible={state.filterModalVisiable}
         >
             <View style={{
                 flex: 1,
                 marginTop: 140,
-                marginBottom: 140,
+                marginBottom: 100,
                 marginLeft: 60,
                 marginRight: 60,
                 backgroundColor: 'white',
             }}>
+
+                <View style={{
+                    height: 30,
+                    backgroundColor: 40,
+                    flexDirection: 'row',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    paddingRight: 10,
+                    paddingLeft: 10,
+                }}>
+                    <View><Text>필터</Text></View>
+                    <TouchableOpacity
+                        onPress={() => state.setModalVisiable('filter', false)}
+                    >
+                        <Icon name='x' size={20} />
+                    </TouchableOpacity>
+                </View>
 
                 <ScrollView
                     style={{ flex: 1, padding: 10, }}
@@ -215,9 +227,12 @@ const Filter = ({ state }) => {
                             alignItems: 'center',
                         }}
                             onPress={() => {
-                                Animated.spring(state.animation, {
-                                    toValue: 1,
-                                    friction: 5,
+                                console.log(state.ageActive ? 0 : 1);
+                                state.setAgeActive();
+                                Animated.timing(state.ageAnimation, {
+                                    toValue: state.ageActive ? 0 : 1,
+                                    duration: 1000,
+                                    easing: Easing.back(),
                                     useNativeDriver: false
                                 }).start();
                             }}
@@ -326,10 +341,14 @@ const Filter = ({ state }) => {
                                         padding: 5,
                                         paddingLeft: 10,
                                         paddingRight: 10,
-                                        backgroundColor: 40,
+                                        backgroundColor: state.selectedLocation.includes(data) ? 'red' : 40,
                                         margin: 3,
                                         borderRadius: 20,
-                                    }}>
+                                    }}
+                                    onPress={() => {
+                                        state.locationSelecting(data);
+                                    }}
+                                    >
                                         <Text style={{
                                         }}>{data}</Text>
                                     </TouchableOpacity>
@@ -341,6 +360,39 @@ const Filter = ({ state }) => {
 
                 </ScrollView>
 
+                <View style={{
+                    height: 40,
+                    backgroundColor: 'white',
+                    flexDirection: 'row',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    padding: 5,
+                    paddingRight: 10,
+                    paddingLeft: 10,
+                }}>
+                    <TouchableOpacity style={{
+                        flex: 1,
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                    }}
+                    onPress={() => state.filterReset()}
+                    >
+                        <Text>선택초기화</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={{
+                        flex: 2,
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        backgroundColor: 'blue',
+                        padding: 5,
+                        borderRadius: 5,
+                    }}
+                    onPress={() => state.setCurFilter()}
+                    >
+                        <Text>파티보기</Text>
+                    </TouchableOpacity>
+                </View>
+
             </View>
         </Modal>
     );
@@ -350,11 +402,36 @@ const Filter = ({ state }) => {
 const Schedule = ({ state }) => {
     return (
         <Modal
-            animationType='fade'
+            animationType='slide'
             transparent={true}
             visible={state.scheduleModalVisiable}
         >
+            <View style={{
+                flex: 1,
+                marginTop: 140,
+                marginBottom: 100,
+                marginLeft: 60,
+                marginRight: 60,
+                backgroundColor: 'white',
+            }}>
 
+                <View style={{
+                    height: 30,
+                    backgroundColor: 40,
+                    flexDirection: 'row',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    paddingRight: 10,
+                    paddingLeft: 10,
+                }}>
+                    <View><Text>일정</Text></View>
+                    <TouchableOpacity
+                        onPress={() => state.setModalVisiable('schedule', false)}
+                    >
+                        <Icon name='x' size={20} />
+                    </TouchableOpacity>
+                </View>
+            </View>
         </Modal>
     );
 }
