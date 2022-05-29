@@ -4,6 +4,7 @@ import { customAxios } from '../customAxios';
 import useStore, {useUserParty} from '../../AppContext';
 
 import SubPartyPresenter from './SubPartyPresenter';
+import { tapGestureHandlerProps } from 'react-native-gesture-handler/lib/typescript/handlers/TapGestureHandler';
 
 //class SubPartyComponent extends React.Component {
     class SubPartyComponent extends PureComponent {
@@ -15,9 +16,28 @@ import SubPartyPresenter from './SubPartyPresenter';
         this.state = {
             userUUID: useStore.getState().uuid,
             userSEX: useStore.getState().sex,
-            curFilter: '종합',
+            curFilter: [],
             setCurFilter: this.setCurFilter.bind(this),
             getCurFilter: this.getCurFilter.bind(this),
+
+            filterModal: false,
+            setFilterModal: this.setFilterModal.bind(this),
+            doFiltering: this.doFiltering.bind(this),
+
+            mCheck: true,
+            wCheck: true,
+            setCheck: this.setCheck.bind(this),
+
+            startDayStyle: {startingDay: true, color: '#50cebb', textColor: 'white'},
+            middleDayStyle: {color: '#70d7c7', textColor: 'white'},
+            endDayStyle: {endingDay: true, color: '#50cebb', textColor: 'white'},
+
+            startDay: '',
+            endDay: '',
+            startStamp: -1,
+            endStamp: -1,
+            markedDates: {},
+            setPeriod: this.setPeriod.bind(this),
 
             onEndReachedCalledDuringMomentum: false,
             setMomentum: this.setMomentum.bind(this),
@@ -53,9 +73,13 @@ import SubPartyPresenter from './SubPartyPresenter';
 
         customAxios.get('/SubParty/board/', {
             'params': {
-                category: '종합',
+                category: JSON.stringify(['종합']),
                 type: 0,
                 page: 0,
+                mSex: useUserParty.getState().mSex,
+                wSex: useUserParty.getState().wSex,
+                startDay: useUserParty.getState().startDay,
+                endDay: useUserParty.getState().endDay,
             }
         }).then( (res) => {
             //console.log(Object.values(res.data));
@@ -128,9 +152,13 @@ import SubPartyPresenter from './SubPartyPresenter';
 
         customAxios.get('/SubParty/board/', {
             'params': {
-                category: filter,
+                category: JSON.stringify(filter),
                 type: state,
                 page: uid,
+                mSex: useUserParty.getState().mSex,
+                wSex: useUserParty.getState().wSex,
+                startDay: useUserParty.getState().startDay,
+                endDay: useUserParty.getState().endDay,
             }
         }).then( (res) => {
             if(res.status == 200) {
@@ -165,13 +193,16 @@ import SubPartyPresenter from './SubPartyPresenter';
 
         let uid = Object.values(useUserParty.getState().partyData)[0].uid;
         let state = 2;
-        let filter = useUserParty.getState().curFilter;
 
         customAxios.get('/SubParty/board/', {
             'params': {
-                category: filter,
+                category: JSON.stringify(useUserParty.getState().curFilter),
                 type: state,
                 page: uid,
+                mSex: useUserParty.getState().mSex,
+                wSex: useUserParty.getState().wSex,
+                startDay: useUserParty.getState().startDay,
+                endDay: useUserParty.getState().endDay,
             }
         }).then( (res) => {
             if(res.status == 200) {
@@ -210,28 +241,19 @@ import SubPartyPresenter from './SubPartyPresenter';
     };
 
     setCurFilter(params) {
-        if (params != useUserParty.getState().curFilter) {
-            params = params.replace('?', '');
-
-            customAxios.get(`/SubParty/board/`, {
-                'params': {
-                    category: params,
-                    type: 0,
-                    page: 0,
-                }
-            }, {
-                headers: {"Content-Type" : "application/json"},
-                //responseType: "JSON",
-                maxContentLength: 2000, // http 응답 내용의 max 사이즈
-                maxRedirects: 5
-            }).then((res) => {
-                useUserParty.getState().setPartyData(res.data);
-                useUserParty.getState().setCurFilter(params);
-                this.setState({
-                    curFilter: params,
-                });
-            }).catch((err) => {
-                console.log("SubPartyComponent <partyData> ", err);
+        if(this.state.curFilter.includes(params)) {
+            let filter = this.state.curFilter.filter(function(data) {
+                return data != params;
+            });
+            if(filter.length == 0) {
+                filter = ['종합']
+            }
+            this.setState({
+                curFilter: filter
+            });
+        } else {
+            this.setState({
+                curFilter: this.state.curFilter.concat(params),
             })
         }
     };
@@ -239,6 +261,147 @@ import SubPartyPresenter from './SubPartyPresenter';
     getCurFilter() {
         return useUserParty.getState().curFilter;
     };
+
+    doFiltering() {
+        customAxios.get(`/SubParty/board/`, {
+            'params': {
+                category: JSON.stringify(this.state.curFilter),
+                type: 0,
+                page: 0,
+                mSex: this.state.mCheck,
+                wSex: this.state.wCheck,
+                startDay: this.state.startDay,
+                endDay: this.state.endDay,
+            }
+        }).then((res) => {
+            useUserParty.getState().setPartyData(res.data);
+            useUserParty.getState().setCurFilter(this.state.curFilter);
+            useUserParty.getState().setMSex(this.state.mCheck);
+            useUserParty.getState().setWSex(this.state.wCheck);
+            useUserParty.getState().setStartDate(this.state.startDay);
+            useUserParty.getState().setEndDate(this.state.endDay);
+            this.setState({
+                filterModal: false,
+                isLastData: false,
+            });
+        }).catch((err) => {
+            console.log("SubPartyComponent <partyData> ", err);
+        })
+    }
+
+    setFilterModal(param) {
+        this.setState({
+            filterModal: param
+        });
+    }
+
+    setCheck(sex, state) {
+        if(sex == 'm') {
+            if(this.state.wCheck == true) {
+                this.setState({
+                    mCheck: state,
+                })
+            } else {
+                this.setState({
+                    mCheck: state,
+                    wCheck: !state,
+                })
+            }
+        } else {
+            if(this.state.mCheck == true) {
+                this.setState({
+                    wCheck: state,
+                })
+            } else {
+                this.setState({
+                    wCheck: state,
+                    mCheck: !state,
+                })
+            }
+        }
+    }
+
+    setPeriod(value) {
+        if(this.state.startDay == '' || (this.state.endDay != '' && this.state.startStamp > value.timestamp)) {
+            let json = {};
+            json[value.dateString] = {selected: true, color: '#50cebb', textColor: 'white'}
+            this.setState({
+                startDay: value.dateString,
+                startStamp: value.timestamp,
+                markedDates: json
+            });
+            if(this.state.endDay != '') {
+                let result = [];
+                let curDate = new Date(value.dateString);
+                while(curDate <= new Date(this.state.endDay)) {
+                    let year = curDate.getFullYear();
+                    let month = String(curDate.getMonth()+1).padStart(2, '0');
+                    let day = String(curDate.getDate()).padStart(2, '0');
+                    result.push(`${year}-${month}-${day}`);
+                    curDate.setDate(curDate.getDate() + 1);
+                }
+                let json = {}
+                for(let i=0; i<result.length; i++) {
+                    if(i == 0) {
+                        json[result[i]] = this.state.startDayStyle;
+                    } else if(i == result.length-1) {
+                        json[result[i]] = this.state.endDayStyle;
+                    } else {
+                        json[result[i]] = this.state.middleDayStyle;
+                    }
+                }
+                this.setState({
+                    markedDates: json,
+                });
+            }
+        } else if(this.state.startDay == value.dateString || this.state.endDay == value.dateString) {
+            this.setState({
+                startDay: '',
+                endDay: '',
+                markedDates: {},
+            });
+        } else {
+            let startDay = this.state.startDay;
+            let endDay = value.dateString;
+
+            if(this.state.startStamp > value.timestamp) {
+                this.setState({
+                    startStamp: value.timestamp,
+                    startDay: value.dateString,
+                    endDay: this.state.startDay,
+                });
+                startDay = value.dateString;
+                endDay = this.state.startDay;
+            }
+
+            console.log(startDay, endDay);
+
+            let result = [];
+            let curDate = new Date(startDay);
+            while(curDate <= new Date(endDay)) {
+                let year = curDate.getFullYear();
+                let month = String(curDate.getMonth()+1).padStart(2, '0');
+                let day = String(curDate.getDate()).padStart(2, '0');
+                result.push(`${year}-${month}-${day}`);
+                curDate.setDate(curDate.getDate() + 1);
+            }
+            let json = {}
+            for(let i=0; i<result.length; i++) {
+                if(i == 0) {
+                    json[result[i]] = this.state.startDayStyle;
+                } else if(i == result.length-1) {
+                    json[result[i]] = this.state.endDayStyle;
+                } else {
+                    json[result[i]] = this.state.middleDayStyle;
+                }
+            }
+
+            this.setState({
+                endDay: value.dateString,
+                markedDates: json,
+            });
+        }
+    }
 
     setPositionY(param) {
         this.setState({

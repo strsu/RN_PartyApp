@@ -52,12 +52,16 @@ function ProfilePresenter(props) {
                     <Text>{useRegister.getState().birth}</Text>
                 </View>
 
-                <View style={styles.element}>
+                <View style={[styles.element, {
+                    backgroundColor: props.state.nicknameCheck ? 'white' : 'red',
+                }]}>
                     <Text style={styles.left}>닉네임</Text>
                     <TextInput style={styles.right}
                         textAlign='right'
                         placeholder='닉네임을 입력해주세요.'
-                        onChangeText={text => useRegister.getState().setNickname(text)}
+                        onChangeText={text => {
+                            props.state.nicknameVerify(text);
+                        }}
                         onSubmitEditing={() => props.state.setWhichItem('학력')}
                      />
                 </View>

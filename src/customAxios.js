@@ -8,6 +8,7 @@ export const customAxios = axios.create({
   maxRedirects: 5,
   withCredentials: true,
   headers: {
+    //headers: {"Content-Type" : "application/json"},
     access_token: '',
     uuid: useStore.getState().uuid,
     accept: 'application/json',

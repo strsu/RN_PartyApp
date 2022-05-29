@@ -44,6 +44,9 @@ class SubPartyDetailComponent extends React.Component {
             getUserDetail: this.getUserDetail.bind(this),
             getPhone: this.getPhone.bind(this),
             imageData: [],
+
+            writerProfileModalVisiable: false,
+            writerModal: this.writerModal.bind(this),
         };
 
     }
@@ -92,8 +95,12 @@ class SubPartyDetailComponent extends React.Component {
             customAxios.get(`SubParty/board/`, {
                 'params': {
                     page: uid,
-                    category: tagString,
-                    type: 3
+                    category: JSON.stringify(tags),
+                    type: 3,
+                    mSex: useUserParty.getState().mSex,
+                    wSex: useUserParty.getState().wSex,
+                    startDay: '',
+                    endDay: '',
                 }
             }).then((res) => {
                 this.setState({
@@ -130,6 +137,24 @@ class SubPartyDetailComponent extends React.Component {
             })
         }
 
+        if (data.isApply && data.state == 0) {
+            // 파티를 신청했고, 파티 종류가 주최자 프로필 확인 가능 파티라면
+            customAxios.get('/SubParty/usersimpledetail/', {
+                'params': {
+                    uid: uid
+                }
+            }).then((res) => {
+                let imgData = [res.data.mainpic];
+                res.data.requirepic.map(img => img != '' ? imgData.push(img) : '');
+                res.data.extrapic.map(img => img != '' ? imgData.push(img) : '');
+                this.setState({
+                    imageData: imgData,
+                });
+            }).catch((err) => {
+
+            })
+        }
+
     }
 
     componentDidUpdate() {
@@ -157,7 +182,26 @@ class SubPartyDetailComponent extends React.Component {
         // 들어온 게시물
         if (idx == -1) {
 
-            const data = useUserParty.getState().partyData[`${this.props.route.params.uid}`];
+            let data = undefined;
+
+            if (this.props.route.params.uid == undefined) {
+                // 내 서랍에서 들어온 경우
+
+                // 가져온 서브파티정보에 해당 게시물이 있는지 체크
+                data = useUserParty.getState().partyData[uid];
+                if (data == undefined) {
+                    // 가져온 정보에 없으면 넘어온 파라미터를 연결
+                    // 외부 데이터까지 신경 쓸 필요가 없다
+                    data = this.props.route.params.item;
+                }
+
+            } else {
+                data = useUserParty.getState().partyData[`${this.props.route.params.uid}`];
+            }
+
+            if (data == undefined) {
+                return;
+            }
 
             let func = undefined;
             if (type == 'like' && data.isLike) func = customAxios.delete;
@@ -173,12 +217,20 @@ class SubPartyDetailComponent extends React.Component {
             }).then((res) => {
                 data.isLike = type == 'like' ? (!data.isLike) : data.isLike;
                 data.isDibs = type == 'dibs' ? (!data.isDibs) : data.isDibs;
-
+                
                 // 이건 보이기용
                 this.setState({
                     isLike: data.isLike,
                     isDibs: data.isDibs,
                 });
+
+                if (this.props.route.params.uid == undefined) {
+                    // 내 서랍에서 들어왔는데
+                    if(useUserParty.getState().partyData[uid] != undefined) {
+                        // 이미 가져온 게시물인 경우
+                        this.props.route.params.item = data;
+                    }
+                }
 
             }).catch((err) => {
                 console.log('SubPartyComponent <likeBtn> ', err)
@@ -240,7 +292,26 @@ class SubPartyDetailComponent extends React.Component {
                         this.setState({
                             isApply: true,
                         });
+                        this.state.headerData.isApply = true;
                         useUserParty.getState().partyData[uid_].isApply = true;
+
+                        if(this.state.headerData.state == 0) {
+                            customAxios.get('/SubParty/usersimpledetail/', {
+                                'params': {
+                                    uid: uid_
+                                }
+                            }).then((res) => {
+                                let imgData = [res.data.mainpic];
+                                res.data.requirepic.map(img => img != '' ? imgData.push(img) : '');
+                                res.data.extrapic.map(img => img != '' ? imgData.push(img) : '');
+                                this.setState({
+                                    imageData: imgData,
+                                });
+                            }).catch((err) => {
+                
+                            })
+                        }
+
                     } else { // 비슷한 태그
                         // 비슷한 태그가 메인 페이지에서 로딩한 게시물이라면
                         // 해당 게시물 내용도 바꾸어 줘야 함
@@ -290,7 +361,7 @@ class SubPartyDetailComponent extends React.Component {
             let imgData = [user.image];
             res.data.requirepic.map(img => img != '' ? imgData.push(img) : '');
             res.data.extrapic.map(img => img != '' ? imgData.push(img) : '');
-            console.log(user);
+            //console.log(user);
             this.setState({
                 userData: res.data,
                 imageData: imgData,
@@ -376,6 +447,12 @@ class SubPartyDetailComponent extends React.Component {
                 });
             }
         }
+    }
+
+    writerModal() {
+        this.setState({
+            writerProfileModalVisiable: !this.state.writerProfileModalVisiable,
+        });
     }
 
 }

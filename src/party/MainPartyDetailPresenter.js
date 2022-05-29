@@ -13,11 +13,12 @@ import {
     Platform,
     ScrollView
 }
-    from 'react-native'
+from 'react-native'
 
 import Icon from 'react-native-vector-icons/Octicons';
 import IconEntypo from 'react-native-vector-icons/Entypo';
 import { SliderBox } from "react-native-image-slider-box";
+import CheckBox from '@react-native-community/checkbox';
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
@@ -37,7 +38,7 @@ function MainPartyDetailPresenter(props) {
                     data={props.state.showType == '상세정보' ? props.state.partyContent : props.state.showType == '리뷰' ? props.state.partyReview : props.state.partyQnA}
                     showsVerticalScrollIndicator={false}
                     showsHorizontalScrollIndicator={false}
-                    renderItem={(item) => <Detail item={item} type={props.state.showType} />}
+                    renderItem={(item) => <Detail item={item} type={props.state.showType} state={props.state} />}
                     ListHeaderComponent={<Header imageData={img} info={props.state.partyInfo} func={props.state.setShowType} />}
 
                 //ListFooterComponent={}
@@ -112,7 +113,7 @@ const Footer = ({ props }) => {
     if (props.showType == '상세정보') {
         return (<DetailFooter props={props} />);
     } else {
-        return(<></>);
+        return (<></>);
     }
 }
 
@@ -266,52 +267,82 @@ const ReviewFooter = ({ props }) => {
     );
 }
 
-const QnAFooter = ({ props }) => {
+const QnAFooter = ({ state }) => {
     return (
-        <View style={{
-            flexDirection: 'row',
-            height: 50,
-            justifyContent: 'center',
-            alignItems: 'center',
-            backgroundColor: 'white',
-            padding: 5,
-            // ios
-            shadowColor: 'black',
-            shadowOffset: { width: 2, height: 2 },
-            shadowOpacity: 0.3,
-            //aos
-            elevation: 3,
-        }}>
+        <View>
             <View style={{
-                flex: 8,
-            }}>
-                <TextInput
-                    style={{
-                        width: '100%',
-                        height: 40,
-                        borderWidth: 1,
-                        borderRadius: 20,
-                        padding: 10,
-                    }}
-                    placeholder='질문을 등록해주세요'
-                />
-            </View>
-
-            <View style={{
-                flex: 1.5,
+                flexDirection: 'row',
+                height: 50,
+                justifyContent: 'center',
                 alignItems: 'center',
-                marginLeft: 5,
+                padding: 5,
+                marginTop: 10,
+                /*
+                backgroundColor: 'white',
+                // ios
+                shadowColor: 'black',
+                shadowOffset: { width: 2, height: 2 },
+                shadowOpacity: 0.3,
+                //aos
+                elevation: 3,*/
             }}>
-                <TouchableOpacity style={{
-                    backgroundColor: '#BAE7AF',
-                    paddingTop: 5,
-                    paddingLeft: 15,
-                    paddingRight: 15,
-                    paddingBottom: 5,
+                <View style={{
+                    flex: 8,
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    
+                    borderWidth: 1,
                     borderRadius: 20,
                 }}>
-                    <Text>입력</Text>
-                </TouchableOpacity>
+                    <View style={{
+                        flex: 1,
+                        flexDirection: 'row',
+                        alignItems: 'center',
+                        marginRight: 15,
+                        paddingLeft: 5,
+                    }}>
+                        <CheckBox
+                            disabled={false}
+                            value={state.toggleCheckBox}
+                            onValueChange={(newValue) => state.setToggleCheckBox(newValue)}
+                        />
+                        <Text style={{
+                            color: 'green',
+                            fontWeight: 'bold',
+                        }}>비밀</Text>
+                    </View>
+                    <View style={{
+                        flex: 7,
+                    }}>
+                        <TextInput
+                            style={{
+                                width: '100%',
+                                height: 40,
+                                padding: 10,
+                            }}
+                            placeholder='질문을 등록해주세요'
+                            onChangeText={(text) => state.setQNAText(text)}
+                        />
+                    </View>
+                </View>
+
+                <View style={{
+                    flex: 1.5,
+                    alignItems: 'center',
+                    marginLeft: 5,
+                }}>
+                    <TouchableOpacity style={{
+                        backgroundColor: '#BAE7AF',
+                        paddingTop: 10,
+                        paddingLeft: 15,
+                        paddingRight: 15,
+                        paddingBottom: 10,
+                        borderRadius: 20,
+                    }}
+                        onPress={() => state.qnaPost()}>
+                        <Text>등록</Text>
+                    </TouchableOpacity>
+                </View>
             </View>
         </View>
     );
@@ -446,7 +477,7 @@ const Info = ({ item }) => {
                     alignItems: 'center',
                     marginTop: 2,
                 }}>
-                    <Icon name="pin" size={15} />
+                    <Icon name="location" size={15} />
                     <Text style={{
                         marginLeft: 5,
                     }}>{item.place}</Text>
@@ -457,7 +488,7 @@ const Info = ({ item }) => {
     );
 }
 
-const Detail = ({ item, type }) => {
+const Detail = ({ item, type, state }) => {
     if (type == '상세정보') {
         return (
             <View style={{
@@ -629,7 +660,27 @@ const Detail = ({ item, type }) => {
             </View>
         );
     } else {
-        console.log('##@#');
+        let qna = [];
+        if (item.item != 0) {
+            item.item.map(data => {
+                qna.push(
+                    <View style={{
+                        padding: 10,
+                        borderBottomWidth: 1,
+                        borderBottomColor: 40,
+                    }}
+                        key={data.content}
+                    >
+                        <Text>Q: {data.content}</Text>
+                        {
+                            data.answer == null ? <></> :
+                                <Text>A: {data.answer}</Text>
+                        }
+                    </View>
+                );
+            });
+        }
+
         return (
             <View style={{
                 flex: 1,
@@ -637,9 +688,15 @@ const Detail = ({ item, type }) => {
                 <View style={{
                     // QnA 입력창
                     flex: 1,
-                    padding: 10,
+                    padding: 5,
                 }}>
-                    <QnAFooter />
+                    <QnAFooter state={state} />
+                    <View style={{
+                        marginTop: 10,
+                        padding: 5,
+                    }}>
+                        {qna}
+                    </View>
                 </View>
             </View>
         );

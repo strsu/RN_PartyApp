@@ -75,7 +75,7 @@ class AuthComponent_Face extends React.Component {
                 case 4: this.setState({extraPic: this.state.extraPic.slice(0,1).concat(image.data).concat(this.state.extraPic.slice(2,3)), isExtraChange: true }); break;
                 case 5: this.setState({extraPic: this.state.extraPic.slice(0,2).concat(image.data), isExtraChange: true }); break;
             }
-            this.verify();
+            //this.verify();
         }).catch((err) => {
 
         });
@@ -102,7 +102,7 @@ class AuthComponent_Face extends React.Component {
                 case 4: this.setState({extraPic: this.state.extraPic.slice(0,1).concat(image.data).concat(this.state.extraPic.slice(2,3)), isExtraChange: true }); break;
                 case 5: this.setState({extraPic: this.state.extraPic.slice(0,2).concat(image.data), isExtraChange: true }); break;
             }
-            this.verify();
+            //this.verify();
         }).catch((err) => {
 
         });
@@ -137,21 +137,46 @@ class AuthComponent_Face extends React.Component {
     }
 
     verify() {
-        // 변경된 사진이 아예 없으면 return
-        if(!this.state.isMainChange && !this.state.isRequireChange && !this.state.isExtraChange) return;
-
-        if( this.state.mainPic[0] != '' ||
-            this.state.requirePic[0] != '' ||
-            this.state.requirePic[1] != '' ) {
-                if(this.state.isMainChange) useAuth.getState().setMainPic(this.state.mainPic);
-                if(this.state.isRequireChange) useAuth.getState().setRequirePic(this.state.requirePic);
-                if(this.state.isExtraChange) useAuth.getState().setExtraPic(this.state.extraPic);
-                this.setState({
-                    isMainChange : false,
-                    isRequireChange: false,
-                    isExtraChange: false,
-                });
+        // 처음에 사진 올리는 경우
+        if( useAuth.getState().isReturnedMainPic == '' &&
+            useAuth.getState().isReturnedRequirePic == '' &&
+            useAuth.getState().isReturnedExtraPic == ''
+        ) {
+            if(this.state.isMainChange || this.state.isRequireChange || this.state.isExtraChange) {
+                if( this.state.mainPic[0] != '' ||
+                    this.state.requirePic[0] != '' ||
+                    this.state.requirePic[1] != '' 
+                ) {
+                        if(this.state.isMainChange) useAuth.getState().setMainPic(this.state.mainPic);
+                        if(this.state.isRequireChange) useAuth.getState().setRequirePic(this.state.requirePic);
+                        if(this.state.isExtraChange) useAuth.getState().setExtraPic(this.state.extraPic);
+                        this.setState({
+                            isMainChange : false,
+                            isRequireChange: false,
+                            isExtraChange: false,
+                        });
+                        useAuth.getState().upload();
+                } else {
+                    // 메인, 필수 3장 모두 업러드 안 된 경우
+                }
             }
+        } else {
+            if(!this.state.isMainChange && !this.state.isRequireChange && !this.state.isExtraChange) return;
+
+            if( this.state.mainPic[0] != '' ||
+                this.state.requirePic[0] != '' ||
+                this.state.requirePic[1] != '' 
+            ) {
+                    if(this.state.isMainChange) useAuth.getState().setMainPic(this.state.mainPic);
+                    if(this.state.isRequireChange) useAuth.getState().setRequirePic(this.state.requirePic);
+                    if(this.state.isExtraChange) useAuth.getState().setExtraPic(this.state.extraPic);
+                    this.setState({
+                        isMainChange : false,
+                        isRequireChange: false,
+                        isExtraChange: false,
+                    });
+            }
+        }
     }
 
     render() {

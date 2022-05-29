@@ -68,17 +68,11 @@ const ModalPopUp = (props) => {
                 flex: 1,
                 justifyContent: "center",
                 alignItems: "center",
-                marginTop: 10
+                marginTop: 10,
             }}>
                 <View style={{
-                    margin: 10,
                     backgroundColor: "white",
-                    borderRadius: 20, 
-                    paddingLeft: 30,
-                    paddingRight: 30,
-                    paddingTop: 15,
-                    paddingBottom: 15,
-                    alignItems: "center",
+                    borderRadius: 20,
                     // ios
                     shadowColor: "#000",
                     shadowOffset: {
@@ -90,42 +84,77 @@ const ModalPopUp = (props) => {
                     // aos
                     elevation: 5
                 }}>
-                    <Text style={{
-                        marginBottom: 15,
-                        textAlign: "center"
-                    }}>{item.title + '파티를 신청하시나요?'}</Text>
-                    <Text style={{
-                        marginBottom: 15,
-                        textAlign: "center"
-                    }}>{'(파티신청을 5음표가 소모됩니다.)'}</Text>
                     <View style={{
                         flexDirection: 'row',
+                        
+                        //alignItems: 'center',
+                    }}>
+                        <View style={{
+                            flex: 1,
+                            padding: 15,
+                            alignItems: 'center',
+                            borderBottomWidth: 1,
+                            borderBottomColor: 'green',
+                        }}>
+                            <Text style={{
+                                color: 'green',
+                                fontSize: 18,
+                                fontWeight: 'bold',
+                            }}>파티신청 보내기</Text>
+                        </View>
+                        <TouchableOpacity style={{
+                            //flex: 1,
+                            position: 'absolute',
+                            right: 15,
+                            top: 10,
+                        }}
+                        onPress={() => f.partyApply(false)}>
+                            <Icon name='x' size={18} />
+                        </TouchableOpacity>
+                    </View>
+
+                    <View style={{
+                        padding: 10,
+                        borderRadius: 20,
+                    }}>
+                        <Text style={{
+                            textAlign: "center"
+                        }}>{item.title} 파티에서</Text>
+                        <Text style={{
+                            textAlign: "center"
+                        }}>인연을 만나보세요!</Text>
+                    </View>
+                    
+                    <Image
+                        style={{
+                            //resizeMode: 'contain',
+                            width: parseInt(windowWidth-80),
+                            backgroundColor: 'red',
+                        }}
+                        source={require('../banner.png')}
+                    />
+
+                    <View style={{
+                        padding: 20,
+                        borderRadius: 20,
+                        paddingLeft: 40,
+                        paddingRight: 40,
                     }}>
                         <Pressable
                             style={{
-                                borderRadius: 20,
+                                backgroundColor: 'green',
                                 padding: 10,
-                                elevation: 2,
-                                margin: 5,
+                                justifyContent: 'center',
+                                alignItems: 'center',
                             }}
                             onPress={() => f.partyApply(true, item.uid, props.idx)}
                         >
-                            <Text style={styles.textStyle}>네</Text>
-                        </Pressable>
-
-                        <Pressable
-                            style={{
-                                borderRadius: 20,
-                                padding: 10,
-                                elevation: 2,
-                                margin: 5,
-                            }}
-                            onPress={() => f.partyApply(false)}
-                        >
-                            <Text style={styles.textStyle}>아니요</Text>
+                            <Text style={{
+                                fontSize: 16,
+                                color: 'white',
+                            }}>파티신청 보내기</Text>
                         </Pressable>
                     </View>
-                    
                 </View>
             </View>
         </Modal>
@@ -135,12 +164,10 @@ const ModalPopUp = (props) => {
 const boardCard = ({props, item}) => {
     if(props.state.partyAddonData.length == 0) return(<></>);
 
-    //console.log(props.state.addonBtn);
-
     // 여기서 if로 boardCard 구분 가능
     const idx = item.index;
     item = item.item;
-
+    
     return(
         <View style={{
             padding: 5,
@@ -159,8 +186,10 @@ const boardCard = ({props, item}) => {
             }}>
                 <View style={{
                     flexDirection: 'row',
+                    alignItems: 'center',
                 }}>
                     <Icon name="dot-fill" size={15} color={item.isMine == 1 ? '#BAE7AF' : item.sex == 0 ? "blue" : 'red'} />
+                    
                     <Text style={{
                         fontSize: 16,
                         fontWeight: '700',
@@ -321,6 +350,91 @@ const boardCardAttender = (props) => {
     );
 };
 
+const WriterProfile = ({props}) => {
+    return(
+        <Modal
+            animationType="slide"
+            transparent={true}
+            visible={props.state.writerProfileModalVisiable}
+        >
+            <View style={{
+                flex: 1,
+                padding: 10,
+                //backgroundColor: 'white',
+                alignItems: 'center',
+                justifyContent: 'center',
+                
+            }}>
+                <View style={{
+                    width: parseInt(windowHeight/2),
+                    height: 30,
+                    backgroundColor: 40,
+                    flexDirection: 'row',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    paddingRight: 10,
+                    paddingLeft: 10,
+                    backgroundColor: 'white',
+                    borderTopLeftRadius: 10,
+                    borderTopRightRadius: 10,
+
+                    elevation: 3,
+                }}>
+                    <View><Text></Text></View>
+                    <View><Text>게시글 작성자 프로필 사진</Text></View>
+                    <TouchableOpacity
+                        onPress={() => props.state.writerModal()}
+                    >
+                        <Icon name='x' size={20} />
+                    </TouchableOpacity>
+                </View>
+
+                <View style={{
+                    height: parseInt(windowHeight/2),
+                    aspectRatio: 1,
+                    borderBottomLeftRadius: 10,
+                    borderBottomRightRadius: 10,
+                    elevation: 3,
+                    //backgroundColor: 'white',
+                }}>
+                    <FlatList 
+                        data={props.state.imageData}
+                        horizontal={true}
+                        pagingEnabled={true}
+                        snapToInterval={parseInt(windowHeight/2)}
+                        decelerationRate="fast"
+                        bounces={false}
+                        showsVerticalScrollIndicator={false}
+                        showsHorizontalScrollIndicator={false}
+                        ItemSeparatorComponent={() => (
+                            <View style={{ width: 0 }} />
+                        )}
+                        //onScroll={evt => props.state.imgSwipe(evt.nativeEvent)}
+                        numColumns={1}
+                        initialNumToRender={1}
+                        renderItem={item => {
+                            return (
+                                <View>
+                                   <Image
+                                        style={{
+                                            aspectRatio: 1, 
+                                            height: '100%', 
+                                            resizeMode: 'cover',
+                                            borderBottomLeftRadius: 10,
+                                            borderBottomRightRadius: 10,
+                                        }}
+                                        source={{uri: item.item}}
+                                   /> 
+                                </View>
+                            )
+                        }}
+                    />
+                </View>
+            </View>
+        </Modal>
+    );
+}
+
 const UserProfile = ({props}) => {
     return(
         <Modal
@@ -349,6 +463,8 @@ const FlatListHeader = (props) => {
         return(<></>);
     }
 
+    console.log('@', props.state.headerData.state);
+
     return(
         <View style={{
             padding: 5,
@@ -366,8 +482,27 @@ const FlatListHeader = (props) => {
             }}>
                 <View style={{
                     flexDirection: 'row',
+                    alignItems: 'center',
                 }}>
-                    <Icon name="dot-fill" size={15} color={item.isMine ? '#BAE7AF' : item.sex == 0 ? "blue" : 'red'} />
+                    {
+                        props.state.headerData.state == 1 ?
+                        <Icon name="dot-fill" size={15} color={item.isMine == 1 ? '#BAE7AF' : item.sex == 0 ? "blue" : 'red'} /> :
+                        !props.state.isApply ?
+                        <Icon name="dot-fill" size={15} color={item.isMine == 1 ? '#BAE7AF' : item.sex == 0 ? "blue" : 'red'} /> :
+                        <TouchableOpacity 
+                            onPress={() => state.writerModal()}
+                        >
+                            <Image 
+                            style={{
+                                width: 30,
+                                height: 30,
+                                borderRadius: 100,
+                            }}
+                                source={{uri: state.imageData[0]}}
+                            />
+                            <WriterProfile props={props}/>
+                        </TouchableOpacity>
+                    }
                     <Text style={{
                         fontSize: 16,
                         fontWeight: '700',
@@ -485,7 +620,7 @@ const FlatListHeader = (props) => {
                                     :
                                     <></>
                                 }   
-                                <Text>{item.isApply ? '신청완료' : '파티신청'}</Text>
+                                <Text>{props.state.isApply ? '신청완료' : '파티신청'}</Text>
                             </TouchableOpacity>
                         </View>
                     }

@@ -11,13 +11,17 @@ import {
     Dimensions,
     RefreshControl,
     ActivityIndicator,
+    Modal,
+    ScrollView
 }
     from 'react-native'
 
 import Icon from 'react-native-vector-icons/Octicons';
 import { useIsFocused } from '@react-navigation/native';
 import { useUserParty } from '../../AppContext';
-
+import CheckBox from '@react-native-community/checkbox';
+import DatePicker from 'react-native-date-picker';
+import { Calendar, CalendarList, Agenda } from 'react-native-calendars';
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
@@ -34,7 +38,7 @@ function SubPartyPresenter(props) {
     const isFocused = useIsFocused();
     useEffect(() => {
         if (isFocused) {
-            if(props.state.positionY > 50) return;
+            if (props.state.positionY > 50) return;
             props.state.loadMoreNewerData();
         }
     }, [isFocused]);
@@ -63,14 +67,14 @@ function SubPartyPresenter(props) {
                     onMomentumScrollBegin={() => { props.state.setMomentum(false) }}
                     ListFooterComponent={
                         props.state.isLastData ?
-                        <View style={{
-                            justifyContent: 'center',
-                            alignItems: 'center',
-                            padding: 10,
-                        }}>
-                            <Text>이게 마지막 게시물이에요!</Text>
-                        </View> :
-                        props.state.onEndReachedCalledDuringMomentum && <ActivityIndicator />
+                            <View style={{
+                                justifyContent: 'center',
+                                alignItems: 'center',
+                                padding: 10,
+                            }}>
+                                <Text>이게 마지막 게시물이에요!</Text>
+                            </View> :
+                            props.state.onEndReachedCalledDuringMomentum && <ActivityIndicator />
                         //<ActivityIndicator />
                     }
 
@@ -88,9 +92,9 @@ function SubPartyPresenter(props) {
                     renderItem={item => <BoardCard navigation={navigation} item={item} />}
                     initialNumToRender={9}
                     windowSize={3}
-                    /*getItemLayout={(data, index) => (
-                        {length: 150, offset: 150 * index, index}
-                      )}*/
+                /*getItemLayout={(data, index) => (
+                    {length: 150, offset: 150 * index, index}
+                  )}*/
                 />
             </View>
             <TouchableOpacity style={{
@@ -115,7 +119,7 @@ function SubPartyPresenter(props) {
             >
                 <Icon name={props.state.positionY > 600 ? "arrow-up" : "plus"} size={30} color="white" />
             </TouchableOpacity>
-            
+
         </SafeAreaView>
     );
 }
@@ -126,6 +130,7 @@ export const BoardCard = React.memo(({ navigation, item }) => {
     // 여기서 if로 boardCard 구분 가능
     const idx = item.index;
     item = item["item"];
+    
     return (
         <View
             style={{
@@ -138,7 +143,7 @@ export const BoardCard = React.memo(({ navigation, item }) => {
                 marginBottom: 10,
             }}
             // 이렇게 해야 each child should have a unique key 뭐 이딴 오류 안 뜬다.
-            key={'party_'+idx}
+            key={'party_' + idx}
         >
 
             <TouchableOpacity
@@ -147,7 +152,7 @@ export const BoardCard = React.memo(({ navigation, item }) => {
                     //marginLeft: 'auto',
                     //marginRight: 'auto',
                 }}
-                onPress={() => navigation.navigate('PartyNavigator', { params: {uid: item.uid}, screen: 'SubPartyDetail' })}
+                onPress={() => navigation.navigate('PartyNavigator', { params: { uid: item.uid }, screen: 'SubPartyDetail' })}
             >
                 <Text style={{
                     position: 'absolute',
@@ -161,7 +166,9 @@ export const BoardCard = React.memo(({ navigation, item }) => {
                 {
                     item.images == '' ? <View style={styles.imageThumbnail}></View> :
                         <Image
-                            style={styles.imageThumbnail}
+                            style={[styles.imageThumbnail, {
+                                borderColor: item.state == 0 ? 'mediumvioletred' : 'midnightblue',
+                            }]}
                             source={{ uri: item.images }}
                         />
                 }
@@ -190,15 +197,16 @@ export const BoardCard = React.memo(({ navigation, item }) => {
                             marginBottom: 2,
                         }}>
                             {item.tags.map(data => {
-                                return(
-                                    <Text 
+                                return (
+                                    <Text
                                         style={{
                                             fontSize: 11,
                                             marginRight: 5,
                                         }}
                                         numberOfLines={1}
                                     >{data}</Text>
-                                )})
+                                )
+                            })
                             }
                         </View>
                     </View>
@@ -211,7 +219,7 @@ export const BoardCard = React.memo(({ navigation, item }) => {
 
 const FilterTag = (props) => {
     return (
-        <View key={'filter_'+props.item.index}>
+        <View key={'filter_' + props.item.index}>
             <TouchableOpacity
                 style={{
                     alignItems: 'center',
@@ -247,9 +255,208 @@ const FilterTag = (props) => {
 const Filter = (state) => {
     //console.log(state);
     return (
+        <View>
+            <TouchableOpacity style={{
+                padding: 5,
+                margin: 5,
+                justifyContent: 'center',
+                alignItems: 'flex-end'
+            }}
+                onPress={() => state.setFilterModal(true)}
+            >
+                <Icon name='filter' size={30} />
+                {
+                    state.filterModal == false ? <></> :
+                        <Modal
+                            animationType='slide'
+                            transparent={true}
+                            visible={state.filterModal}
+                        >
+                            <View style={{
+                                flex: 1,
+                                marginTop: 140,
+                                marginBottom: 100,
+                                marginLeft: 60,
+                                marginRight: 60,
+                                backgroundColor: 'white',
+                            }}>
+
+                                <View style={{
+                                    height: 30,
+                                    backgroundColor: 40,
+                                    flexDirection: 'row',
+                                    justifyContent: 'space-between',
+                                    alignItems: 'center',
+                                    paddingRight: 10,
+                                    paddingLeft: 10,
+                                }}>
+                                    <View><Text>필터</Text></View>
+                                    <TouchableOpacity
+                                        onPress={() => state.setFilterModal(false)}
+                                    >
+                                        <Icon name='x' size={20} />
+                                    </TouchableOpacity>
+                                </View>
+
+                                <ScrollView style={{
+                                    padding: 10,
+                                }}>
+
+                                    <View style={{
+                                        flexDirection: 'row',
+                                        alignItems: 'center'
+                                    }}>
+                                        <Text style={{
+                                            color: 'black',
+                                            fontWeight: 'bold',
+                                            fontSize: 18,
+                                        }}>성별</Text>
+                                        <View style={{
+                                            flexDirection: 'row',
+                                            alignItems: 'center',
+                                            marginLeft: 10,
+                                            marginRight: 10,
+                                        }}>
+                                            <CheckBox
+                                                disabled={false}
+                                                value={state.mCheck}
+                                                onValueChange={(newValue) => state.setCheck('m', newValue)}
+                                            />
+                                            <Text>남자</Text>
+                                        </View>
+                                        <View style={{
+                                            flexDirection: 'row',
+                                            alignItems: 'center'
+                                        }}>
+                                            <CheckBox
+                                                disabled={false}
+                                                value={state.wCheck}
+                                                onValueChange={(newValue) => state.setCheck('w', newValue)}
+                                            />
+                                            <Text>여자</Text>
+                                        </View>
+                                    </View>
+
+                                    <View style={{
+                                    }}>
+                                        <Text style={{
+                                            color: 'black',
+                                            fontWeight: 'bold',
+                                            fontSize: 18,
+                                            marginRight: 10,
+                                        }}>일자</Text>
+                                        {/*<DatePicker
+                                            //value={obj.place}
+                                            style={{
+                                                width: 190,
+                                                height: 40,
+                                                borderWidth: 1,
+                                            }}
+                                            date={state.dateTime}
+                                            //onDateChange={setDateTime}
+                                            //onChange={handleChange}
+                                            locale='ko'
+                                            mode="date"
+                                        />*/}
+                                        <Calendar
+                                            onDayPress={day => {
+                                                state.setPeriod(day);
+                                            }}
+                                            enableSwipeMonths={true}
+                                            markingType={'period'}
+                                            markedDates={state.markedDates}
+                                        //displayLoadingIndicator={true}
+                                        />
+                                    </View>
+                                    
+                                    <Text style={{
+                                        color: 'black',
+                                        fontWeight: 'bold',
+                                        fontSize: 18,
+                                        marginTop: 5,
+                                    }}>태그</Text>
+                                    <View style={{
+                                        flexDirection: 'row',
+                                        flexWrap: 'wrap',
+                                        marginBottom: 20,
+                                    }}>
+                                        {
+                                            useUserParty.getState().filterData.map(data => {
+                                                return(
+                                                    <TouchableOpacity style={{
+                                                        padding: 5,
+                                                        paddingLeft: 10,
+                                                        paddingRight: 10,
+                                                        backgroundColor: state.curFilter.includes(data) ? 'red' : 40,
+                                                        margin: 3,
+                                                        borderRadius: 20,
+                                                    }}
+                                                    onPress={() => {
+                                                        state.setCurFilter(data);
+                                                    }}>
+                                                        <Text>{data}</Text>
+                                                    </TouchableOpacity>
+                                                );
+                                            })
+                                        }
+                                    </View>
+                                </ScrollView>
+
+                                <View style={{
+                                    height: 40,
+                                    backgroundColor: 'white',
+                                    flexDirection: 'row',
+                                    justifyContent: 'space-between',
+                                    alignItems: 'center',
+                                    padding: 5,
+                                    paddingRight: 10,
+                                    paddingLeft: 10,
+                                }}>
+                                    <TouchableOpacity style={{
+                                        flex: 1,
+                                        justifyContent: 'center',
+                                        alignItems: 'center',
+                                    }}
+                                        //onPress={() => state.filterReset()}
+                                    >
+                                        <Text>선택초기화</Text>
+                                    </TouchableOpacity>
+                                    <TouchableOpacity style={{
+                                        flex: 2,
+                                        justifyContent: 'center',
+                                        alignItems: 'center',
+                                        backgroundColor: 'skyblue',
+                                        padding: 5,
+                                        borderRadius: 5,
+                                    }}
+                                        onPress={() => state.doFiltering()}
+                                    >
+                                        <Text>파티보기</Text>
+                                    </TouchableOpacity>
+                                </View>
+
+                            </View>
+                        </Modal>
+                }
+            </TouchableOpacity>
+            <TouchableOpacity style={{
+                //flex: 1,
+                marginBottom: 2,
+            }}>
+                <Image
+                    style={{
+                        width: '100%',
+                        resizeMode: 'contain',
+                    }}
+                    source={require('../banner.png')}
+                />
+            </TouchableOpacity>
+        </View>
+    );
+    return (
         <View
-        style={{
-        }}>
+            style={{
+            }}>
 
             <View
                 style={{
@@ -268,19 +475,17 @@ const Filter = (state) => {
             </View>
 
             <TouchableOpacity style={{
-                    flex: 1,
-                    marginBottom: 2,
-                }}>
-                    <Image 
-                        style={{
-                            width: '100%',
-                            resizeMode: 'contain',
-                        }}
-                        source={require('../banner.png')}
-                    />
-                </TouchableOpacity>
-
-
+                flex: 1,
+                marginBottom: 2,
+            }}>
+                <Image
+                    style={{
+                        width: '100%',
+                        resizeMode: 'contain',
+                    }}
+                    source={require('../banner.png')}
+                />
+            </TouchableOpacity>
         </View>
     );
 }

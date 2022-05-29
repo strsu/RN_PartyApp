@@ -289,12 +289,12 @@ const ShowPic = ({props}) => {
                 }}
                 source={{
                     uri :  
-                    (props.id == 0 ? (props.func.mainPic[0].length <= 100 ? props.func.picURL + props.func.mainPic[0] : 'data:image/jpeg;base64,' + props.func.mainPic[0]) :
-                    props.id == 1 ? (props.func.requirePic[0].length <= 100 ? props.func.picURL + props.func.requirePic[0] : 'data:image/jpeg;base64,' + props.func.requirePic[0]) :
-                    props.id == 2 ? (props.func.requirePic[1].length <= 100 ? props.func.picURL + props.func.requirePic[1] : 'data:image/jpeg;base64,' + props.func.requirePic[1]) :
-                    props.id == 3 ? (props.func.extraPic[0].length <= 100 ? props.func.picURL + props.func.extraPic[0] : 'data:image/jpeg;base64,' + props.func.extraPic[0]) :
-                    props.id == 4 ? (props.func.extraPic[1].length <= 100 ? props.func.picURL + props.func.extraPic[1] : 'data:image/jpeg;base64,' + props.func.extraPic[1]) :
-                    props.id == 5 ? (props.func.extraPic[2].length <= 100 ? props.func.picURL + props.func.extraPic[2] : 'data:image/jpeg;base64,' + props.func.extraPic[2]) : ' ')
+                    (props.id == 0 ? (props.func.mainPic[0].length <= 100 ? props.func.picURL + 'mainPic ' + props.func.mainPic[0] : 'data:image/jpeg;base64,' + props.func.mainPic[0]) :
+                    props.id == 1 ? (props.func.requirePic[0].length <= 100 ? props.func.picURL + 'requirePic ' + props.func.requirePic[0] : 'data:image/jpeg;base64,' + props.func.requirePic[0]) :
+                    props.id == 2 ? (props.func.requirePic[1].length <= 100 ? props.func.picURL + 'requirePic ' + props.func.requirePic[1] : 'data:image/jpeg;base64,' + props.func.requirePic[1]) :
+                    props.id == 3 ? (props.func.extraPic[0].length <= 100 ? props.func.picURL + 'extraPic ' + props.func.extraPic[0] : 'data:image/jpeg;base64,' + props.func.extraPic[0]) :
+                    props.id == 4 ? (props.func.extraPic[1].length <= 100 ? props.func.picURL + 'extraPic ' + props.func.extraPic[1] : 'data:image/jpeg;base64,' + props.func.extraPic[1]) :
+                    props.id == 5 ? (props.func.extraPic[2].length <= 100 ? props.func.picURL + 'extraPic ' + props.func.extraPic[2] : 'data:image/jpeg;base64,' + props.func.extraPic[2]) : ' ')
                 }}
             />
             {

@@ -33,7 +33,7 @@ function App(props) {
     // 앱이 켜져있을 때 fcm 이 날라오면
     const unsubscribe = messaging().onMessage(async remoteMessage => {
       let data = JSON.stringify(remoteMessage.notification.title);
-      console.log('@@@', data);
+      console.log('@App.js -> ', data);
       if(data.includes('라운지')) {
         useBadge.getState().setAnonyIncrease(1);
       }

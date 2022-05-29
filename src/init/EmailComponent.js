@@ -56,16 +56,20 @@ class EmailComponent extends React.Component {
     }
 
     verify() {
-        if (this.state.email    != '' &&
-            this.state.password   != '') {
+        let regEmail = /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/;
+        var regPassWord = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/;
 
-            useRegister.getState().setEmail(this.state.email);
-            useRegister.getState().setPassword(this.state.password);
-            this.next();
-            
-        } else {
-
+        if (regEmail.test(this.state.email) === false) {
+            return console.log('이메일 오류');
         }
+
+        if (regPassWord.test(this.state.password) === false) {
+            return console.log('비밀번호 오류');
+        }
+
+        useRegister.getState().setEmail(this.state.email);
+        useRegister.getState().setPassword(this.state.password);
+        this.next();
         
     }
 

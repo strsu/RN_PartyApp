@@ -29,6 +29,12 @@ class MainPartyDetailComponent extends React.Component {
             partyReview: [],
             partyQnA: [0],
 
+            qnaText: '',
+            qnaPost: this.qnaPost.bind(this),
+            setQNAText: this.setQNAText.bind(this),
+            toggleCheckBox: false,
+            setToggleCheckBox: this.setToggleCheckBox.bind(this),
+
             scrollY: new Animated.Value(
                 // iOS has negative initial scroll value because content inset...
                 Platform.OS === 'ios' ? -HEADER_MAX_HEIGHT : 0,
@@ -103,7 +109,7 @@ class MainPartyDetailComponent extends React.Component {
     }
 
     reviewPost() {
-
+        
     }
 
     getReview() {
@@ -121,8 +127,59 @@ class MainPartyDetailComponent extends React.Component {
         })
     }
 
-    getQnA() {
+    setQNAText(text) {
+        this.setState({
+            qnaText: text,
+        });
+    }
 
+    qnaPost() {
+        if(this.state.qnaText.length > 0) {
+            customAxios.post('/MainParty/qna/', {
+                uid: this.props.route.params.uid,
+                content: this.state.qnaText,
+                secret: this.state.toggleCheckBox ? 1 : 0,
+            }).then((res) => {
+                if(this.state.partyQnA[0] == 0) {
+                    // 데이터가 없는 경우
+                    this.setState({
+                        partyQnA: [{
+                            content: this.state.qnaText,
+                            answer: null
+                        }]
+                    })
+                } else {
+                    this.setState({
+                        partyQnA: this.state.partyQnA.concat({
+                            content: this.state.qnaText,
+                            answer: null
+                        }),
+                    })
+                }
+            }).catch((err) => {
+
+            })
+        }
+    }
+
+    getQnA() {
+        customAxios.get('/MainParty/qna/', {
+            'params': {
+                uid: this.props.route.params.uid,
+            }
+        }).then((res) => {
+            this.setState({
+                partyQnA: [res.data],
+            });
+        }).catch((err) => {
+
+        })
+    }
+
+    setToggleCheckBox(param) {
+        this.setState({
+            toggleCheckBox: param,
+        });
     }
 
     openGallery() {

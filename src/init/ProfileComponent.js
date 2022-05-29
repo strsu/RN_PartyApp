@@ -22,6 +22,7 @@ import {
     chungcheongnam,
     chungcheongbuk
     } from './city';
+import { TestScheduler } from 'jest';
 
 class ProfileComponent extends React.Component {
 
@@ -63,6 +64,9 @@ class ProfileComponent extends React.Component {
             setRegion: this.setRegion.bind(this),
             verify: this.verify.bind(this),
             next: this.next.bind(this),
+
+            nicknameVerify: this.nicknameVerify.bind(this),
+            nicknameCheck: true,
         };
         
         for(let i=130; i<230; i++) {
@@ -170,6 +174,27 @@ class ProfileComponent extends React.Component {
         }
     }
 
+    nicknameVerify(text) {
+        if(text.length < 2) return false;
+
+        customAxios.post('/Auth/check/', {
+            nickname: text,
+        }).then((res) => {
+            if(!res.data.result) { // 중복된 닉네임이면
+                this.setState({
+                    nicknameCheck: false,
+                });
+            } else {
+                this.setState({
+                    nicknameCheck: true,
+                });
+                useRegister.getState().setNickname(text);
+            }
+        }).catch((err) => {
+
+        })
+    }
+
     verify() {
         if (this.state.selectedGrade    != '' &&
             this.state.selectedRegion   != '' &&
@@ -191,16 +216,14 @@ class ProfileComponent extends React.Component {
             useRegister.getState().setSmoke(this.state.indexSmoke);
             useRegister.getState().setDrinking(this.state.indexAlcohol);
 
-            this.next();
+            useRegister.getState().doRegister();
+            setTimeout(() => {this.next()}, 500);
             
-        } else {
-
-        }
-        
+        }        
     }
 
     next() {
-        this.props.navigation.navigate('Introduce');
+        this.props.navigation.popToTop();
     }
 
     render() {
