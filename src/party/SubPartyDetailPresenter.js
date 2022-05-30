@@ -175,7 +175,7 @@ const boardCard = ({props, item}) => {
             backgroundColor: 'white',
             elevation: 3,
             }}
-            key={'tag_'+idx}
+            key={item}
         >
             
             <View style={{
@@ -463,8 +463,6 @@ const FlatListHeader = (props) => {
         return(<></>);
     }
 
-    console.log('@', props.state.headerData.state);
-
     return(
         <View style={{
             padding: 5,
@@ -582,7 +580,7 @@ const FlatListHeader = (props) => {
                     }}
                         onPress={item.isMine ? () => state.addonFun() : () => state.addonBtn('like', item.uid, -1)}
                     >
-                        <Icon name={item.isLike ? 'heart-fill' : 'heart'} size={25} color={item.isLike ? 'red' : 'gray'} />
+                        <Icon name={props.state.isLike ? 'heart-fill' : 'heart'} size={25} color={props.state.isLike ? 'red' : 'gray'} />
                     </TouchableOpacity>
                     
                     <TouchableOpacity style={{
@@ -590,7 +588,7 @@ const FlatListHeader = (props) => {
                     }}
                         onPress={item.isMine ? () => state.addonFun() : () => state.addonBtn('dibs', item.uid, -1)}
                     >
-                        <Icon name='bookmark' size={25} color={item.isDibs ? 'red' : 'gray'} />
+                        <Icon name='bookmark' size={25} color={props.state.isDibs ? 'red' : 'gray'} />
                     </TouchableOpacity>
                 </View>
 

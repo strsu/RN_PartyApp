@@ -5,8 +5,10 @@ import { customAxios } from '../customAxios';
 import {launchImageLibrary} from 'react-native-image-picker';
 import ImagePicker from 'react-native-image-crop-picker';
 import useStore, {useUserParty} from '../../AppContext';
+import { getCurDate } from '../../Screen/util/getCurTime';
 
 import SubPartyWritingPresenter from './SubPartyWritingPresenter';
+
 
 class SubPartyWritingComponent extends React.Component {
 
@@ -24,12 +26,22 @@ class SubPartyWritingComponent extends React.Component {
             category: this.props.route.params == undefined ? [] : useUserParty.getState().filterData[uid].tags,
             content: this.props.route.params == undefined ? '' : useUserParty.getState().filterData[uid].content,
             img: this.props.route.params == undefined ? '' : useUserParty.getState().filterData[uid].images,
+            state: 0,   // 파티 유형 - 하트 사용 유무
             imgWidth: 0,
             imgHeight: 0,
             error: null,
             filter: Object.values(useUserParty.getState().filterData),
             userUUID: useStore.getState().uuid,
             userSEX: useStore.getState().sex,
+
+            calendarModalVisiable: false,
+            markedDates: {},
+            setCalendarModal: this.setCalendarModal.bind(this),
+            setPeriod: this.setPeriod.bind(this),
+            minDate: getCurDate(),
+
+            partyCheck: true,
+            setCheck: this.setCheck.bind(this),
 
             getImage: this.getImage.bind(this),
             removeImage: this.removeImage.bind(this),
@@ -115,6 +127,27 @@ class SubPartyWritingComponent extends React.Component {
         })
     }
 
+    setCheck() {
+        this.setState({
+            partyCheck: !this.state.partyCheck,
+        });
+    }
+
+    setPeriod(day) {
+        let json = {};
+        json[day.dateString] = {startingDay: true, endingDay: true, color: '#50cebb', textColor: 'white'}
+        this.setState({
+            markedDates: json
+        });
+        setTimeout(() => {this.setCalendarModal()}, 500);
+    }
+
+    setCalendarModal() {
+        this.setState({
+            calendarModalVisiable: !this.state.calendarModalVisiable
+        })
+    }
+
     postWriting() {
         let obj = {
             sex: this.state.userSEX,
@@ -122,9 +155,11 @@ class SubPartyWritingComponent extends React.Component {
             title: this.state.title,
             content: this.state.content,
             category: this.state.category,
+            date: Object.keys(this.state.markedDates)[0],
+            state: this.state.partyCheck ? '0' : '1'
         }
 
-        let msg = "";
+        let msg = "(";
         if(obj.title == "") msg += "제목";
         if(obj.category.length == "") {
             if(msg != "") msg += ", ";
@@ -134,8 +169,16 @@ class SubPartyWritingComponent extends React.Component {
             if(msg != "") msg += ", ";
             msg += "본문"
         }
-        if(msg != "") msg += "을 채워넣어 주세요.";
-        if(msg != "") return ToastAndroid.show(msg, ToastAndroid.SHORT);
+
+        if(obj.date == undefined) {
+            if(msg != "") msg += ", ";
+            msg += "파티 개최일"
+        }
+
+        if(msg != "(") msg += ") 을 채워넣어 주세요.";
+        if(msg != "(") return ToastAndroid.show(msg, ToastAndroid.SHORT);
+
+        
         
         customAxios.post('/SubParty/board/', obj)
         .then((res) => {

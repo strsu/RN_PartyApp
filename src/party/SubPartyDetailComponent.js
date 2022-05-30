@@ -65,8 +65,13 @@ class SubPartyDetailComponent extends React.Component {
 
         if (this.props.route.params.uid == undefined) {
             // 내 서랍에서 들어온 경우
-            data = this.props.route.params.item;
             uid = this.props.route.params.item.uid;
+            if(useUserParty.getState().partyData[`${uid}`]!= undefined) {
+                // 이미 가져온 데이터면 원본 데이터를 가져온다.
+                data = useUserParty.getState().partyData[`${uid}`];    
+            } else {
+                data = this.props.route.params.item;
+            }
         } else {
             data = useUserParty.getState().partyData[`${this.props.route.params.uid}`];
             uid = this.props.route.params.uid;
@@ -198,7 +203,6 @@ class SubPartyDetailComponent extends React.Component {
             } else {
                 data = useUserParty.getState().partyData[`${this.props.route.params.uid}`];
             }
-
             if (data == undefined) {
                 return;
             }

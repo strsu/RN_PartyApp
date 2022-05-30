@@ -13,6 +13,28 @@ export const getCurTime = () => {
     return curTime;
 }
 
+export const getCurDate = () => {
+    let date = parseInt(new Date().getDate()).toString().padStart(2, '0');
+    let month = parseInt(new Date().getMonth() + 1).toString().padStart(2, '0');
+    let year = parseInt(new Date().getFullYear()).toString();
+
+    let curTime = `${year}-${month}-${date}`;
+    
+    return curTime;
+}
+
+export const getYesterDate = () => {
+    let today = new Date();
+    let yesterday = new Date(today.setDate(today.getDate()-1));
+    let date = parseInt(yesterday.getDate()).toString().padStart(2, '0');
+    let month = parseInt(yesterday.getMonth() + 1).toString().padStart(2, '0');
+    let year = parseInt(yesterday.getFullYear()).toString();
+
+    let curTime = `${year}-${month}-${date}`;
+    
+    return curTime;
+}
+
 export const timeCompare = (time) => {
     
     let t1 = {
