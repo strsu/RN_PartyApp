@@ -9,6 +9,12 @@
 
 ------
 
+## ※실행방법   
+1. 프로젝트 클론
+2. 터미널에서 'npm -i' 실행
+3. npx react-native run-android / run-ios
+------
+
 ## ※사용 기술 및 아키텍쳐
 ![image](https://user-images.githubusercontent.com/25381921/167645364-5a6e6cdf-7f51-4339-98be-1ead5092a89c.png)   
 
