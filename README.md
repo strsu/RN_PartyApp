@@ -11,7 +11,7 @@
 
 ## ※실행방법   
 1. 프로젝트 클론
-2. 터미널에서 'npm -i' 실행
+2. 터미널에서 'npm -i' 실행, node_modules를 생성하는 
 3. npx react-native run-android / run-ios
 ------
 
