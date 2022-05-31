@@ -15,6 +15,7 @@ import { Alert } from 'react-native';
 
 // set 함수를 통해서만 상태를 변경할 수 있다
 const useStore = create(set => ({
+  chatid: '',
   uuid: '',
   sex: '',
   grade: '',
@@ -84,6 +85,13 @@ export const useChat = create((set, get) => ({
     });
   },
 
+  makeRoom: (chatID) => {
+    // 채팅방 개설
+    if (!useChat.getState().userList.includes(chatID)) {
+      useChat.getState().appendUser(chatID);
+    }
+  },
+
   sendMessage: (message, from, to) => {
     if (!to || !to.trim() || to == null || from == null) {
       console.error("No to username is defined");
@@ -144,8 +152,6 @@ export const useChat = create((set, get) => ({
     let src = JSON.stringify(msg.src);
     let stamp = getCurTime();
 
-    console.log('from', from);
-
     if (body != 'null' && from != null) {
       if (src.includes("<delay xmlns='urn:xmpp:delay' stamp='")) {
         stamp = src.split("<delay xmlns='urn:xmpp:delay' stamp='")[1].split("+00:00")[0].replace('T', ' ');
@@ -153,7 +159,6 @@ export const useChat = create((set, get) => ({
 
       body = body.slice(1, body.length - 1);
       from = from.match(/^([^@]*)@/)[1].slice(1);
-      console.log('stamp', stamp);
 
       if (!useChat.getState().userList.includes(from)) {
         useChat.getState().appendUser(from);

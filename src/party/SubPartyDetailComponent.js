@@ -1,7 +1,7 @@
 import React from 'react';
 import { customAxios } from '../customAxios';
 
-import useStore, { useUserParty } from '../../AppContext';
+import useStore, { useUserParty, useChat } from '../../AppContext';
 import SubPartyDetailPresenter from './SubPartyDetailPresenter';
 import { ThemeProvider } from '@react-navigation/native';
 
@@ -365,7 +365,7 @@ class SubPartyDetailComponent extends React.Component {
             let imgData = [user.image];
             res.data.requirepic.map(img => img != '' ? imgData.push(img) : '');
             res.data.extrapic.map(img => img != '' ? imgData.push(img) : '');
-            //console.log(user);
+            //console.log(user, res.data);
             this.setState({
                 userData: res.data,
                 imageData: imgData,
@@ -442,6 +442,7 @@ class SubPartyDetailComponent extends React.Component {
                         recommandData: this.state.recommandData,
                         selectedUser: this.state.selectedUser,
                     });
+                    useChat.getState().makeRoom(res.data.chatid);
                 }).catch((err) => {
                     console.log('err', err);
                 })

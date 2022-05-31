@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect} from 'react';
 import {
     SafeAreaView,
     FlatList,
@@ -12,6 +12,7 @@ import {
 }
 from 'react-native'
 import { useChat } from '../../AppContext';
+import { useIsFocused } from '@react-navigation/native';
 
 import Icon from 'react-native-vector-icons/Octicons';
 
@@ -20,6 +21,12 @@ const windowHeight = Dimensions.get('window').height;
 
 function ChattingMainPresenter(props) {
     console.log('@ChattingMainPresenter');
+
+    const isFocused = useIsFocused();
+    useEffect(() => {
+        if (isFocused) {
+        }
+    }, [isFocused]);
     
     const ChatList = ({item}) => {
         return(

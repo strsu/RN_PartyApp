@@ -67,6 +67,7 @@ function App(props) {
     db.transaction(txn => {
       txn.executeSql(
         chatQuery, 
+        //'DROP TABLE userChat',
         [], 
         (txn, res) => {
           console.log('create table successfully');

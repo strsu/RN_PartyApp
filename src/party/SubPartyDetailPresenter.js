@@ -366,7 +366,7 @@ const WriterProfile = ({props}) => {
                 
             }}>
                 <View style={{
-                    width: parseInt(windowHeight/2),
+                    width: parseInt(windowWidth/1.4),
                     height: 30,
                     backgroundColor: 40,
                     flexDirection: 'row',
@@ -390,7 +390,7 @@ const WriterProfile = ({props}) => {
                 </View>
 
                 <View style={{
-                    height: parseInt(windowHeight/2),
+                    width: parseInt(windowWidth/1.4),
                     aspectRatio: 1,
                     borderBottomLeftRadius: 10,
                     borderBottomRightRadius: 10,
@@ -401,7 +401,7 @@ const WriterProfile = ({props}) => {
                         data={props.state.imageData}
                         horizontal={true}
                         pagingEnabled={true}
-                        snapToInterval={parseInt(windowHeight/2)}
+                        snapToInterval={parseInt(windowWidth/1.4)}
                         decelerationRate="fast"
                         bounces={false}
                         showsVerticalScrollIndicator={false}

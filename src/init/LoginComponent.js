@@ -62,7 +62,7 @@ class LoginComponent extends React.Component {
 
                                     storeUserSession(this.state.id, cookies[0].substring(13));
 
-                                    /*useChat.getState().setID('user' + res.data.uid + '@localhost');
+                                    useChat.getState().setID('user' + res.data.uid + '@localhost');
                                     XMPP.on('loginError', useChat.getState().onLoginError());
                                     XMPP.on('error', (msg) => useChat.getState().onError(msg));
                                     XMPP.on('disconnect', (msg) => useChat.getState().onDisconnect(msg));
@@ -71,7 +71,7 @@ class LoginComponent extends React.Component {
                                     XMPP.on('iq', (message) => console.log('IQ:' + JSON.stringify(message)));
                                     XMPP.on('presence', (message) => console.log('PRESENCE:' + JSON.stringify(message)));
 
-                                    useChat.getState().login();*/
+                                    useChat.getState().login();
                                     
                                     customAxios.defaults.headers.uuid = res.data.uuid;
                                     if (res.headers['set-cookie'] !== undefined) {
