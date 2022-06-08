@@ -73,30 +73,6 @@ function ChattingMainPresenter(props) {
                     data={useChat.getState().userList}
                     renderItem={ChatList}
                 />
-                <View style={{
-                    height: 50,
-                    backgroundColor: 20,
-                    flexDirection: 'row',
-                    justifyContent: 'space-between',
-                    alignItems: 'center',
-                }}>
-                    <TextInput
-                        style={{
-                            flex: 1,
-                        }}
-                        onChangeText={text => props.state.setUser(text)}
-                    />
-                    <TouchableOpacity style={{
-                        backgroundColor: 50,
-                        height: '100%',
-                        justifyContent: 'center',
-                        padding: 10,
-                    }}
-                        onPress={()=>useChat.getState().sendMessage('chat', useChat.getState().userID, props.state.user+'@localhost')}
-                    >
-                        <Text>보내기</Text>
-                    </TouchableOpacity>
-                </View>
             </View>
         </SafeAreaView>
     );

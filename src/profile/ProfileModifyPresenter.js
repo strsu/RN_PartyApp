@@ -60,6 +60,17 @@ const ImageArea = ({ props }) => {
             <View style={{
                 backgroundColor: 'white',
             }}>
+                <View style={{
+                    alignItems: 'center',
+                    marginTop: 5,
+                }}>
+                    <Text style={{
+                        fontSize: 17,
+                        fontWeight: '500',
+
+                    }}>프로필 이미지 변경은 '인증'에서 가능합니다</Text>
+
+                </View>
 
                 <View style={{
                     flexDirection: 'row',
@@ -83,43 +94,6 @@ const ImageArea = ({ props }) => {
                     <Pic text={"선택"} func={props.state} id={5} />
                 </View>
             </View>
-
-            <View style={{
-                alignItems: 'center',
-            }}>
-                <Text style={{
-                    fontSize: 25,
-                    fontWeight: '700',
-
-                }}>사진 등록 주의사항</Text>
-
-                <View style={{
-                    alignItems: 'center',
-                    marginTop: 20,
-                }}>
-                    <Text style={{
-
-                    }}>본인의 얼굴을 알아볼 수 있는 밝은 정면의</Text>
-
-                    <Text style={{
-
-                    }}>대표 사진을 메인으로 등록해주세요.</Text>
-                </View>
-
-                <View style={{
-                    alignItems: 'center',
-                    marginTop: 20,
-                }}>
-                    <Text style={{
-
-                    }}>타인의 사진을 무단 도용 시, 관련 법에 따라</Text>
-
-                    <Text style={{
-
-                    }}>처벌을 받을 수 있습니다.</Text>
-                </View>
-
-            </View>
         </View>
     );
 }
@@ -129,32 +103,27 @@ const InfoArea = ({ props }) => {
         <View>
             <View style={[styles.element, { backgroundColor: 10, }]}>
                 <Text style={styles.left}>이메일</Text>
-                <Text>{useRegister.getState().email}</Text>
+                <Text>{props.state.email}</Text>
             </View>
 
             <View style={[styles.element, { backgroundColor: 10, }]}>
                 <Text style={styles.left}>성명</Text>
-                <Text>{useRegister.getState().name + ' / '}{useRegister.getState().sex == '0' ? '남' : '여'}</Text>
+                <Text>{props.state.name + ' / '}{props.state.sex == '0' ? '남' : '여'}</Text>
             </View>
 
             <View style={[styles.element, { backgroundColor: 10, }]}>
                 <Text style={styles.left}>핸드폰</Text>
-                <Text>{useRegister.getState().phone}</Text>
+                <Text>{props.state.phone}</Text>
             </View>
 
             <View style={[styles.element, { backgroundColor: 10, }]}>
                 <Text style={styles.left}>생년월일</Text>
-                <Text>{useRegister.getState().birth}</Text>
+                <Text>{props.state.birth}</Text>
             </View>
 
-            <View style={styles.element}>
+            <View style={[styles.element, { backgroundColor: 10, }]}>
                 <Text style={styles.left}>닉네임</Text>
-                <TextInput style={styles.right}
-                    textAlign='right'
-                    placeholder='닉네임을 입력해주세요.'
-                    onChangeText={text => useRegister.getState().setNickname(text)}
-                    onSubmitEditing={() => props.state.setWhichItem('학력')}
-                />
+                <Text>{props.state.nickname}</Text>
             </View>
 
             <View style={styles.element}>
@@ -699,7 +668,7 @@ const Pic = (props) => {
             justifyContent: 'center',
         }}
             onPress={() => {
-                props.func.setModalVisiable(true, props.id)
+                //props.func.setModalVisiable(true, props.id)
             }}
         >
             {

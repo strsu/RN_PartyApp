@@ -442,7 +442,7 @@ class SubPartyDetailComponent extends React.Component {
                         recommandData: this.state.recommandData,
                         selectedUser: this.state.selectedUser,
                     });
-                    useChat.getState().makeRoom(res.data.chatid);
+                    useChat.getState().makeRoom({'id': res.data.chatid, 'name': res.data.nickname});
                 }).catch((err) => {
                     console.log('err', err);
                 })

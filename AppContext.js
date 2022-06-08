@@ -19,14 +19,19 @@ const useStore = create(set => ({
   uuid: '',
   sex: '',
   grade: '',
+  mainPic: '',
   accessToken: '',
   refreshToken: '',
   firebaseToken: '',
+  picURL: 'http://192.168.1.243:4001/media/image/?imageName=',
+  nickname: '',
   isDarkMode: false,
   setIsDarkMode: (val) => set((state) => ({ isDarkMode: val })),
   setUUID: (val) => set((state) => ({ uuid: val })),
   setSEX: (val) => set((state) => ({ sex: val })),
   setGRADE: (val) => set((state) => ({ grade: val })),
+  setMainPic: (val) => set((state) => ({ mainPic: val })),
+  setNickName: (val) => set((state) => ({ nickname: val })),
   setAccessToken: (val) => set((state) => ({ accessToken: val })),
   setFireBaseToken: (val) => set((state) => ({ firebaseToken: val })),
 
@@ -85,10 +90,10 @@ export const useChat = create((set, get) => ({
     });
   },
 
-  makeRoom: (chatID) => {
+  makeRoom: (info) => {
     // 채팅방 개설
-    if (!useChat.getState().userList.includes(chatID)) {
-      useChat.getState().appendUser(chatID);
+    if (!useChat.getState().userList.includes(info.id)) {
+      useChat.getState().appendUser(info.id);
     }
   },
 

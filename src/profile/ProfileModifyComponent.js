@@ -76,6 +76,16 @@ class ProfileModifyComponent extends React.Component {
             indexHeight:'',
             indexReligion:'',
 
+            name: '',
+            email: '',
+            sex: 0,
+            phone: '',
+            birth: '',
+            eduname: '',
+            nickname: '',
+
+            picURL: 'http://192.168.1.243:4001/media/image/?imageName=',
+
             setWhichItem: this.setWhichItem.bind(this),
             getWhichItem: this.getWhichItem.bind(this),
             selItem: this.selItem.bind(this),
@@ -100,81 +110,46 @@ class ProfileModifyComponent extends React.Component {
         this.props.navigation.getParent().setOptions({
             tabBarStyle: { display: "none" },
         });
-        customAxios.get('login/appearance')
-        .then((res) => {
-            let requireLen = 0;
-            let extraLen = 0;
-            if(res.data.requirePic !== undefined) {
-                requireLen = res.data.requirePic[0].length + res.data.requirePic[1].length;
-            }
-            if(res.data.extraPic !== undefined) {
-                extraLen = res.data.extraPic[0].length + res.data.extraPic[1].length + res.data.extraPic[2].length;
+
+        customAxios.get('/Profile/myfilter')
+        .then( (res) => {
+            //console.log(res.data.my);
+            res.data.filter.map(res => {
+                switch(res.f_type) {
+                    case '음주': this.setState({alcoholData: this.state.alcoholData.concat(res.f_name)}); break;
+                    case '종교': this.setState({religionData: this.state.religionData.concat(res.f_name)}); break;
+                    case '체형': this.setState({bodyData: this.state.bodyData.concat(res.f_name)}); break;
+                    case '학력': this.setState({gradeData: this.state.gradeData.concat(res.f_name)}); break;
+                    case '흡연': this.setState({smokeData: this.state.smokeData.concat(res.f_name)}); break;
+                }
+            })
+            let my = res.data.my;
+
+            for(let i=130; i<230; i++) {
+                this.state.heightData.push(i);
             }
             
             this.setState({
-                mainPic: res.data.mainPic.length < 10 ? this.state.mainPic : res.data.mainPic,
-                requirePic: requireLen < 10 ? this.state.requirePic : res.data.requirePic,
-                extraPic: extraLen < 10 ? this.state.extraPic : res.data.extraPic,
-                picURL: res.data.picURL
+                selectedGrade: this.state.gradeData[my.edu],
+                selectedRegion: my.live.split(' ')[0],
+                selectedRegionAddon: my.live.split(' ')[1],
+                selectedBody: this.state.bodyData[my.body],
+                selectedReligion: this.state.religionData[my.religion],
+                selectedSmoke: this.state.smokeData[my.smoke],
+                selectedAlcohol: this.state.alcoholData[my.alcohol],
+                selectedHeight: my.height,
+                name: my.name,
+                sex: my.sex,
+                phone: my.phone,
+                birth: my.birth,
+                email: my.email,
+                eduname: my.eduname,
+                nickname: my.nickname,
+
+                mainPic: my.mainpic,
+                requirePic: Object.values(my.requirepic),
+                extraPic: Object.values(my.extrapic),
             });
-        })
-        .catch((err) => {
-            console.log(err);
-        })
-
-        customAxios.get('/common/filter/학력')
-        .then( (res) => {
-            this.setState({
-                gradeData: res.data
-            })
-        }).catch( (error) =>{
-            console.log('ERROR, @ProfileComponent <filter>', error);
-            this.setState({
-                error: error
-            })
-        });
-
-        customAxios.get('/common/filter/체형')
-        .then( (res) => {
-            this.setState({
-                bodyData: res.data
-            })
-        }).catch( (error) =>{
-            console.log('ERROR, @ProfileComponent <filter>', error);
-            this.setState({
-                error: error
-            })
-        });
-
-        customAxios.get('/common/filter/종교')
-        .then( (res) => {
-            this.setState({
-                religionData: res.data
-            })
-        }).catch( (error) =>{
-            console.log('ERROR, @ProfileComponent <filter>', error);
-            this.setState({
-                error: error
-            })
-        });
-
-        customAxios.get('/common/filter/음주')
-        .then( (res) => {
-            this.setState({
-                alcoholData: res.data
-            })
-        }).catch( (error) =>{
-            console.log('ERROR, @ProfileComponent <filter>', error);
-            this.setState({
-                error: error
-            })
-        });
-
-        customAxios.get('/common/filter/흡연')
-        .then( (res) => {
-            this.setState({
-                smokeData: res.data
-            })
         }).catch( (error) =>{
             console.log('ERROR, @ProfileComponent <filter>', error);
             this.setState({

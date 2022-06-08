@@ -55,6 +55,8 @@ class InitComponent extends React.Component {
                             useStore.getState().setSEX(res.data.sex);
                             useStore.getState().setGRADE(res.data.grade);
                             useStore.getState().setUUID(res.data.uuid);
+                            useStore.getState().setMainPic(res.data.mainpic);
+                            useStore.getState().setNickName(res.data.nickname);
                             useStore.getState().setAccessToken(cookies[0].substring(13));
                             //useStore.getState().setRefreshToken(cookies[1].substring(14));
                             useStore.getState().setFireBaseToken(res.data.fcmToken);

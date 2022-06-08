@@ -9,8 +9,6 @@ class ChattingMainComponent extends React.Component {
         console.log('@ChattingMainComponent');
 
         this.state = {
-            user: '',
-            setUser: this.setUser.bind(this),
         };
         
     }
@@ -23,13 +21,6 @@ class ChattingMainComponent extends React.Component {
 
     componentWillUnmount() {
     }
-
-    setUser(param) {
-        this.setState({
-            user: param,
-        });
-    }
-
 
     render() {
 
