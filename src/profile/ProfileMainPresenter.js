@@ -42,7 +42,9 @@ function ProfileMainPresenter(props) {
                             width: 80,
                             borderRadius: 100,
                             marginBottom: 5,
-                        }}>
+                        }}
+                        onPress={() => navigation.navigate("ProfileAuth")}
+                        >
 
                         </TouchableOpacity>
                         <Text>인증</Text>

@@ -35,18 +35,10 @@ class ProfileModifyComponent extends React.Component {
             curModalID: -1,
             modalVisiable: false,
             setModalVisiable: this.setModalVisiable.bind(this),
-            openGallery: this.openGallery.bind(this),
-            openCamera: this.openCamera.bind(this),
-            erazeImage: this.erazeImage.bind(this),
-
             mainPic: '',
             requirePic: ['',''],
             extraPic: ['','',''],
             picURL: '',
-
-            isMainChange : false,
-            isRequireChange: false,
-            isExtraChange: false,
 
             // infoArea
             whichItem: '',
@@ -98,9 +90,12 @@ class ProfileModifyComponent extends React.Component {
 
             setCharacter: this.setCharacter.bind(this),
             setAboutMe: this.setAboutMe.bind(this),
+            setEduName: this.setEduName.bind(this),
 
+            originInfo: {},
+            forUploadInfo: {},
 
-            verify: this.verify.bind(this),
+            uploadData: this.uploadData.bind(this),
         };
 
         
@@ -145,10 +140,40 @@ class ProfileModifyComponent extends React.Component {
                 email: my.email,
                 eduname: my.eduname,
                 nickname: my.nickname,
+                character: my.character,
+                aboutMe: my.selfintro,
 
                 mainPic: my.mainpic,
                 requirePic: Object.values(my.requirepic),
                 extraPic: Object.values(my.extrapic),
+
+                originInfo: {
+                    Grade: my.edu,
+                    Region: my.live.split(' ')[0],
+                    RegionAddon: my.live.split(' ')[1],
+                    Body: my.body,
+                    Religion: my.religion,
+                    Smoke: my.smoke,
+                    Alcohol: my.alcohol,
+                    Height: my.height,
+                    eduname: my.eduname,
+                    character: my.character,
+                    aboutMe: my.selfintro,
+                },
+
+                forUploadInfo: {
+                    Grade: my.edu,
+                    Region: my.live.split(' ')[0],
+                    RegionAddon: my.live.split(' ')[1],
+                    Body: my.body,
+                    Religion: my.religion,
+                    Smoke: my.smoke,
+                    Alcohol: my.alcohol,
+                    Height: my.height,
+                    eduname: my.eduname,
+                    character: my.character,
+                    aboutMe: my.selfintro,
+                }
             });
         }).catch( (error) =>{
             console.log('ERROR, @ProfileComponent <filter>', error);
@@ -174,86 +199,6 @@ class ProfileModifyComponent extends React.Component {
         });
     }
 
-    openGallery(id) {
-        this.setState({
-            modalVisiable: false,
-            curModalID: -1,
-        });
-        ImagePicker.openPicker({
-            width: 400,
-            height: 300,
-            cropping: true,
-            includeBase64: true,
-            useFrontCamera: true,
-            compressImageQuality: 1,
-        }).then(image => {
-            switch(id) {
-                case 0: this.setState({mainPic: image.data, isMainChange: true }); break;
-                case 1: this.setState({requirePic: [image.data].concat(this.state.requirePic.slice(1,2)), isRequireChange: true }); break;
-                case 2: this.setState({requirePic: this.state.requirePic.slice(0,1).concat(image.data), isRequireChange: true }); break;
-                case 3: this.setState({extraPic: [image.data].concat(this.state.extraPic.slice(1,3)), isExtraChange: true }); break;
-                case 4: this.setState({extraPic: this.state.extraPic.slice(0,1).concat(image.data).concat(this.state.extraPic.slice(2,3)), isExtraChange: true }); break;
-                case 5: this.setState({extraPic: this.state.extraPic.slice(0,2).concat(image.data), isExtraChange: true }); break;
-            }
-        }).catch((err) => {
-
-        });
-    }
-
-    openCamera(id) {
-        this.setState({
-            modalVisiable: false,
-            curModalID: -1,
-        });
-        ImagePicker.openCamera({
-            width: 400,
-            height: 300,
-            cropping: true,
-            includeBase64: true,
-            useFrontCamera: true,
-            compressImageQuality: 1,
-        }).then(image => {
-            switch(id) {
-                case 0: this.setState({mainPic: image.data, isMainChange: true }); break;
-                case 1: this.setState({requirePic: [image.data].concat(this.state.requirePic.slice(1,2)), isRequireChange: true }); break;
-                case 2: this.setState({requirePic: this.state.requirePic.slice(0,1).concat(image.data), isRequireChange: true }); break;
-                case 3: this.setState({extraPic: [image.data].concat(this.state.extraPic.slice(1,3)), isExtraChange: true }); break;
-                case 4: this.setState({extraPic: this.state.extraPic.slice(0,1).concat(image.data).concat(this.state.extraPic.slice(2,3)), isExtraChange: true }); break;
-                case 5: this.setState({extraPic: this.state.extraPic.slice(0,2).concat(image.data), isExtraChange: true }); break;
-            }
-        }).catch((err) => {
-
-        });
-    }
-
-    erazeImage(id) {
-        this.setState({
-            modalVisiable: false,
-            curModalID: -1,
-        });
-        let isNeedChange = false
-        // 검증
-        switch(id) {
-            case 0: isNeedChange = this.state.mainPic == '' ? false : true; break; 
-            case 1: isNeedChange = this.state.requirePic[0] == '' ? false : true; break; 
-            case 2: isNeedChange = this.state.requirePic[1] == '' ? false : true; break; 
-            case 3: isNeedChange = this.state.extraPic[0] == '' ? false : true; break; 
-            case 4: isNeedChange = this.state.extraPic[1] == '' ? false : true; break; 
-            case 5: isNeedChange = this.state.extraPic[2] == '' ? false : true; break; 
-        }
-        if(isNeedChange) {
-            switch(id) {
-                case 0: this.setState({mainPic: '-1', isMainChange: true }); break;
-                case 1: this.setState({requirePic: ['-1'].concat(this.state.requirePic.slice(1,2)), isRequireChange: true }); break;
-                case 2: this.setState({requirePic: this.state.requirePic.slice(0,1).concat('-1'), isRequireChange: true }); break;
-                case 3: this.setState({extraPic: ['-1'].concat(this.state.extraPic.slice(1,3)), isExtraChange: true }); break;
-                case 4: this.setState({extraPic: this.state.extraPic.slice(0,1).concat('-1').concat(this.state.extraPic.slice(2,3)), isExtraChange: true }); break;
-                case 5: this.setState({extraPic: this.state.extraPic.slice(0,2).concat('-1'), isExtraChange: true }); break;
-            }
-        }
-    }
-
-
     setWhichItem(param) {
         this.setState({
             whichItem: param,
@@ -267,19 +212,36 @@ class ProfileModifyComponent extends React.Component {
     selItem(param, index) {
         if(param) {
             switch(this.state.whichItem) {
-                /*case '학력': this.setState({selectedGrade: this.state.gradeData[index]}); break;
-                case '지역': this.setState({selectedRegion: this.state.regionData[index]}); break;
-                case '체형': this.setState({selectedBody: this.state.bodyData[index]}); break;
-                case '종교': this.setState({selectedReligion: this.state.religionData[index]}); break;
-                case '흡연': this.setState({selectedSmoke: this.state.smokeData[index]}); break;
-                case '음주': this.setState({selectedAlcohol: this.state.alcoholData[index]}); break;
-                case '키': this.setState({selectedHeight: this.state.heightData[index]}); break;*/
-                case '학력': { this.setState({selectedGrade:    this.state.gradeData[index]    , indexGrade : index }); break; }
-                case '체형': { this.setState({selectedBody:     this.state.bodyData[index]     , indexBody : index }); break; }
-                case '종교': { this.setState({selectedReligion: this.state.religionData[index] , indexReligion : index }); break; }
-                case '흡연': { this.setState({selectedSmoke:    this.state.smokeData[index]    , indexSmoke : index }); break; }
-                case '음주': { this.setState({selectedAlcohol:  this.state.alcoholData[index]  , indexAlcohol : index }); break; }
-                case '키'  : { this.setState({selectedHeight:   this.state.heightData[index]   , indexHeight : index }); break; }
+                case '학력': { 
+                    this.setState({selectedGrade:    this.state.gradeData[index]    , indexGrade : index });
+                    this.state.forUploadInfo.Grade = index;
+                    break; 
+                }
+                case '체형': { 
+                    this.setState({selectedBody:     this.state.bodyData[index]     , indexBody : index }); 
+                    this.state.forUploadInfo.Body = index;
+                    break; 
+                }
+                case '종교': { 
+                    this.setState({selectedReligion: this.state.religionData[index] , indexReligion : index }); 
+                    this.state.forUploadInfo.Religion = index;
+                    break; 
+                }
+                case '흡연': { 
+                    this.setState({selectedSmoke:    this.state.smokeData[index]    , indexSmoke : index }); 
+                    this.state.forUploadInfo.Smoke = index;
+                    break; 
+                }
+                case '음주': { 
+                    this.setState({selectedAlcohol:  this.state.alcoholData[index]  , indexAlcohol : index }); 
+                    this.state.forUploadInfo.Alcohol = index;
+                    break; 
+                }
+                case '키'  : { 
+                    this.setState({selectedHeight:   this.state.heightData[index]   , indexHeight : index }); 
+                    this.state.forUploadInfo.Height = index;
+                    break; 
+                }
             }
 
               
@@ -301,7 +263,8 @@ class ProfileModifyComponent extends React.Component {
     setRegion(param, index) {
         if(param == '시도') {
             this.setState({selectedRegion: this.state.regionData[index]});
-
+            this.state.forUploadInfo.Region = this.state.regionData[index];
+            
             switch(this.state.regionData[index]) {
                 case '서울특별시' : this.setState({regionAddonData: seoul}); break;
                 case '부산광역시' : this.setState({regionAddonData: busan}); break;
@@ -322,44 +285,46 @@ class ProfileModifyComponent extends React.Component {
                 case '제주특별자치도' : this.setState({regionAddonData: jeju}); break;
             }  
         } else {
+            this.state.forUploadInfo.RegionAddon = this.state.regionAddonData[index]
             this.setState({selectedRegionAddon: this.state.regionAddonData[index]});
             this.state.selectedHeight != '' ? this.setWhichItem('') : this.setWhichItem('키');
         }
     }
 
+    setEduName(param) {
+        this.state.forUploadInfo.eduname = param;
+        this.setState({
+            eduname: param,
+        });
+    }
+
     setCharacter(param) {
+        this.state.forUploadInfo.character = param;
         this.setState({
             character: param,
         });
     }
 
     setAboutMe(param) {
+        this.state.forUploadInfo.aboutMe = param;
         this.setState({
             aboutMe: param,
         });
     }
 
-    verify() {
-        // 변경된 사진이 아예 없으면 return
-        if(!this.state.isMainChange && !this.state.isRequireChange && !this.state.isExtraChange) return;
+    uploadData() {
+        if(JSON.stringify(this.state.originInfo) == JSON.stringify(this.state.forUploadInfo)) {
+            return ;
+        } else {
+            customAxios.put('/Profile/profile/', {
+                info: this.state.forUploadInfo,
+            })
+            .then((res) => {
+                
+            }).catch((err) => {
 
-        if( this.state.mainPic != '' ||
-            this.state.requirePic[0] != '' ||
-            this.state.requirePic[1] != '' ) {
-                customAxios.put('/login/appearance', {
-                    mainPic : this.state.isMainChange ? this.state.mainPic : '',
-                    requirePic : this.state.isRequireChange ? this.state.requirePic : ['',''],
-                    extraPic : this.state.isExtraChange? this.state.extraPic : ['','',''],
-                }).then((res) => {
-                    this.setState({
-                        isMainChange : false,
-                        isRequireChange: false,
-                        isExtraChange: false,
-                    });
-                }).catch((err) => {
-
-                })
-            }
+            })
+        }
     }
 
     render() {

@@ -42,7 +42,7 @@ function ProfileModifyPresenter(props) {
                         margin: 5,
                         marginTop: 10,
                     }}
-                    onPress={() => props.state.verify()}
+                    onPress={() => props.state.uploadData()}
                 >
                     <Text style={styles.textStyle}>업로드</Text>
                 </TouchableOpacity>
@@ -149,7 +149,7 @@ const InfoArea = ({ props }) => {
                 <Text style={styles.left}>학교명(선택)</Text>
                 <TextInput style={styles.right}
                     placeholder='학교 이름을 입력해주세요.'
-                    onChangeText={text => useRegister.getState().setEduName(text)}
+                    onChangeText={text => props.state.setEduName(text)}
                 />
             </View>
 
@@ -299,6 +299,7 @@ const IntroArea = ({props}) => {
                         height: parseInt(windowHeight / 4)
                     }}
                     multiline
+                    value={props.state.character}
                     textAlignVertical='top'
                     numberOfLines={200}
                     onChangeText={text => props.state.setCharacter(text)}
@@ -339,6 +340,7 @@ const IntroArea = ({props}) => {
                         height: parseInt(windowHeight / 4),
                     }}
                     multiline
+                    value={props.state.aboutMe}
                     textAlignVertical='top'
                     numberOfLines={200}
                     onChangeText={text => props.state.setAboutMe(text)}
@@ -535,104 +537,6 @@ const ModalItem_Region = (f, item, sido) => {
     );
 }
 
-const GalleryOrCamera = ({ props }) => {
-    return (
-        <Modal
-            animationType='slide'//'fade'
-            transparent={true}
-            visible={props.func.modalVisiable}
-        >
-            <View style={{
-                flex: 1,
-                justifyContent: 'flex-end',
-            }}>
-                <ImageBackground style={{
-                    //backgroundColor: 'black',
-                }}
-                    blurRadius={90}
-                >
-                    <View style={{
-                        margin: 5,
-                        marginLeft: 15,
-                        marginRight: 15,
-                        backgroundColor: 'black',
-                        borderRadius: 10,
-                    }}>
-                        <View>
-                            <Pressable
-                                style={{
-                                    backgroundColor: 'black',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    padding: 15,
-                                    borderRadius: 10,
-                                    borderBottomWidth: 1,
-                                    borderBottomColor: 'gray',
-                                }}
-                                onPress={() => props.func.openGallery(props.id)}
-                            >
-                                <Text style={{
-                                    fontSize: 15,
-                                    color: 'white',
-                                }}>갤러리에서 불러오기</Text>
-                            </Pressable>
-                            <Pressable
-                                style={{
-                                    backgroundColor: 'black',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    padding: 15,
-                                    borderRadius: 10,
-                                    borderBottomWidth: 1,
-                                    borderBottomColor: 'gray',
-                                }}
-                                onPress={() => props.func.openCamera(props.id)}
-                            >
-                                <Text style={{
-                                    fontSize: 15,
-                                    color: 'white',
-                                }}>카메라에서 불러오기</Text>
-                            </Pressable>
-                            <Pressable
-                                style={{
-                                    backgroundColor: 'black',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    padding: 15,
-                                    borderRadius: 10,
-                                }}
-                                onPress={() => props.func.erazeImage(props.id)}
-                            >
-                                <Text style={{
-                                    fontSize: 15,
-                                    color: 'white',
-                                }}>이미지 삭제하기</Text>
-                            </Pressable>
-                        </View>
-                    </View>
-
-                    <Pressable
-                        style={{
-                            backgroundColor: 'black',
-                            alignItems: 'center',
-                            borderRadius: 10,
-                            padding: 15,
-                            margin: 15,
-                        }}
-                        onPress={() => props.func.setModalVisiable(false)}
-                    >
-                        <Text style={{
-                            fontSize: 15,
-                            color: 'white',
-                        }}>닫기</Text>
-                    </Pressable>
-                </ImageBackground>
-            </View>
-
-        </Modal>
-    );
-}
-
 const Pic = (props) => {
     const ShowAvatar = ({ props }) => {
         return (
@@ -679,10 +583,6 @@ const Pic = (props) => {
                                 props.id == 4 && props.func.extraPic[1] != '' && props.func.extraPic[1] != '-1' ? <ShowPic props={props} /> :
                                     props.id == 5 && props.func.extraPic[2] != '' && props.func.extraPic[2] != '-1' ? <ShowPic props={props} /> :
                                         <ShowAvatar props={props} />
-            }
-
-            {
-                props.id == props.func.curModalID ? <GalleryOrCamera props={props} /> : <></>
             }
 
         </Pressable>
@@ -737,6 +637,7 @@ const styles = StyleSheet.create({
     left: {
     },
     right: {
+         textAlign: 'right',
     },
     touchArea: {
         justifyContent: 'center',
