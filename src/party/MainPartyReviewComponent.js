@@ -1,27 +1,27 @@
 import React from 'react';
+import { TapGestureHandler } from 'react-native-gesture-handler';
 import useStore from '../../AppContext';
-import MainPartyPaymentPresenter from './MainPartyPaymentPresenter';
+import MainPartyReviewPresenter from './MainPartyReviewPresenter';
 
-class MainPartyPaymentComponent extends React.Component {
+class MainPartyReviewComponent extends React.Component {
 
     constructor(props) {
         super(props);
-        console.log('@MainPartyPaymentComponent');
+        console.log('@MainPartyReviewComponent');
 
         this.state = {
-            timeline: props.route.params.timeline,
-            selectedTimeline: Object.keys(props.route.params.timeline)[Object.keys(props.route.params.timeline).length-1],
-
-            setSelectedTimeline: this.setSelectedTimeline.bind(this),
+            uid: props.route.params.uid,
+            starCount: 3.5,
+            onStarRatingPress: this.onStarRatingPress.bind(this),
         };
-        
+
     }
 
-    setSelectedTimeline(key) {
+    onStarRatingPress(rating) {
         this.setState({
-            selectedTimeline: key,
+          starCount: rating
         });
-    }
+      }
 
     componentDidMount() {
         this.props.navigation.getParent().setOptions({
@@ -35,13 +35,14 @@ class MainPartyPaymentComponent extends React.Component {
     componentWillUnmount() {
         this.props.navigation.getParent().setOptions({
             headerShown: true,
+            //headerShown: TapGestureHandler,
         });
     }
 
 
     render() {
         return(
-            <MainPartyPaymentPresenter
+            <MainPartyReviewPresenter
                 props={this.props}
                 state={this.state}
             />
@@ -49,4 +50,4 @@ class MainPartyPaymentComponent extends React.Component {
     }
 }
 
-export default MainPartyPaymentComponent;
+export default MainPartyReviewComponent;

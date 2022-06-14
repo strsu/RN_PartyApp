@@ -264,7 +264,7 @@ class ProfileModifyComponent extends React.Component {
         if(param == '시도') {
             this.setState({selectedRegion: this.state.regionData[index]});
             this.state.forUploadInfo.Region = this.state.regionData[index];
-            
+
             switch(this.state.regionData[index]) {
                 case '서울특별시' : this.setState({regionAddonData: seoul}); break;
                 case '부산광역시' : this.setState({regionAddonData: busan}); break;
@@ -320,7 +320,9 @@ class ProfileModifyComponent extends React.Component {
                 info: this.state.forUploadInfo,
             })
             .then((res) => {
-                
+                this.setState({
+                    originInfo: this.state.forUploadInfo,
+                });
             }).catch((err) => {
 
             })

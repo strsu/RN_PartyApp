@@ -79,7 +79,6 @@ class MainPartyComponent extends React.Component {
                 age: JSON.stringify(this.state.multiSliderValue),
             }
         }).then( (res) => {
-            console.log(res.data);
             this.setState({
                 partyData: res.data,
             })

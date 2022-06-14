@@ -27,8 +27,7 @@ function MainPartyDetailPresenter(props) {
     console.log('@MainPartyDetailPresenter');
     const img = [
         "http://192.168.1.243:4001/media/image/?imageName=mainParty 3.jpg",
-        "http://192.168.1.243:4001/media/image/?imageName=mainParty 1.jpg",
-        "http://192.168.1.243:4001/media/image/?imageName=mainParty 2.jpg",
+        "https://img.koreatimes.co.kr/upload/newsV2/images/202103/204320f48d084f2889c5ccbe9efd0c83.jpg/dims/resize/740/optimize",
     ];
 
     return (
@@ -38,13 +37,13 @@ function MainPartyDetailPresenter(props) {
                     data={props.state.showType == '상세정보' ? props.state.partyContent : props.state.showType == '리뷰' ? props.state.partyReview : props.state.partyQnA}
                     showsVerticalScrollIndicator={false}
                     showsHorizontalScrollIndicator={false}
-                    renderItem={(item) => <Detail item={item} type={props.state.showType} state={props.state} />}
+                    renderItem={(item) => <Detail item={item} type={props.state.showType} props={props} />}
                     ListHeaderComponent={<Header imageData={img} info={props.state.partyInfo} func={props.state.setShowType} />}
 
                 //ListFooterComponent={}
                 />
             </View>
-            <Footer props={props.state} />
+            <Footer props={props} />
         </SafeAreaView>
     );
 }
@@ -110,7 +109,7 @@ const Header = ({ imageData, info, func }) => {
 }
 
 const Footer = ({ props }) => {
-    if (props.showType == '상세정보') {
+    if (props.state.showType == '상세정보') {
         return (<DetailFooter props={props} />);
     } else {
         return (<></>);
@@ -132,7 +131,9 @@ const DetailFooter = ({ props }) => {
             //aos
             elevation: 3,
         }}>
-            <TouchableOpacity>
+            <TouchableOpacity
+                onPress={() => props.props.navigation.navigate('MainPartyPayment', { uid: props.state.uid, timeline: props.state.partyInfo.timeline})}
+            >
                 <Text>신청하기</Text>
             </TouchableOpacity>
 
@@ -351,7 +352,7 @@ const QnAFooter = ({ state }) => {
 const Info = ({ item }) => {
 
     let timeline = [];
-    for (const [key, value] of Object.entries(item.timeline)) {
+    for (const [key, value] of Object.entries(item.timeline).reverse()) {
         timeline.push(
             <View style={{
                 padding: 10,
@@ -488,7 +489,7 @@ const Info = ({ item }) => {
     );
 }
 
-const Detail = ({ item, type, state }) => {
+const Detail = ({ item, type, props }) => {
     if (type == '상세정보') {
         return (
             <View style={{
@@ -646,7 +647,9 @@ const Detail = ({ item, type, state }) => {
                         justifyContent: 'center',
                         alignItems: 'center',
                         borderRadius: 10,
-                    }}>
+                    }}
+                    onPress={() => props.props.navigation.navigate('MainPartyReview', { uid: props.state.uid })}
+                    >
                         <Text style={{
                             color: 'white',
                             fontSize: 17,
@@ -690,7 +693,7 @@ const Detail = ({ item, type, state }) => {
                     flex: 1,
                     padding: 5,
                 }}>
-                    <QnAFooter state={state} />
+                    <QnAFooter state={props.state} />
                     <View style={{
                         marginTop: 10,
                         padding: 5,
@@ -706,6 +709,8 @@ const Detail = ({ item, type, state }) => {
 
 
 const ImgSlider = ({ item }) => {
+    // 이미지 업데이트가 안 되는 이유는 장고 문제가 아니라
+    // 리액트 문제, 이미지에 timestamp를 넣어야 할 듯?
     return (
         <Image
             style={{
@@ -713,6 +718,7 @@ const ImgSlider = ({ item }) => {
                 width: parseInt(windowWidth),
                 backgroundColor: 'red',
             }}
+            key={item.item}
             source={{ uri: item.item }}
         />
     );

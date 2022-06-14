@@ -11,13 +11,14 @@ import {
     Dimensions,
     Pressable,
     Modal,
-    ImageBackground,
+    Alert,
     ScrollView,
 }
     from 'react-native'
 
 import Icon from 'react-native-vector-icons/Octicons';
 import { useRegister } from '../../AppContext';
+import Toast from '../util/ToastMSG';
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
@@ -42,7 +43,22 @@ function ProfileModifyPresenter(props) {
                         margin: 5,
                         marginTop: 10,
                     }}
-                    onPress={() => props.state.uploadData()}
+                    onPress={() => {
+                        JSON.stringify(props.state.originInfo) == JSON.stringify(props.state.forUploadInfo) ? 
+                        Toast() :
+                        Alert.alert(
+                            "변경된 내용을 저장할까요?",
+                            "",
+                            [
+                              {
+                                text: "아니요",
+                                //onPress: () => console.log("Cancel Pressed"),
+                                style: "cancel"
+                              },
+                              { text: "네", onPress: () => props.state.uploadData() }
+                            ]
+                          );
+                    }}
                 >
                     <Text style={styles.textStyle}>업로드</Text>
                 </TouchableOpacity>

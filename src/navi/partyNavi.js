@@ -8,6 +8,7 @@ import { TopTabHeader, TopTabHeader_MY } from './TabHeader';
 import MainPartyComponent from '../party/MainPartyComponent';
 import MainPartyDetailComponent from '../party/MainPartyDetailComponent';
 import MainPartyPaymentComponent from '../party/MainPartyPaymentComponent';
+import MainPartyReviewComponent from '../party/MainPartyReviewComponent';
 
 import SubPartyComponent from '../party/SubPartyComponent';
 import SubPartyDetailComponent from '../party/SubPartyDetailComponent';
@@ -34,6 +35,15 @@ const PartyNavigator = (props) => {
       <PartyStack.Screen
         name="MainPartyPayment"
         component={MainPartyPaymentComponent}
+        options={{
+          title: '',
+          //headerShown: false,
+          headerBackButtonMenuEnabled: true,
+        }}
+      />
+      <PartyStack.Screen
+        name="MainPartyReview"
+        component={MainPartyReviewComponent}
         options={{
           title: '',
           //headerShown: false,

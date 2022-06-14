@@ -111,7 +111,8 @@ class SubPartyDetailComponent extends React.Component {
                 this.setState({
                     partyData: Object.values(res.data).reverse(),
                 });
-                Object.values(res.data).map(data => {
+                Object.values(res.data).reverse().map(data => {
+                    console.log(data);
                     this.state.partyAddonData.push({ id: data.uid, isLike: data.isLike, isDibs: data.isDibs });
                 });
             }).catch((err) => {

@@ -14,10 +14,11 @@ class MainPartyDetailComponent extends React.Component {
     constructor(props) {
         super(props);
         console.log('@MainPartyDetailComponent');
-
+        
         this.state = {
             data: [this.props.route.params.content],
             showType: '상세정보',
+            uid: this.props.route.params.uid,
 
             img: '',
             text: '',
