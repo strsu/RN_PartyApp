@@ -36,6 +36,8 @@ class MainPartyDetailComponent extends React.Component {
             toggleCheckBox: false,
             setToggleCheckBox: this.setToggleCheckBox.bind(this),
 
+            AttendTime: '',
+
             scrollY: new Animated.Value(
                 // iOS has negative initial scroll value because content inset...
                 Platform.OS === 'ios' ? -HEADER_MAX_HEIGHT : 0,
@@ -57,6 +59,19 @@ class MainPartyDetailComponent extends React.Component {
         this.props.navigation.getParent().setOptions({
             swipeEnabled: false,
         })*/
+
+        customAxios.get('/MainParty/attend/', {
+            params: {
+                my: 'my',
+                uid: this.props.route.params.uid,
+            }
+        }).then((res) => {
+            this.setState({
+                AttendTime: res.data.AttendTime,
+            });
+        }).catch((err) => {
+            console.log(err);
+        })
     }
 
     componentDidUpdate() {

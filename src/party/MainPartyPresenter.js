@@ -22,6 +22,7 @@ import Icon from 'react-native-vector-icons/Octicons';
 import MainPartyStyle from './MainPartyStyle';
 import MultiSlider from '@ptomasroos/react-native-multi-slider';
 import { Calendar, CalendarList, Agenda } from 'react-native-calendars';
+import useStore from '../../AppContext';
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
@@ -84,7 +85,7 @@ const boardCard = (props) => {
                 <View style={MainPartyStyle.lineTop}>
                     <Image
                         style={MainPartyStyle.lineTopImg}
-                        source={{ uri: item.images == '' ? 'http://192.168.1.243:4001/media/image/?imageName=mainParty 3.jpg' : item.images }}
+                        source={{ uri: item.images.length == 0 ? 'http://192.168.1.243:4001/media/image/?imageName=mainParty 3.jpg' : useStore.getState().picURL + item.images[0] }}
 
                     //onLoad={ () => {console.log('loaded', item["title"])}}
                     //onLoadStart={ () => {console.log('loading', item["title"])}}

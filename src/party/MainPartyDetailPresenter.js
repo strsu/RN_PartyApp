@@ -19,16 +19,13 @@ import Icon from 'react-native-vector-icons/Octicons';
 import IconEntypo from 'react-native-vector-icons/Entypo';
 import { SliderBox } from "react-native-image-slider-box";
 import CheckBox from '@react-native-community/checkbox';
+import useStore from '../../AppContext';
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
 function MainPartyDetailPresenter(props) {
     console.log('@MainPartyDetailPresenter');
-    const img = [
-        "http://192.168.1.243:4001/media/image/?imageName=mainParty 3.jpg",
-        "https://img.koreatimes.co.kr/upload/newsV2/images/202103/204320f48d084f2889c5ccbe9efd0c83.jpg/dims/resize/740/optimize",
-    ];
 
     return (
         <SafeAreaView style={styles.container}>
@@ -38,7 +35,7 @@ function MainPartyDetailPresenter(props) {
                     showsVerticalScrollIndicator={false}
                     showsHorizontalScrollIndicator={false}
                     renderItem={(item) => <Detail item={item} type={props.state.showType} props={props} />}
-                    ListHeaderComponent={<Header imageData={img} info={props.state.partyInfo} func={props.state.setShowType} />}
+                    ListHeaderComponent={<Header imageData={props.state.partyInfo.images} info={props.state.partyInfo} func={props.state.setShowType} />}
 
                 //ListFooterComponent={}
                 />
@@ -632,31 +629,39 @@ const Detail = ({ item, type, props }) => {
                         fontWeight: 'bold',
                     }}>리뷰평점 {String(avgScore / comment.length).substring(0, 3) + `(${comment.length})`}</Text>
                 </View>
-                <View style={{
-                    padding: 10,
-                    borderTopWidth: 1,
-                    borderBottomWidth: 1,
-                    borderTopColor: 50,
-                    borderBottomColor: 50,
-                    paddingTop: 20,
-                    paddingBottom: 20,
-                }}>
-                    <TouchableOpacity style={{
+                {
+                    props.state.AttendTime == '' ? <></> :
+                    <View style={{
                         padding: 10,
-                        backgroundColor: 'deepskyblue',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        borderRadius: 10,
-                    }}
-                    onPress={() => props.props.navigation.navigate('MainPartyReview', { uid: props.state.uid })}
-                    >
-                        <Text style={{
-                            color: 'white',
-                            fontSize: 17,
-                            fontWeight: 'bold',
-                        }}>리뷰 작성하기</Text>
-                    </TouchableOpacity>
-                </View>
+                        borderTopWidth: 1,
+                        borderBottomWidth: 1,
+                        borderTopColor: 50,
+                        borderBottomColor: 50,
+                        paddingTop: 20,
+                        paddingBottom: 20,
+                    }}>
+                        <TouchableOpacity style={{
+                            padding: 10,
+                            backgroundColor: 'deepskyblue',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            borderRadius: 10,
+                        }}
+                        onPress={() => props.props.navigation.navigate('MainPartyReview', 
+                                { 
+                                    uid: props.state.uid, 
+                                    AttendTime: props.state.AttendTime,
+                                    images: props.state.partyInfo.images,
+                                })}
+                        >
+                            <Text style={{
+                                color: 'white',
+                                fontSize: 17,
+                                fontWeight: 'bold',
+                            }}>리뷰 작성하기</Text>
+                        </TouchableOpacity>
+                    </View>
+                }
                 <View>
                     {comment}
                 </View>
@@ -711,6 +716,7 @@ const Detail = ({ item, type, props }) => {
 const ImgSlider = ({ item }) => {
     // 이미지 업데이트가 안 되는 이유는 장고 문제가 아니라
     // 리액트 문제, 이미지에 timestamp를 넣어야 할 듯?
+
     return (
         <Image
             style={{
@@ -719,7 +725,7 @@ const ImgSlider = ({ item }) => {
                 backgroundColor: 'red',
             }}
             key={item.item}
-            source={{ uri: item.item }}
+            source={{ uri: useStore.getState().picURL + item.item }}
         />
     );
 }
@@ -728,6 +734,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
+        backgroundColor: 'white',
         //backgroundColor: isDarkMode ? Colors.white : Colors.black,
     },
     main: {
